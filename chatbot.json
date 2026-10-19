@@ -1,0 +1,1756 @@
+{
+  "chatbot": [
+    {
+      "question": "What is climbing?",
+      "answer": "Climbing is the activity of moving up, across, or down rock, ice, artificial walls, or mountain terrain using movement skills and sometimes protective equipment."
+    },
+    {
+      "question": "What is climbing",
+      "answer": "Climbing is the activity of moving up, across, or down rock, ice, artificial walls, or mountain terrain using movement skills and sometimes protective equipment."
+    },
+    {
+      "question": "What is mountaineering?",
+      "answer": "Mountaineering is travel and climbing in mountainous environments. Depending on the route, it may involve hiking, scrambling, rock climbing, snow, ice, glaciers, ropes, and navigation."
+    },
+    {
+      "question": "What is mountaineering",
+      "answer": "Mountaineering is travel and climbing in mountainous environments. Depending on the route, it may involve hiking, scrambling, rock climbing, snow, ice, glaciers, ropes, and navigation."
+    },
+    {
+      "question": "What is alpinism?",
+      "answer": "Alpinism is a form of mountaineering focused on climbing mountain routes, often combining rock, snow, ice, route-finding, and efficient movement in changing conditions."
+    },
+    {
+      "question": "What is alpinism",
+      "answer": "Alpinism is a form of mountaineering focused on climbing mountain routes, often combining rock, snow, ice, route-finding, and efficient movement in changing conditions."
+    },
+    {
+      "question": "What is the difference between climbing and mountaineering?",
+      "answer": "Climbing can take place on indoor walls or individual rock and ice routes. Mountaineering usually involves a larger mountain journey and may combine several types of terrain, weather, and logistical challenges."
+    },
+    {
+      "question": "What is the difference between climbing and mountaineering",
+      "answer": "Climbing can take place on indoor walls or individual rock and ice routes. Mountaineering usually involves a larger mountain journey and may combine several types of terrain, weather, and logistical challenges."
+    },
+    {
+      "question": "What is the difference between hiking and climbing?",
+      "answer": "Hiking generally follows walking routes and trails. Climbing involves steeper or more technical terrain where hands, specialized movement, or protective systems may be needed."
+    },
+    {
+      "question": "What is the difference between hiking and climbing",
+      "answer": "Hiking generally follows walking routes and trails. Climbing involves steeper or more technical terrain where hands, specialized movement, or protective systems may be needed."
+    },
+    {
+      "question": "What is scrambling?",
+      "answer": "Scrambling is terrain between hiking and technical climbing. It may require using hands for balance, and some routes need a helmet or rope protection depending on exposure and difficulty."
+    },
+    {
+      "question": "What is scrambling",
+      "answer": "Scrambling is terrain between hiking and technical climbing. It may require using hands for balance, and some routes need a helmet or rope protection depending on exposure and difficulty."
+    },
+    {
+      "question": "What is rock climbing?",
+      "answer": "Rock climbing is ascending natural rock or artificial walls using handholds and footholds, with different styles ranging from bouldering to multi-pitch routes."
+    },
+    {
+      "question": "What is rock climbing",
+      "answer": "Rock climbing is ascending natural rock or artificial walls using handholds and footholds, with different styles ranging from bouldering to multi-pitch routes."
+    },
+    {
+      "question": "What is ice climbing?",
+      "answer": "Ice climbing is climbing frozen waterfalls or ice-covered terrain with tools such as ice axes and crampons. It requires specialized instruction and equipment."
+    },
+    {
+      "question": "What is ice climbing",
+      "answer": "Ice climbing is climbing frozen waterfalls or ice-covered terrain with tools such as ice axes and crampons. It requires specialized instruction and equipment."
+    },
+    {
+      "question": "What is mixed climbing?",
+      "answer": "Mixed climbing combines rock and ice or frozen features on a single route, often using ice tools and crampons."
+    },
+    {
+      "question": "What is mixed climbing",
+      "answer": "Mixed climbing combines rock and ice or frozen features on a single route, often using ice tools and crampons."
+    },
+    {
+      "question": "What is indoor climbing?",
+      "answer": "Indoor climbing takes place on purpose-built walls with artificial holds. It is a useful setting to develop movement, fitness, and belaying skills under suitable supervision."
+    },
+    {
+      "question": "What is indoor climbing",
+      "answer": "Indoor climbing takes place on purpose-built walls with artificial holds. It is a useful setting to develop movement, fitness, and belaying skills under suitable supervision."
+    },
+    {
+      "question": "What is bouldering?",
+      "answer": "Bouldering is climbing shorter problems without a rope, typically using crash pads and spotters where appropriate. It still carries fall and impact risks."
+    },
+    {
+      "question": "What is bouldering",
+      "answer": "Bouldering is climbing shorter problems without a rope, typically using crash pads and spotters where appropriate. It still carries fall and impact risks."
+    },
+    {
+      "question": "What is sport climbing?",
+      "answer": "Sport climbing uses pre-placed bolts for protection. Climbers clip the rope into quickdraws attached to bolts as they ascend."
+    },
+    {
+      "question": "What is sport climbing",
+      "answer": "Sport climbing uses pre-placed bolts for protection. Climbers clip the rope into quickdraws attached to bolts as they ascend."
+    },
+    {
+      "question": "What is traditional climbing?",
+      "answer": "Traditional climbing involves placing removable protection in cracks or features as the climber ascends, then removing it later. It requires training in placements and anchor systems."
+    },
+    {
+      "question": "What is traditional climbing",
+      "answer": "Traditional climbing involves placing removable protection in cracks or features as the climber ascends, then removing it later. It requires training in placements and anchor systems."
+    },
+    {
+      "question": "What is top-rope climbing?",
+      "answer": "In top-rope climbing, the rope runs from the climber up through an anchor above and back to a belayer, reducing the distance of a potential fall when the system is correctly set up."
+    },
+    {
+      "question": "What is top-rope climbing",
+      "answer": "In top-rope climbing, the rope runs from the climber up through an anchor above and back to a belayer, reducing the distance of a potential fall when the system is correctly set up."
+    },
+    {
+      "question": "What is lead climbing?",
+      "answer": "In lead climbing, the climber progresses upward while clipping protection along the route or placing gear. It requires appropriate training in rope handling and fall management."
+    },
+    {
+      "question": "What is lead climbing",
+      "answer": "In lead climbing, the climber progresses upward while clipping protection along the route or placing gear. It requires appropriate training in rope handling and fall management."
+    },
+    {
+      "question": "What is multi-pitch climbing?",
+      "answer": "Multi-pitch climbing divides a long route into sections called pitches, with the team stopping at belay stations to manage the rope and continue upward."
+    },
+    {
+      "question": "What is multi-pitch climbing",
+      "answer": "Multi-pitch climbing divides a long route into sections called pitches, with the team stopping at belay stations to manage the rope and continue upward."
+    },
+    {
+      "question": "What is a climbing pitch?",
+      "answer": "A pitch is a section of a climbing route between belay stations or stopping points."
+    },
+    {
+      "question": "What is a climbing pitch",
+      "answer": "A pitch is a section of a climbing route between belay stations or stopping points."
+    },
+    {
+      "question": "What is a climbing belay?",
+      "answer": "Belaying is managing a rope to protect a climber from a fall. Belaying devices and techniques must be learned and practiced with qualified instruction."
+    },
+    {
+      "question": "What is a climbing belay",
+      "answer": "Belaying is managing a rope to protect a climber from a fall. Belaying devices and techniques must be learned and practiced with qualified instruction."
+    },
+    {
+      "question": "What is a belayer?",
+      "answer": "A belayer manages the rope for a climber, controlling slack and responding appropriately if the climber falls."
+    },
+    {
+      "question": "What is a belayer",
+      "answer": "A belayer manages the rope for a climber, controlling slack and responding appropriately if the climber falls."
+    },
+    {
+      "question": "What is a climbing anchor?",
+      "answer": "An anchor is a system of placements or fixed points used to secure a rope or climber. Anchor construction is a technical skill that requires proper training."
+    },
+    {
+      "question": "What is a climbing anchor",
+      "answer": "An anchor is a system of placements or fixed points used to secure a rope or climber. Anchor construction is a technical skill that requires proper training."
+    },
+    {
+      "question": "What is a quickdraw?",
+      "answer": "A quickdraw is a piece of climbing equipment made from two carabiners connected by a short sling, commonly used to connect a rope to sport-climbing bolts."
+    },
+    {
+      "question": "What is a quickdraw",
+      "answer": "A quickdraw is a piece of climbing equipment made from two carabiners connected by a short sling, commonly used to connect a rope to sport-climbing bolts."
+    },
+    {
+      "question": "What is a carabiner?",
+      "answer": "A carabiner is a metal connector with a gate, used in climbing systems according to its design and rating."
+    },
+    {
+      "question": "What is a carabiner",
+      "answer": "A carabiner is a metal connector with a gate, used in climbing systems according to its design and rating."
+    },
+    {
+      "question": "What is a harness?",
+      "answer": "A climbing harness connects a climber to a rope system. It must be correctly fitted, checked, and used according to manufacturer instructions."
+    },
+    {
+      "question": "What is a harness",
+      "answer": "A climbing harness connects a climber to a rope system. It must be correctly fitted, checked, and used according to manufacturer instructions."
+    },
+    {
+      "question": "What is a climbing helmet used for?",
+      "answer": "A climbing helmet helps protect against certain impacts, including falling rock and accidental knocks. It does not eliminate all head-injury risk."
+    },
+    {
+      "question": "What is a climbing helmet used for",
+      "answer": "A climbing helmet helps protect against certain impacts, including falling rock and accidental knocks. It does not eliminate all head-injury risk."
+    },
+    {
+      "question": "What is a climbing grade?",
+      "answer": "A climbing grade communicates a route's difficulty using a regional or activity-specific scale. Grades are not perfectly interchangeable between systems."
+    },
+    {
+      "question": "What is a climbing grade",
+      "answer": "A climbing grade communicates a route's difficulty using a regional or activity-specific scale. Grades are not perfectly interchangeable between systems."
+    },
+    {
+      "question": "What does a route grade tell you?",
+      "answer": "A grade gives an estimate of technical difficulty, but it does not fully describe exposure, objective hazards, route-finding, weather, or how demanding a mountain day may be."
+    },
+    {
+      "question": "What does a route grade tell you",
+      "answer": "A grade gives an estimate of technical difficulty, but it does not fully describe exposure, objective hazards, route-finding, weather, or how demanding a mountain day may be."
+    },
+    {
+      "question": "What is exposure in climbing?",
+      "answer": "Exposure describes the feeling or reality of being high above the ground with steep drops nearby. It can affect confidence and decision-making."
+    },
+    {
+      "question": "What is exposure in climbing",
+      "answer": "Exposure describes the feeling or reality of being high above the ground with steep drops nearby. It can affect confidence and decision-making."
+    },
+    {
+      "question": "What is a crux?",
+      "answer": "The crux is the most difficult move or section of a climbing route."
+    },
+    {
+      "question": "What is a crux",
+      "answer": "The crux is the most difficult move or section of a climbing route."
+    },
+    {
+      "question": "What is a climbing topo?",
+      "answer": "A topo is a route diagram or description that may show pitches, grades, anchors, landmarks, and important route-finding details."
+    },
+    {
+      "question": "What is a climbing topo",
+      "answer": "A topo is a route diagram or description that may show pitches, grades, anchors, landmarks, and important route-finding details."
+    },
+    {
+      "question": "What is a climbing approach?",
+      "answer": "The approach is the journey from the trailhead or access point to the start of a climb."
+    },
+    {
+      "question": "What is a climbing approach",
+      "answer": "The approach is the journey from the trailhead or access point to the start of a climb."
+    },
+    {
+      "question": "What is a descent route?",
+      "answer": "A descent route is the planned way back down from a climb or summit. It should be researched before starting the ascent."
+    },
+    {
+      "question": "What is a descent route",
+      "answer": "A descent route is the planned way back down from a climb or summit. It should be researched before starting the ascent."
+    },
+    {
+      "question": "What is a summit push?",
+      "answer": "A summit push is the planned attempt to reach a mountain's summit, often from a higher camp or staging point."
+    },
+    {
+      "question": "What is a summit push",
+      "answer": "A summit push is the planned attempt to reach a mountain's summit, often from a higher camp or staging point."
+    },
+    {
+      "question": "What is a turnaround time?",
+      "answer": "A turnaround time is a pre-agreed deadline for stopping the ascent and descending, even if the summit has not been reached."
+    },
+    {
+      "question": "What is a turnaround time",
+      "answer": "A turnaround time is a pre-agreed deadline for stopping the ascent and descending, even if the summit has not been reached."
+    },
+    {
+      "question": "Why should climbers turn around before the summit?",
+      "answer": "Reaching the summit is optional; returning safely is essential. Weather, fatigue, timing, route conditions, or team concerns can make retreat the wisest choice."
+    },
+    {
+      "question": "Why should climbers turn around before the summit",
+      "answer": "Reaching the summit is optional; returning safely is essential. Weather, fatigue, timing, route conditions, or team concerns can make retreat the wisest choice."
+    },
+    {
+      "question": "What is a mountain objective hazard?",
+      "answer": "An objective hazard is a danger arising from the environment, such as rockfall, avalanche, crevasses, or rapidly changing weather, rather than solely from a climber's actions."
+    },
+    {
+      "question": "What is a mountain objective hazard",
+      "answer": "An objective hazard is a danger arising from the environment, such as rockfall, avalanche, crevasses, or rapidly changing weather, rather than solely from a climber's actions."
+    },
+    {
+      "question": "What is risk management in climbing?",
+      "answer": "Risk management means identifying hazards, estimating their likelihood and consequences, choosing controls, communicating decisions, and being willing to change plans."
+    },
+    {
+      "question": "What is risk management in climbing",
+      "answer": "Risk management means identifying hazards, estimating their likelihood and consequences, choosing controls, communicating decisions, and being willing to change plans."
+    },
+    {
+      "question": "What is a climbing partner check?",
+      "answer": "A partner check is a mutual inspection before climbing, commonly covering harness fit, knots, belay setup, carabiner gates, and communication."
+    },
+    {
+      "question": "What is a climbing partner check",
+      "answer": "A partner check is a mutual inspection before climbing, commonly covering harness fit, knots, belay setup, carabiner gates, and communication."
+    },
+    {
+      "question": "What are climbing commands?",
+      "answer": "Climbing commands are agreed verbal signals between climber and belayer. Teams should establish clear commands before leaving the ground."
+    },
+    {
+      "question": "What are climbing commands",
+      "answer": "Climbing commands are agreed verbal signals between climber and belayer. Teams should establish clear commands before leaving the ground."
+    },
+    {
+      "question": "What is a climbing knot?",
+      "answer": "A climbing knot is a knot used for a specific purpose in a rope system. Knots must be learned, dressed, checked, and used in the correct context."
+    },
+    {
+      "question": "What is a climbing knot",
+      "answer": "A climbing knot is a knot used for a specific purpose in a rope system. Knots must be learned, dressed, checked, and used in the correct context."
+    },
+    {
+      "question": "What is a figure-eight knot?",
+      "answer": "A figure-eight follow-through is commonly used to tie a climber into a harness, but it must be tied and checked correctly under qualified instruction."
+    },
+    {
+      "question": "What is a figure-eight knot",
+      "answer": "A figure-eight follow-through is commonly used to tie a climber into a harness, but it must be tied and checked correctly under qualified instruction."
+    },
+    {
+      "question": "What is a prusik knot?",
+      "answer": "A Prusik is a friction hitch that can grip a rope under load in suitable systems. Its use requires training and compatible cord and rope."
+    },
+    {
+      "question": "What is a prusik knot",
+      "answer": "A Prusik is a friction hitch that can grip a rope under load in suitable systems. Its use requires training and compatible cord and rope."
+    },
+    {
+      "question": "What is rappelling?",
+      "answer": "Rappelling, also called abseiling, is descending a rope using a suitable friction device and a correctly established anchor and backup system."
+    },
+    {
+      "question": "What is rappelling",
+      "answer": "Rappelling, also called abseiling, is descending a rope using a suitable friction device and a correctly established anchor and backup system."
+    },
+    {
+      "question": "What is a via ferrata?",
+      "answer": "A via ferrata is a protected climbing route with fixed cables, ladders, and anchors. Users need appropriate equipment and knowledge of the route's hazards."
+    },
+    {
+      "question": "What is a via ferrata",
+      "answer": "A via ferrata is a protected climbing route with fixed cables, ladders, and anchors. Users need appropriate equipment and knowledge of the route's hazards."
+    },
+    {
+      "question": "What is mountaineering fitness?",
+      "answer": "Mountaineering fitness includes aerobic endurance, leg strength, balance, mobility, load carrying, and the ability to recover over repeated days."
+    },
+    {
+      "question": "What is mountaineering fitness",
+      "answer": "Mountaineering fitness includes aerobic endurance, leg strength, balance, mobility, load carrying, and the ability to recover over repeated days."
+    },
+    {
+      "question": "How can a beginner start climbing?",
+      "answer": "Start at a reputable climbing gym or with a qualified instructor, learn basic movement and safety systems, use suitable equipment, and progress gradually."
+    },
+    {
+      "question": "How can a beginner start climbing",
+      "answer": "Start at a reputable climbing gym or with a qualified instructor, learn basic movement and safety systems, use suitable equipment, and progress gradually."
+    },
+    {
+      "question": "How do I train for a mountain expedition?",
+      "answer": "Build endurance with regular aerobic exercise and hikes, add strength and balance training, practice with the intended pack, and increase workload gradually with recovery time."
+    },
+    {
+      "question": "How do I train for a mountain expedition",
+      "answer": "Build endurance with regular aerobic exercise and hikes, add strength and balance training, practice with the intended pack, and increase workload gradually with recovery time."
+    },
+    {
+      "question": "What should a beginner bring on a hike?",
+      "answer": "Needs vary by route and weather, but common essentials include water, food, suitable layers, navigation, a light source, first aid, sun protection, and a way to call for help."
+    },
+    {
+      "question": "What should a beginner bring on a hike",
+      "answer": "Needs vary by route and weather, but common essentials include water, food, suitable layers, navigation, a light source, first aid, sun protection, and a way to call for help."
+    },
+    {
+      "question": "What is Leave No Trace?",
+      "answer": "Leave No Trace is an approach to minimizing environmental impact by planning ahead, respecting wildlife, managing waste, and leaving natural areas undisturbed."
+    },
+    {
+      "question": "What is Leave No Trace",
+      "answer": "Leave No Trace is an approach to minimizing environmental impact by planning ahead, respecting wildlife, managing waste, and leaving natural areas undisturbed."
+    },
+    {
+      "question": "What is the French technique with crampons?",
+      "answer": "The French technique, often called flat-footing, keeps as many crampon points as practical engaged with the slope. It is taught for suitable terrain and conditions."
+    },
+    {
+      "question": "What is the French technique with crampons",
+      "answer": "The French technique, often called flat-footing, keeps as many crampon points as practical engaged with the slope. It is taught for suitable terrain and conditions."
+    },
+    {
+      "question": "What is front-pointing?",
+      "answer": "Front-pointing uses the front points of crampons to climb steep snow or ice. It requires suitable equipment, technique, and instruction."
+    },
+    {
+      "question": "What is front-pointing",
+      "answer": "Front-pointing uses the front points of crampons to climb steep snow or ice. It requires suitable equipment, technique, and instruction."
+    },
+    {
+      "question": "What is the German technique in cramponing?",
+      "answer": "The German technique commonly refers to front-pointing on steep snow or ice, though terminology and teaching methods can vary by region and instructor."
+    },
+    {
+      "question": "What is the German technique in cramponing",
+      "answer": "The German technique commonly refers to front-pointing on steep snow or ice, though terminology and teaching methods can vary by region and instructor."
+    },
+    {
+      "question": "What is the American technique in cramponing?",
+      "answer": "The American technique is a term sometimes used for combining front points and other crampon points on moderately steep terrain. Exact usage varies, so follow a qualified instructor's terminology."
+    },
+    {
+      "question": "What is the American technique in cramponing",
+      "answer": "The American technique is a term sometimes used for combining front points and other crampon points on moderately steep terrain. Exact usage varies, so follow a qualified instructor's terminology."
+    },
+    {
+      "question": "What is self-arrest?",
+      "answer": "Self-arrest is a practiced technique intended to stop a slide on snow using an ice axe. It must be learned with an instructor on an appropriate training slope."
+    },
+    {
+      "question": "What is self-arrest",
+      "answer": "Self-arrest is a practiced technique intended to stop a slide on snow using an ice axe. It must be learned with an instructor on an appropriate training slope."
+    },
+    {
+      "question": "What is an ice axe used for?",
+      "answer": "An ice axe can assist with balance, movement on snow, and certain safety techniques. The correct tool and technique depend on terrain and conditions."
+    },
+    {
+      "question": "What is an ice axe used for",
+      "answer": "An ice axe can assist with balance, movement on snow, and certain safety techniques. The correct tool and technique depend on terrain and conditions."
+    },
+    {
+      "question": "What is cramponing?",
+      "answer": "Cramponing is moving over snow or ice using crampons attached to compatible boots. Good foot placement and training help reduce trips and slips."
+    },
+    {
+      "question": "What is cramponing",
+      "answer": "Cramponing is moving over snow or ice using crampons attached to compatible boots. Good foot placement and training help reduce trips and slips."
+    },
+    {
+      "question": "What is rope-team travel on a glacier?",
+      "answer": "Rope-team travel links climbers with a rope to help manage crevasse-fall risks. It requires training in spacing, rope handling, terrain assessment, and rescue procedures."
+    },
+    {
+      "question": "What is rope-team travel on a glacier",
+      "answer": "Rope-team travel links climbers with a rope to help manage crevasse-fall risks. It requires training in spacing, rope handling, terrain assessment, and rescue procedures."
+    },
+    {
+      "question": "What is crevasse rescue?",
+      "answer": "Crevasse rescue is the organized process of assisting someone who has fallen into a glacier crevasse, using trained rope systems and a coordinated team response."
+    },
+    {
+      "question": "What is crevasse rescue",
+      "answer": "Crevasse rescue is the organized process of assisting someone who has fallen into a glacier crevasse, using trained rope systems and a coordinated team response."
+    },
+    {
+      "question": "What is a snow anchor?",
+      "answer": "A snow anchor is a system placed in snow to provide an attachment point. Its strength depends on snow conditions, placement, loading, and technique."
+    },
+    {
+      "question": "What is a snow anchor",
+      "answer": "A snow anchor is a system placed in snow to provide an attachment point. Its strength depends on snow conditions, placement, loading, and technique."
+    },
+    {
+      "question": "What is an ice screw?",
+      "answer": "An ice screw is a protection device designed to be placed in suitable ice. Safe placement and assessment require technical training."
+    },
+    {
+      "question": "What is an ice screw",
+      "answer": "An ice screw is a protection device designed to be placed in suitable ice. Safe placement and assessment require technical training."
+    },
+    {
+      "question": "What is a piton?",
+      "answer": "A piton is a metal spike hammered into a rock crack as protection or an anchor component. Use depends on rock quality, placement, ethics, and route context."
+    },
+    {
+      "question": "What is a piton",
+      "answer": "A piton is a metal spike hammered into a rock crack as protection or an anchor component. Use depends on rock quality, placement, ethics, and route context."
+    },
+    {
+      "question": "What is a camming device?",
+      "answer": "A camming device is removable climbing protection that expands against the sides of a suitable crack when loaded in the intended direction."
+    },
+    {
+      "question": "What is a camming device",
+      "answer": "A camming device is removable climbing protection that expands against the sides of a suitable crack when loaded in the intended direction."
+    },
+    {
+      "question": "What is a nut in climbing?",
+      "answer": "A climbing nut is a small metal piece wedged into a rock constriction to provide removable protection when placed correctly."
+    },
+    {
+      "question": "What is a nut in climbing",
+      "answer": "A climbing nut is a small metal piece wedged into a rock constriction to provide removable protection when placed correctly."
+    },
+    {
+      "question": "What is a chimney in climbing?",
+      "answer": "A chimney is a wide crack or cleft that a climber may ascend using opposing pressure from the body, hands, and feet."
+    },
+    {
+      "question": "What is a chimney in climbing",
+      "answer": "A chimney is a wide crack or cleft that a climber may ascend using opposing pressure from the body, hands, and feet."
+    },
+    {
+      "question": "What is stemming?",
+      "answer": "Stemming is a climbing movement that uses opposing pressure between two surfaces, such as opposite walls of a corner."
+    },
+    {
+      "question": "What is stemming",
+      "answer": "Stemming is a climbing movement that uses opposing pressure between two surfaces, such as opposite walls of a corner."
+    },
+    {
+      "question": "What is edging?",
+      "answer": "Edging is placing part of the climbing shoe on a small foothold to support body weight."
+    },
+    {
+      "question": "What is edging",
+      "answer": "Edging is placing part of the climbing shoe on a small foothold to support body weight."
+    },
+    {
+      "question": "What is smearing?",
+      "answer": "Smearing uses friction between the climbing shoe's rubber and a relatively featureless surface instead of standing on a distinct foothold."
+    },
+    {
+      "question": "What is smearing",
+      "answer": "Smearing uses friction between the climbing shoe's rubber and a relatively featureless surface instead of standing on a distinct foothold."
+    },
+    {
+      "question": "What is a layback?",
+      "answer": "A layback is a climbing technique that uses opposing forces between hands pulling on an edge and feet pushing against the rock."
+    },
+    {
+      "question": "What is a layback",
+      "answer": "A layback is a climbing technique that uses opposing forces between hands pulling on an edge and feet pushing against the rock."
+    },
+    {
+      "question": "What is chimneying?",
+      "answer": "Chimneying is climbing a wide crack or confined space by bracing against opposing surfaces with the body and limbs."
+    },
+    {
+      "question": "What is chimneying",
+      "answer": "Chimneying is climbing a wide crack or confined space by bracing against opposing surfaces with the body and limbs."
+    },
+    {
+      "question": "What is route finding?",
+      "answer": "Route finding is identifying the safest and most practical line through terrain using maps, route descriptions, landmarks, and real-time observation."
+    },
+    {
+      "question": "What is route finding",
+      "answer": "Route finding is identifying the safest and most practical line through terrain using maps, route descriptions, landmarks, and real-time observation."
+    },
+    {
+      "question": "What is a fixed rope?",
+      "answer": "A fixed rope is secured along a route to assist movement or protection. It must be assessed for condition and used with appropriate equipment and training."
+    },
+    {
+      "question": "What is a fixed rope",
+      "answer": "A fixed rope is secured along a route to assist movement or protection. It must be assessed for condition and used with appropriate equipment and training."
+    },
+    {
+      "question": "What is a via ferrata lanyard?",
+      "answer": "A via ferrata lanyard is a purpose-designed energy-absorbing connection used with a compatible harness and via ferrata system. Ordinary slings are not a substitute."
+    },
+    {
+      "question": "What is a via ferrata lanyard",
+      "answer": "A via ferrata lanyard is a purpose-designed energy-absorbing connection used with a compatible harness and via ferrata system. Ordinary slings are not a substitute."
+    },
+    {
+      "question": "What is a bivouac?",
+      "answer": "A bivouac is a temporary outdoor resting place, sometimes an unplanned night spent on a route. Preparation and suitable shelter can reduce exposure."
+    },
+    {
+      "question": "What is a bivouac",
+      "answer": "A bivouac is a temporary outdoor resting place, sometimes an unplanned night spent on a route. Preparation and suitable shelter can reduce exposure."
+    },
+    {
+      "question": "What is a bivy sack?",
+      "answer": "A bivy sack is a lightweight protective cover for a sleeping bag or person, used for minimalist shelter in appropriate conditions."
+    },
+    {
+      "question": "What is a bivy sack",
+      "answer": "A bivy sack is a lightweight protective cover for a sleeping bag or person, used for minimalist shelter in appropriate conditions."
+    },
+    {
+      "question": "What is a cornice?",
+      "answer": "A cornice is an overhanging mass of wind-deposited snow along a ridge. It can break unexpectedly, so climbers should keep away from its unsupported edge."
+    },
+    {
+      "question": "What is a cornice",
+      "answer": "A cornice is an overhanging mass of wind-deposited snow along a ridge. It can break unexpectedly, so climbers should keep away from its unsupported edge."
+    },
+    {
+      "question": "What is a bergschrund?",
+      "answer": "A bergschrund is a large crevasse that can form where moving glacier ice separates from the upper snow or ice slope."
+    },
+    {
+      "question": "What is a bergschrund",
+      "answer": "A bergschrund is a large crevasse that can form where moving glacier ice separates from the upper snow or ice slope."
+    },
+    {
+      "question": "What is a serac?",
+      "answer": "A serac is a large, unstable block or tower of glacial ice that may collapse without warning."
+    },
+    {
+      "question": "What is a serac",
+      "answer": "A serac is a large, unstable block or tower of glacial ice that may collapse without warning."
+    },
+    {
+      "question": "What is an avalanche beacon?",
+      "answer": "An avalanche transceiver is an electronic device used to locate people buried in an avalanche. It must be used with a probe, shovel, and practiced rescue skills."
+    },
+    {
+      "question": "What is an avalanche beacon",
+      "answer": "An avalanche transceiver is an electronic device used to locate people buried in an avalanche. It must be used with a probe, shovel, and practiced rescue skills."
+    },
+    {
+      "question": "What are avalanche probes and shovels for?",
+      "answer": "A probe helps pinpoint a buried person after a transceiver search, and a shovel is used to excavate snow. Training and fast team response are essential."
+    },
+    {
+      "question": "What are avalanche probes and shovels for",
+      "answer": "A probe helps pinpoint a buried person after a transceiver search, and a shovel is used to excavate snow. Training and fast team response are essential."
+    },
+    {
+      "question": "What is a crevasse bridge?",
+      "answer": "A crevasse bridge is snow or ice spanning a crevasse. It may be weak or hidden and should never be assumed safe."
+    },
+    {
+      "question": "What is a crevasse bridge",
+      "answer": "A crevasse bridge is snow or ice spanning a crevasse. It may be weak or hidden and should never be assumed safe."
+    },
+    {
+      "question": "What is a running belay?",
+      "answer": "A running belay is a protection method used while moving along a route, with the exact system depending on terrain and the team's training."
+    },
+    {
+      "question": "What is a running belay",
+      "answer": "A running belay is a protection method used while moving along a route, with the exact system depending on terrain and the team's training."
+    },
+    {
+      "question": "What is simul-climbing?",
+      "answer": "Simul-climbing is a technique in which climbers move at the same time while connected by a rope and using protection. It involves complex risk trade-offs and requires advanced training."
+    },
+    {
+      "question": "What is simul-climbing",
+      "answer": "Simul-climbing is a technique in which climbers move at the same time while connected by a rope and using protection. It involves complex risk trade-offs and requires advanced training."
+    },
+    {
+      "question": "What is a short roping technique?",
+      "answer": "Short roping is a guiding technique for managing movement over certain exposed terrain. It requires professional training and careful judgment, not just a short length of rope."
+    },
+    {
+      "question": "What is a short roping technique",
+      "answer": "Short roping is a guiding technique for managing movement over certain exposed terrain. It requires professional training and careful judgment, not just a short length of rope."
+    },
+    {
+      "question": "What is a deadman anchor?",
+      "answer": "A deadman anchor is an object buried in snow or suitable ground and loaded so the surrounding material resists movement. Its reliability depends on conditions and construction."
+    },
+    {
+      "question": "What is a deadman anchor",
+      "answer": "A deadman anchor is an object buried in snow or suitable ground and loaded so the surrounding material resists movement. Its reliability depends on conditions and construction."
+    },
+    {
+      "question": "What is a V-thread in ice climbing?",
+      "answer": "A V-thread is an ice anchor formed by connecting two intersecting holes in suitable ice. It is a technical anchor method that requires hands-on instruction."
+    },
+    {
+      "question": "What is a V-thread in ice climbing",
+      "answer": "A V-thread is an ice anchor formed by connecting two intersecting holes in suitable ice. It is a technical anchor method that requires hands-on instruction."
+    },
+    {
+      "question": "What is an ice screw anchor?",
+      "answer": "An ice screw anchor uses one or more ice screws placed in suitable ice. Strength and redundancy depend on ice quality, placement, direction of loading, and system design."
+    },
+    {
+      "question": "What is an ice screw anchor",
+      "answer": "An ice screw anchor uses one or more ice screws placed in suitable ice. Strength and redundancy depend on ice quality, placement, direction of loading, and system design."
+    },
+    {
+      "question": "When did modern mountaineering begin?",
+      "answer": "Modern mountaineering is often traced to the development of organized Alpine climbing in the 18th and 19th centuries, although people have travelled in mountains for far longer."
+    },
+    {
+      "question": "When did modern mountaineering begin",
+      "answer": "Modern mountaineering is often traced to the development of organized Alpine climbing in the 18th and 19th centuries, although people have travelled in mountains for far longer."
+    },
+    {
+      "question": "When was Mont Blanc first climbed?",
+      "answer": "Mont Blanc was first climbed in 1786 by Jacques Balmat and Michel-Gabriel Paccard, a landmark often associated with the beginning of modern alpinism."
+    },
+    {
+      "question": "When was Mont Blanc first climbed",
+      "answer": "Mont Blanc was first climbed in 1786 by Jacques Balmat and Michel-Gabriel Paccard, a landmark often associated with the beginning of modern alpinism."
+    },
+    {
+      "question": "Who first climbed Mont Blanc?",
+      "answer": "Jacques Balmat and Michel-Gabriel Paccard made the first recorded ascent of Mont Blanc in 1786."
+    },
+    {
+      "question": "Who first climbed Mont Blanc",
+      "answer": "Jacques Balmat and Michel-Gabriel Paccard made the first recorded ascent of Mont Blanc in 1786."
+    },
+    {
+      "question": "What was the Golden Age of Alpinism?",
+      "answer": "The Golden Age of Alpinism generally refers to the mid-19th century, when many major peaks in the European Alps were climbed for the first time."
+    },
+    {
+      "question": "What was the Golden Age of Alpinism",
+      "answer": "The Golden Age of Alpinism generally refers to the mid-19th century, when many major peaks in the European Alps were climbed for the first time."
+    },
+    {
+      "question": "Who was Edward Whymper?",
+      "answer": "Edward Whymper was a British climber and illustrator remembered for the first ascent of the Matterhorn in 1865 and for his writings about mountaineering."
+    },
+    {
+      "question": "Who was Edward Whymper",
+      "answer": "Edward Whymper was a British climber and illustrator remembered for the first ascent of the Matterhorn in 1865 and for his writings about mountaineering."
+    },
+    {
+      "question": "When was the Matterhorn first climbed?",
+      "answer": "The first ascent of the Matterhorn took place on 14 July 1865, led by Edward Whymper's party. The descent was tragic, with four climbers falling to their deaths."
+    },
+    {
+      "question": "When was the Matterhorn first climbed",
+      "answer": "The first ascent of the Matterhorn took place on 14 July 1865, led by Edward Whymper's party. The descent was tragic, with four climbers falling to their deaths."
+    },
+    {
+      "question": "Why is the Matterhorn famous in climbing history?",
+      "answer": "The Matterhorn is famous for its distinctive shape and the dramatic 1865 first ascent, which became one of the best-known episodes in Alpine climbing history."
+    },
+    {
+      "question": "Why is the Matterhorn famous in climbing history",
+      "answer": "The Matterhorn is famous for its distinctive shape and the dramatic 1865 first ascent, which became one of the best-known episodes in Alpine climbing history."
+    },
+    {
+      "question": "Who was John Muir?",
+      "answer": "John Muir was a naturalist, writer, and conservationist whose work helped shape public appreciation and protection of wild landscapes, especially in North America."
+    },
+    {
+      "question": "Who was John Muir",
+      "answer": "John Muir was a naturalist, writer, and conservationist whose work helped shape public appreciation and protection of wild landscapes, especially in North America."
+    },
+    {
+      "question": "Who was Annie Smith Peck?",
+      "answer": "Annie Smith Peck was an American mountaineer, scholar, and lecturer known for high-altitude climbs in South America and for challenging expectations of women in climbing."
+    },
+    {
+      "question": "Who was Annie Smith Peck",
+      "answer": "Annie Smith Peck was an American mountaineer, scholar, and lecturer known for high-altitude climbs in South America and for challenging expectations of women in climbing."
+    },
+    {
+      "question": "Who was Junko Tabei?",
+      "answer": "Junko Tabei was a Japanese mountaineer who became the first woman to summit Mount Everest in 1975 and later completed the Seven Summits."
+    },
+    {
+      "question": "Who was Junko Tabei",
+      "answer": "Junko Tabei was a Japanese mountaineer who became the first woman to summit Mount Everest in 1975 and later completed the Seven Summits."
+    },
+    {
+      "question": "Who was Tenzing Norgay?",
+      "answer": "Tenzing Norgay was a Sherpa mountaineer who reached the summit of Everest with Edmund Hillary on 29 May 1953."
+    },
+    {
+      "question": "Who was Tenzing Norgay",
+      "answer": "Tenzing Norgay was a Sherpa mountaineer who reached the summit of Everest with Edmund Hillary on 29 May 1953."
+    },
+    {
+      "question": "Who was Edmund Hillary?",
+      "answer": "Edmund Hillary was a New Zealand mountaineer and explorer who reached the summit of Everest with Tenzing Norgay in 1953."
+    },
+    {
+      "question": "Who was Edmund Hillary",
+      "answer": "Edmund Hillary was a New Zealand mountaineer and explorer who reached the summit of Everest with Tenzing Norgay in 1953."
+    },
+    {
+      "question": "Who was Reinhold Messner?",
+      "answer": "Reinhold Messner is an Italian mountaineer known for influential high-altitude ascents, including becoming the first person to climb all fourteen 8,000-metre peaks."
+    },
+    {
+      "question": "Who was Reinhold Messner",
+      "answer": "Reinhold Messner is an Italian mountaineer known for influential high-altitude ascents, including becoming the first person to climb all fourteen 8,000-metre peaks."
+    },
+    {
+      "question": "Who was Wanda Rutkiewicz?",
+      "answer": "Wanda Rutkiewicz was a Polish mountaineer and one of the leading women in high-altitude Himalayan climbing, known for major 8,000-metre ascents."
+    },
+    {
+      "question": "Who was Wanda Rutkiewicz",
+      "answer": "Wanda Rutkiewicz was a Polish mountaineer and one of the leading women in high-altitude Himalayan climbing, known for major 8,000-metre ascents."
+    },
+    {
+      "question": "Who was Walter Bonatti?",
+      "answer": "Walter Bonatti was an Italian climber celebrated for difficult Alpine and Himalayan climbs and for his influence on modern mountaineering ethics and style."
+    },
+    {
+      "question": "Who was Walter Bonatti",
+      "answer": "Walter Bonatti was an Italian climber celebrated for difficult Alpine and Himalayan climbs and for his influence on modern mountaineering ethics and style."
+    },
+    {
+      "question": "Who was George Mallory?",
+      "answer": "George Mallory was a British mountaineer who took part in early British Everest expeditions in the 1920s and disappeared high on the mountain in 1924."
+    },
+    {
+      "question": "Who was George Mallory",
+      "answer": "George Mallory was a British mountaineer who took part in early British Everest expeditions in the 1920s and disappeared high on the mountain in 1924."
+    },
+    {
+      "question": "What happened to George Mallory?",
+      "answer": "George Mallory and Andrew Irvine disappeared during an Everest attempt in 1924. Mallory's body was found in 1999, but whether they reached the summit remains unresolved."
+    },
+    {
+      "question": "What happened to George Mallory",
+      "answer": "George Mallory and Andrew Irvine disappeared during an Everest attempt in 1924. Mallory's body was found in 1999, but whether they reached the summit remains unresolved."
+    },
+    {
+      "question": "Who was Andrew Irvine?",
+      "answer": "Andrew Irvine was a British climber who disappeared with George Mallory during an Everest expedition in 1924. Whether the pair reached the summit is unknown."
+    },
+    {
+      "question": "Who was Andrew Irvine",
+      "answer": "Andrew Irvine was a British climber who disappeared with George Mallory during an Everest expedition in 1924. Whether the pair reached the summit is unknown."
+    },
+    {
+      "question": "What happened on Everest in 1953?",
+      "answer": "On 29 May 1953, Edmund Hillary and Tenzing Norgay reached Everest's summit, widely recognized as the first confirmed ascent to the top."
+    },
+    {
+      "question": "What happened on Everest in 1953",
+      "answer": "On 29 May 1953, Edmund Hillary and Tenzing Norgay reached Everest's summit, widely recognized as the first confirmed ascent to the top."
+    },
+    {
+      "question": "What was the first 8,000-metre peak climbed?",
+      "answer": "Annapurna I was the first 8,000-metre peak to be successfully climbed, by Maurice Herzog and Louis Lachenal's French expedition in 1950."
+    },
+    {
+      "question": "What was the first 8,000-metre peak climbed",
+      "answer": "Annapurna I was the first 8,000-metre peak to be successfully climbed, by Maurice Herzog and Louis Lachenal's French expedition in 1950."
+    },
+    {
+      "question": "Who first climbed K2?",
+      "answer": "Achille Compagnoni and Lino Lacedelli reached K2's summit on 31 July 1954 as part of an Italian expedition."
+    },
+    {
+      "question": "Who first climbed K2",
+      "answer": "Achille Compagnoni and Lino Lacedelli reached K2's summit on 31 July 1954 as part of an Italian expedition."
+    },
+    {
+      "question": "When was Everest first climbed without supplemental oxygen?",
+      "answer": "Reinhold Messner and Peter Habeler made the first confirmed ascent of Everest without supplemental oxygen in 1978."
+    },
+    {
+      "question": "When was Everest first climbed without supplemental oxygen",
+      "answer": "Reinhold Messner and Peter Habeler made the first confirmed ascent of Everest without supplemental oxygen in 1978."
+    },
+    {
+      "question": "Who first climbed all fourteen 8,000-metre peaks?",
+      "answer": "Reinhold Messner completed all fourteen 8,000-metre peaks in 1986, becoming the first person widely recognized for that achievement."
+    },
+    {
+      "question": "Who first climbed all fourteen 8,000-metre peaks",
+      "answer": "Reinhold Messner completed all fourteen 8,000-metre peaks in 1986, becoming the first person widely recognized for that achievement."
+    },
+    {
+      "question": "What is the history of women in mountaineering?",
+      "answer": "Women have contributed to mountaineering for centuries, from early Alpine ascents to major Himalayan achievements. Climbers such as Annie Smith Peck, Junko Tabei, and Wanda Rutkiewicz helped broaden recognition of women's achievements."
+    },
+    {
+      "question": "What is the history of women in mountaineering",
+      "answer": "Women have contributed to mountaineering for centuries, from early Alpine ascents to major Himalayan achievements. Climbers such as Annie Smith Peck, Junko Tabei, and Wanda Rutkiewicz helped broaden recognition of women's achievements."
+    },
+    {
+      "question": "What is the history of climbing equipment?",
+      "answer": "Climbing equipment evolved from simple ropes and metal protection to specialized boots, crampons, ice tools, modern harnesses, advanced fabrics, and lighter technical gear."
+    },
+    {
+      "question": "What is the history of climbing equipment",
+      "answer": "Climbing equipment evolved from simple ropes and metal protection to specialized boots, crampons, ice tools, modern harnesses, advanced fabrics, and lighter technical gear."
+    },
+    {
+      "question": "How did Himalayan climbing develop?",
+      "answer": "Himalayan climbing developed through exploration and mapping, early expeditions, local knowledge and support, the first 8,000-metre ascents, and later changes in style and equipment."
+    },
+    {
+      "question": "How did Himalayan climbing develop",
+      "answer": "Himalayan climbing developed through exploration and mapping, early expeditions, local knowledge and support, the first 8,000-metre ascents, and later changes in style and equipment."
+    },
+    {
+      "question": "What role do local mountain communities play in expeditions?",
+      "answer": "Local mountain communities contribute deep regional knowledge, logistics, guiding, route support, and cultural context. Their expertise and contributions should be respected and credited."
+    },
+    {
+      "question": "What role do local mountain communities play in expeditions",
+      "answer": "Local mountain communities contribute deep regional knowledge, logistics, guiding, route support, and cultural context. Their expertise and contributions should be respected and credited."
+    },
+    {
+      "question": "What is the Seven Summits challenge?",
+      "answer": "The Seven Summits challenge is an objective to climb the highest mountain on each of the seven continents. Lists differ depending on how Europe and Oceania are defined."
+    },
+    {
+      "question": "What is the Seven Summits challenge",
+      "answer": "The Seven Summits challenge is an objective to climb the highest mountain on each of the seven continents. Lists differ depending on how Europe and Oceania are defined."
+    },
+    {
+      "question": "What is the history of Everest expeditions?",
+      "answer": "Everest expeditions began with reconnaissance and climbing attempts in the early 20th century, followed by the first confirmed summit in 1953 and many later changes in routes, equipment, and expedition practices."
+    },
+    {
+      "question": "What is the history of Everest expeditions",
+      "answer": "Everest expeditions began with reconnaissance and climbing attempts in the early 20th century, followed by the first confirmed summit in 1953 and many later changes in routes, equipment, and expedition practices."
+    },
+    {
+      "question": "What is the highest mountain in the world?",
+      "answer": "Mount Everest is the highest mountain above sea level, at approximately 8,849 metres. Published measurements can vary slightly by method and update."
+    },
+    {
+      "question": "What is the highest mountain in the world",
+      "answer": "Mount Everest is the highest mountain above sea level, at approximately 8,849 metres. Published measurements can vary slightly by method and update."
+    },
+    {
+      "question": "What is the second-highest mountain in the world?",
+      "answer": "K2 is the world's second-highest mountain above sea level, at 8,611 metres."
+    },
+    {
+      "question": "What is the second-highest mountain in the world",
+      "answer": "K2 is the world's second-highest mountain above sea level, at 8,611 metres."
+    },
+    {
+      "question": "What is the third-highest mountain in the world?",
+      "answer": "Kangchenjunga is the world's third-highest mountain above sea level, at 8,586 metres."
+    },
+    {
+      "question": "What is the third-highest mountain in the world",
+      "answer": "Kangchenjunga is the world's third-highest mountain above sea level, at 8,586 metres."
+    },
+    {
+      "question": "How many mountains are over 8,000 metres?",
+      "answer": "There are fourteen recognized mountains with summits higher than 8,000 metres."
+    },
+    {
+      "question": "How many mountains are over 8,000 metres",
+      "answer": "There are fourteen recognized mountains with summits higher than 8,000 metres."
+    },
+    {
+      "question": "What are the fourteen 8,000-metre peaks?",
+      "answer": "The fourteen are Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri I, Manaslu, Nanga Parbat, Annapurna I, Gasherbrum I, Broad Peak, Gasherbrum II, and Shishapangma."
+    },
+    {
+      "question": "What are the fourteen 8,000-metre peaks",
+      "answer": "The fourteen are Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri I, Manaslu, Nanga Parbat, Annapurna I, Gasherbrum I, Broad Peak, Gasherbrum II, and Shishapangma."
+    },
+    {
+      "question": "Which mountain is the highest in Africa?",
+      "answer": "Mount Kilimanjaro in Tanzania is Africa's highest mountain, rising to about 5,895 metres."
+    },
+    {
+      "question": "Which mountain is the highest in Africa",
+      "answer": "Mount Kilimanjaro in Tanzania is Africa's highest mountain, rising to about 5,895 metres."
+    },
+    {
+      "question": "Which mountain is the highest in Europe?",
+      "answer": "Mount Elbrus in the Caucasus is commonly listed as Europe's highest mountain, though continental boundaries and definitions can affect this classification."
+    },
+    {
+      "question": "Which mountain is the highest in Europe",
+      "answer": "Mount Elbrus in the Caucasus is commonly listed as Europe's highest mountain, though continental boundaries and definitions can affect this classification."
+    },
+    {
+      "question": "Which mountain is the highest in North America?",
+      "answer": "Denali in Alaska is North America's highest mountain, at about 6,190 metres."
+    },
+    {
+      "question": "Which mountain is the highest in North America",
+      "answer": "Denali in Alaska is North America's highest mountain, at about 6,190 metres."
+    },
+    {
+      "question": "Which mountain is the highest in South America?",
+      "answer": "Aconcagua in Argentina is South America's highest mountain, at about 6,961 metres."
+    },
+    {
+      "question": "Which mountain is the highest in South America",
+      "answer": "Aconcagua in Argentina is South America's highest mountain, at about 6,961 metres."
+    },
+    {
+      "question": "Which mountain is the highest in Antarctica?",
+      "answer": "Mount Vinson is Antarctica's highest mountain, at about 4,892 metres."
+    },
+    {
+      "question": "Which mountain is the highest in Antarctica",
+      "answer": "Mount Vinson is Antarctica's highest mountain, at about 4,892 metres."
+    },
+    {
+      "question": "Which mountain is the highest in Australia?",
+      "answer": "Mount Kosciuszko is Australia's highest peak under the usual mainland definition. The broader Seven Summits list often uses Puncak Jaya for the Australia/Oceania region."
+    },
+    {
+      "question": "Which mountain is the highest in Australia",
+      "answer": "Mount Kosciuszko is Australia's highest peak under the usual mainland definition. The broader Seven Summits list often uses Puncak Jaya for the Australia/Oceania region."
+    },
+    {
+      "question": "What is the highest mountain in Pakistan?",
+      "answer": "K2, in the Karakoram range, is Pakistan's highest mountain and the world's second-highest mountain above sea level."
+    },
+    {
+      "question": "What is the highest mountain in Pakistan",
+      "answer": "K2, in the Karakoram range, is Pakistan's highest mountain and the world's second-highest mountain above sea level."
+    },
+    {
+      "question": "What is the highest mountain in the Karakoram?",
+      "answer": "K2 is the highest mountain in the Karakoram range."
+    },
+    {
+      "question": "What is the highest mountain in the Karakoram",
+      "answer": "K2 is the highest mountain in the Karakoram range."
+    },
+    {
+      "question": "What is the height of K2?",
+      "answer": "K2 is 8,611 metres high above sea level."
+    },
+    {
+      "question": "What is the height of K2",
+      "answer": "K2 is 8,611 metres high above sea level."
+    },
+    {
+      "question": "What is the height of Mount Everest?",
+      "answer": "Mount Everest is approximately 8,849 metres high above sea level."
+    },
+    {
+      "question": "What is the height of Mount Everest",
+      "answer": "Mount Everest is approximately 8,849 metres high above sea level."
+    },
+    {
+      "question": "Which mountain is considered one of the most difficult 8,000-metre peaks?",
+      "answer": "K2 is widely regarded as one of the most technically demanding and dangerous 8,000-metre peaks, but difficulty depends on route, conditions, and climber experience."
+    },
+    {
+      "question": "Which mountain is considered one of the most difficult 8,000-metre peaks",
+      "answer": "K2 is widely regarded as one of the most technically demanding and dangerous 8,000-metre peaks, but difficulty depends on route, conditions, and climber experience."
+    },
+    {
+      "question": "What is the Seven Summits record?",
+      "answer": "Seven Summits records depend on the list used, whether climbs are completed independently or in a team, and how the record is verified. Current record claims should be checked against reliable, up-to-date sources."
+    },
+    {
+      "question": "What is the Seven Summits record",
+      "answer": "Seven Summits records depend on the list used, whether climbs are completed independently or in a team, and how the record is verified. Current record claims should be checked against reliable, up-to-date sources."
+    },
+    {
+      "question": "What is a speed-climbing record?",
+      "answer": "A speed-climbing record is a timed ascent or route completion under a defined set of rules. Comparisons require the route, conditions, style, and record authority to be specified."
+    },
+    {
+      "question": "What is a speed-climbing record",
+      "answer": "A speed-climbing record is a timed ascent or route completion under a defined set of rules. Comparisons require the route, conditions, style, and record authority to be specified."
+    },
+    {
+      "question": "What is a free solo record?",
+      "answer": "Free solo climbing means climbing without a rope or protective gear. Record claims are highly route-specific and should be verified carefully; the style carries extreme consequences if a fall occurs."
+    },
+    {
+      "question": "What is a free solo record",
+      "answer": "Free solo climbing means climbing without a rope or protective gear. Record claims are highly route-specific and should be verified carefully; the style carries extreme consequences if a fall occurs."
+    },
+    {
+      "question": "What is a first winter ascent?",
+      "answer": "A first winter ascent is the first documented successful climb of a mountain or route during the recognized winter season. Exact seasonal definitions vary by region."
+    },
+    {
+      "question": "What is a first winter ascent",
+      "answer": "A first winter ascent is the first documented successful climb of a mountain or route during the recognized winter season. Exact seasonal definitions vary by region."
+    },
+    {
+      "question": "What is an unclimbed mountain?",
+      "answer": "An unclimbed mountain is a peak with no verified successful ascent. Claims can be complicated by local names, historical records, access, and differing definitions of a summit."
+    },
+    {
+      "question": "What is an unclimbed mountain",
+      "answer": "An unclimbed mountain is a peak with no verified successful ascent. Claims can be complicated by local names, historical records, access, and differing definitions of a summit."
+    },
+    {
+      "question": "Why do climbing records need verification?",
+      "answer": "Records need clear definitions, reliable documentation, and independent verification because routes, styles, seasons, and rules can differ."
+    },
+    {
+      "question": "Why do climbing records need verification",
+      "answer": "Records need clear definitions, reliable documentation, and independent verification because routes, styles, seasons, and rules can differ."
+    },
+    {
+      "question": "Are climbing records permanent?",
+      "answer": "No. Records can change as new ascents occur, rules are clarified, and claims are reviewed. Check current sources for record-holder details."
+    },
+    {
+      "question": "Are climbing records permanent",
+      "answer": "No. Records can change as new ascents occur, rules are clarified, and claims are reviewed. Check current sources for record-holder details."
+    },
+    {
+      "question": "Why do people climb mountains?",
+      "answer": "People climb for adventure, challenge, exploration, connection with nature, personal growth, teamwork, and cultural or scientific interests."
+    },
+    {
+      "question": "Why do people climb mountains",
+      "answer": "People climb for adventure, challenge, exploration, connection with nature, personal growth, teamwork, and cultural or scientific interests."
+    },
+    {
+      "question": "What makes a great mountaineering story?",
+      "answer": "A compelling mountaineering story combines a clear objective, the people involved, the conditions and obstacles, important decisions, and what the experience taught them."
+    },
+    {
+      "question": "What makes a great mountaineering story",
+      "answer": "A compelling mountaineering story combines a clear objective, the people involved, the conditions and obstacles, important decisions, and what the experience taught them."
+    },
+    {
+      "question": "What can climbers learn from failed summit attempts?",
+      "answer": "Failed attempts can teach humility, preparation, teamwork, and the value of turning around when conditions or timing make continuing unsafe."
+    },
+    {
+      "question": "What can climbers learn from failed summit attempts",
+      "answer": "Failed attempts can teach humility, preparation, teamwork, and the value of turning around when conditions or timing make continuing unsafe."
+    },
+    {
+      "question": "Why is turning back sometimes a success?",
+      "answer": "A safe retreat can show excellent judgment. The summit is only one goal; returning with the team safe is a fundamental part of mountaineering."
+    },
+    {
+      "question": "Why is turning back sometimes a success",
+      "answer": "A safe retreat can show excellent judgment. The summit is only one goal; returning with the team safe is a fundamental part of mountaineering."
+    },
+    {
+      "question": "What is mountain culture?",
+      "answer": "Mountain culture includes local traditions, community knowledge, climbing ethics, shared practices, and the ways people relate to mountain landscapes."
+    },
+    {
+      "question": "What is mountain culture",
+      "answer": "Mountain culture includes local traditions, community knowledge, climbing ethics, shared practices, and the ways people relate to mountain landscapes."
+    },
+    {
+      "question": "Why should climbers respect local communities?",
+      "answer": "Local communities have deep connections to mountain landscapes and often provide essential knowledge and support. Respect means listening, following local guidance, and recognizing their contributions."
+    },
+    {
+      "question": "Why should climbers respect local communities",
+      "answer": "Local communities have deep connections to mountain landscapes and often provide essential knowledge and support. Respect means listening, following local guidance, and recognizing their contributions."
+    },
+    {
+      "question": "What is climbing ethics?",
+      "answer": "Climbing ethics are shared principles about safety, environmental impact, protection placement, route alteration, honesty, and respect for other climbers and local communities."
+    },
+    {
+      "question": "What is climbing ethics",
+      "answer": "Climbing ethics are shared principles about safety, environmental impact, protection placement, route alteration, honesty, and respect for other climbers and local communities."
+    },
+    {
+      "question": "What is a clean ascent?",
+      "answer": "A clean ascent usually describes a climb completed without leaving permanent protection or damaging the route, but the exact meaning depends on the climbing context."
+    },
+    {
+      "question": "What is a clean ascent",
+      "answer": "A clean ascent usually describes a climb completed without leaving permanent protection or damaging the route, but the exact meaning depends on the climbing context."
+    },
+    {
+      "question": "What is a climbing expedition journal?",
+      "answer": "An expedition journal records the route, weather, decisions, team experiences, challenges, and lessons learned during a climb."
+    },
+    {
+      "question": "What is a climbing expedition journal",
+      "answer": "An expedition journal records the route, weather, decisions, team experiences, challenges, and lessons learned during a climb."
+    },
+    {
+      "question": "Why do mountaineers keep journals?",
+      "answer": "Journals preserve memories, document conditions, help teams review decisions, and share lessons with future climbers."
+    },
+    {
+      "question": "Why do mountaineers keep journals",
+      "answer": "Journals preserve memories, document conditions, help teams review decisions, and share lessons with future climbers."
+    },
+    {
+      "question": "What is a mountain documentary?",
+      "answer": "A mountain documentary uses film to tell stories about climbing, exploration, mountain communities, environmental issues, or expeditions."
+    },
+    {
+      "question": "What is a mountain documentary",
+      "answer": "A mountain documentary uses film to tell stories about climbing, exploration, mountain communities, environmental issues, or expeditions."
+    },
+    {
+      "question": "What is the Alpine Ascents Stories section?",
+      "answer": "The Stories section can feature expedition experiences, mountain shelters, hazards, climbing communities, innovations, and practical lessons from the mountains."
+    },
+    {
+      "question": "What is the Alpine Ascents Stories section",
+      "answer": "The Stories section can feature expedition experiences, mountain shelters, hazards, climbing communities, innovations, and practical lessons from the mountains."
+    },
+    {
+      "question": "What are mountain innovations?",
+      "answer": "Mountain innovations include developments in equipment, weather forecasting, communications, navigation, rescue methods, and materials that can improve capability when used appropriately."
+    },
+    {
+      "question": "What are mountain innovations",
+      "answer": "Mountain innovations include developments in equipment, weather forecasting, communications, navigation, rescue methods, and materials that can improve capability when used appropriately."
+    },
+    {
+      "question": "Why is humility important in climbing?",
+      "answer": "Mountain conditions are not fully under a climber's control. Humility helps people recognize limits, seek advice, and change plans when needed."
+    },
+    {
+      "question": "Why is humility important in climbing",
+      "answer": "Mountain conditions are not fully under a climber's control. Humility helps people recognize limits, seek advice, and change plans when needed."
+    },
+    {
+      "question": "How can a team handle disagreement on a climb?",
+      "answer": "Agree on safety priorities before the trip, communicate respectfully, share concerns early, and use pre-agreed turnaround rules rather than pressure or competition."
+    },
+    {
+      "question": "How can a team handle disagreement on a climb",
+      "answer": "Agree on safety priorities before the trip, communicate respectfully, share concerns early, and use pre-agreed turnaround rules rather than pressure or competition."
+    },
+    {
+      "question": "What is summit fever?",
+      "answer": "Summit fever is when the desire to reach the top overrides sound judgment. A clear turnaround time and team discussion can help counter it."
+    },
+    {
+      "question": "What is summit fever",
+      "answer": "Summit fever is when the desire to reach the top overrides sound judgment. A clear turnaround time and team discussion can help counter it."
+    },
+    {
+      "question": "What does 'the mountain will be there' mean?",
+      "answer": "It is a reminder that a summit attempt can be postponed. Protecting life and making sound decisions matter more than completing a climb on one particular day."
+    },
+    {
+      "question": "What does 'the mountain will be there' mean",
+      "answer": "It is a reminder that a summit attempt can be postponed. Protecting life and making sound decisions matter more than completing a climb on one particular day."
+    },
+    {
+      "question": "How can climbers share stories responsibly?",
+      "answer": "Share accurate details, credit teammates and local communities, avoid glamorizing reckless choices, and include lessons about preparation and risk."
+    },
+    {
+      "question": "How can climbers share stories responsibly",
+      "answer": "Share accurate details, credit teammates and local communities, avoid glamorizing reckless choices, and include lessons about preparation and risk."
+    },
+    {
+      "question": "What is the Alpine Ascents History section?",
+      "answer": "The History section explores important milestones in mountaineering, pioneering ascents, the Golden Age of Alpinism, high Himalayan climbs, and modern climbing."
+    },
+    {
+      "question": "What is the Alpine Ascents History section",
+      "answer": "The History section explores important milestones in mountaineering, pioneering ascents, the Golden Age of Alpinism, high Himalayan climbs, and modern climbing."
+    },
+    {
+      "question": "What is the Alpine Ascents Techniques section?",
+      "answer": "The Techniques section introduces climbing styles, movement skills, crampon use, ice-axe skills, rope systems, and rescue concepts. Reading is not a substitute for practical training."
+    },
+    {
+      "question": "What is the Alpine Ascents Techniques section",
+      "answer": "The Techniques section introduces climbing styles, movement skills, crampon use, ice-axe skills, rope systems, and rescue concepts. Reading is not a substitute for practical training."
+    },
+    {
+      "question": "What is the Alpine Ascents Records section?",
+      "answer": "The Records section can explain notable mountain heights, first ascents, climbing milestones, and record categories. Current record holders should be verified with up-to-date sources."
+    },
+    {
+      "question": "What is the Alpine Ascents Records section",
+      "answer": "The Records section can explain notable mountain heights, first ascents, climbing milestones, and record categories. Current record holders should be verified with up-to-date sources."
+    },
+    {
+      "question": "What is the Alpine Ascents Gallery?",
+      "answer": "The Gallery is intended to showcase mountain photography, climbing images, and technical or expedition videos."
+    },
+    {
+      "question": "What is the Alpine Ascents Gallery",
+      "answer": "The Gallery is intended to showcase mountain photography, climbing images, and technical or expedition videos."
+    },
+    {
+      "question": "What can I find in Alpine Ascents Store?",
+      "answer": "The Store section is intended to feature mountaineering accessories and related equipment information. Always select equipment suitable for your activity and training."
+    },
+    {
+      "question": "What can I find in Alpine Ascents Store",
+      "answer": "The Store section is intended to feature mountaineering accessories and related equipment information. Always select equipment suitable for your activity and training."
+    },
+    {
+      "question": "How can I explore a topic on Alpine Ascents?",
+      "answer": "Use the navigation menu to open the relevant section, or type a topic such as 'History', 'Records', 'Techniques', 'K2', or 'climbing equipment' into the chatbot."
+    },
+    {
+      "question": "How can I explore a topic on Alpine Ascents",
+      "answer": "Use the navigation menu to open the relevant section, or type a topic such as 'History', 'Records', 'Techniques', 'K2', or 'climbing equipment' into the chatbot."
+    },
+    {
+      "question": "Does Alpine Ascents provide live mountain conditions?",
+      "answer": "The chatbot's prepared answers are educational and may not include live conditions. Check official forecasts, local avalanche bulletins, route reports, and qualified professionals before a trip."
+    },
+    {
+      "question": "Does Alpine Ascents provide live mountain conditions",
+      "answer": "The chatbot's prepared answers are educational and may not include live conditions. Check official forecasts, local avalanche bulletins, route reports, and qualified professionals before a trip."
+    },
+    {
+      "question": "Can this chatbot tell me if a route is safe today?",
+      "answer": "No chatbot answer can confirm that a route is safe today. Conditions change; consult current forecasts, local route information, and qualified mountain professionals."
+    },
+    {
+      "question": "Can this chatbot tell me if a route is safe today",
+      "answer": "No chatbot answer can confirm that a route is safe today. Conditions change; consult current forecasts, local route information, and qualified mountain professionals."
+    },
+    {
+      "question": "Does website information replace climbing instruction?",
+      "answer": "No. Online information can support learning, but rope systems, rescue methods, crampon techniques, and other technical skills require appropriate hands-on instruction."
+    },
+    {
+      "question": "Does website information replace climbing instruction",
+      "answer": "No. Online information can support learning, but rope systems, rescue methods, crampon techniques, and other technical skills require appropriate hands-on instruction."
+    },
+    {
+      "question": "Thank you",
+      "answer": "You're welcome! Stay prepared, respect the mountains, and enjoy exploring Alpine Ascents."
+    },
+    {
+      "question": "Hello",
+      "answer": "Hello! Welcome to Alpine Ascents. Ask me about climbing, mountain history, records, techniques, stories, equipment, or safety."
+    },
+    {
+      "question": "Hi",
+      "answer": "Hi there! What would you like to explore: climbing, history, records, techniques, or mountain stories?"
+    },
+    {
+      "question": "Help",
+      "answer": "Try a topic such as 'climbing', 'history', 'records', 'techniques', 'K2', 'Everest', 'crampons', or 'mountain safety'."
+    },
+    {
+      "question": "Goodbye",
+      "answer": "Goodbye! Stay prepared, respect the mountains, and climb responsibly."
+    },
+    {
+      "question": "How are you?",
+      "answer": "I'm ready to help you explore climbing, mountain history, records, techniques, and stories."
+    },
+    {
+      "question": "How are you",
+      "answer": "I'm ready to help you explore climbing, mountain history, records, techniques, and stories."
+    },
+    {
+      "question": "climbing",
+      "answer": "Climbing is the activity of moving up, across, or down rock, ice, artificial walls, or mountain terrain using movement skills and sometimes protective equipment."
+    },
+    {
+      "question": "rock climbing",
+      "answer": "Rock climbing is ascending natural rock or artificial walls using handholds and footholds, with styles ranging from bouldering to multi-pitch routes."
+    },
+    {
+      "question": "ice climbing",
+      "answer": "Ice climbing is climbing frozen waterfalls or ice-covered terrain with ice axes and crampons. It requires specialized instruction and equipment."
+    },
+    {
+      "question": "mountaineering",
+      "answer": "Mountaineering is travel and climbing in mountainous environments. It may involve hiking, scrambling, rock climbing, snow, ice, glaciers, ropes, and navigation."
+    },
+    {
+      "question": "history",
+      "answer": "The History section explores early Alpine ascents, the Golden Age of Alpinism, Himalayan expeditions, landmark climbers, and modern mountaineering."
+    },
+    {
+      "question": "What is history?",
+      "answer": "The History section explores early Alpine ascents, the Golden Age of Alpinism, Himalayan expeditions, landmark climbers, and modern mountaineering."
+    },
+    {
+      "question": "What is history",
+      "answer": "The History section explores early Alpine ascents, the Golden Age of Alpinism, Himalayan expeditions, landmark climbers, and modern mountaineering."
+    },
+    {
+      "question": "history of climbing",
+      "answer": "Climbing history spans early mountain exploration, the growth of Alpine climbing in the 18th and 19th centuries, Himalayan expeditions, and modern technical climbing."
+    },
+    {
+      "question": "What is history of climbing?",
+      "answer": "Climbing history spans early mountain exploration, the growth of Alpine climbing in the 18th and 19th centuries, Himalayan expeditions, and modern technical climbing."
+    },
+    {
+      "question": "What is history of climbing",
+      "answer": "Climbing history spans early mountain exploration, the growth of Alpine climbing in the 18th and 19th centuries, Himalayan expeditions, and modern technical climbing."
+    },
+    {
+      "question": "records",
+      "answer": "Mountaineering records include highest peaks, first ascents, winter ascents, speed achievements, and other milestones. Record claims should be checked against current reliable sources."
+    },
+    {
+      "question": "What is records?",
+      "answer": "Mountaineering records include highest peaks, first ascents, winter ascents, speed achievements, and other milestones. Record claims should be checked against current reliable sources."
+    },
+    {
+      "question": "What is records",
+      "answer": "Mountaineering records include highest peaks, first ascents, winter ascents, speed achievements, and other milestones. Record claims should be checked against current reliable sources."
+    },
+    {
+      "question": "techniques",
+      "answer": "Climbing techniques include footwork, edging, smearing, stemming, belaying, rappelling, crampon movement, route-finding, and trained rope systems."
+    },
+    {
+      "question": "What is techniques?",
+      "answer": "Climbing techniques include footwork, edging, smearing, stemming, belaying, rappelling, crampon movement, route-finding, and trained rope systems."
+    },
+    {
+      "question": "What is techniques",
+      "answer": "Climbing techniques include footwork, edging, smearing, stemming, belaying, rappelling, crampon movement, route-finding, and trained rope systems."
+    },
+    {
+      "question": "stories",
+      "answer": "Mountain stories describe expeditions, challenges, decisions, teamwork, cultural connections, and lessons learned in the mountains."
+    },
+    {
+      "question": "What is stories?",
+      "answer": "Mountain stories describe expeditions, challenges, decisions, teamwork, cultural connections, and lessons learned in the mountains."
+    },
+    {
+      "question": "What is stories",
+      "answer": "Mountain stories describe expeditions, challenges, decisions, teamwork, cultural connections, and lessons learned in the mountains."
+    },
+    {
+      "question": "climbing stories",
+      "answer": "Climbing stories can share expedition experiences, turning-point decisions, historic ascents, teamwork, and lessons about preparation and mountain safety."
+    },
+    {
+      "question": "What is climbing stories?",
+      "answer": "Climbing stories can share expedition experiences, turning-point decisions, historic ascents, teamwork, and lessons about preparation and mountain safety."
+    },
+    {
+      "question": "What is climbing stories",
+      "answer": "Climbing stories can share expedition experiences, turning-point decisions, historic ascents, teamwork, and lessons about preparation and mountain safety."
+    },
+    {
+      "question": "mountain records",
+      "answer": "Mountain records include peak heights, first ascents, winter ascents, and climbing achievements. Definitions and verification methods matter when comparing records."
+    },
+    {
+      "question": "What is mountain records?",
+      "answer": "Mountain records include peak heights, first ascents, winter ascents, and climbing achievements. Definitions and verification methods matter when comparing records."
+    },
+    {
+      "question": "What is mountain records",
+      "answer": "Mountain records include peak heights, first ascents, winter ascents, and climbing achievements. Definitions and verification methods matter when comparing records."
+    },
+    {
+      "question": "climbing history",
+      "answer": "Climbing history includes early Alpine ascents, the Golden Age of Alpinism, Himalayan exploration, and the evolution of climbing equipment and styles."
+    },
+    {
+      "question": "What is climbing history?",
+      "answer": "Climbing history includes early Alpine ascents, the Golden Age of Alpinism, Himalayan exploration, and the evolution of climbing equipment and styles."
+    },
+    {
+      "question": "What is climbing history",
+      "answer": "Climbing history includes early Alpine ascents, the Golden Age of Alpinism, Himalayan exploration, and the evolution of climbing equipment and styles."
+    },
+    {
+      "question": "climbing techniques",
+      "answer": "Climbing techniques include body positioning, footwork, belaying, route-finding, rope management, crampon use, and ice-axe skills, learned through appropriate instruction."
+    },
+    {
+      "question": "What is climbing techniques?",
+      "answer": "Climbing techniques include body positioning, footwork, belaying, route-finding, rope management, crampon use, and ice-axe skills, learned through appropriate instruction."
+    },
+    {
+      "question": "What is climbing techniques",
+      "answer": "Climbing techniques include body positioning, footwork, belaying, route-finding, rope management, crampon use, and ice-axe skills, learned through appropriate instruction."
+    },
+    {
+      "question": "alpine ascents",
+      "answer": "Alpine Ascents is a mountaineering information platform. Explore climbing, history, records, techniques, stories, equipment, and mountain safety."
+    },
+    {
+      "question": "What is alpine ascents?",
+      "answer": "Alpine Ascents is a mountaineering information platform. Explore climbing, history, records, techniques, stories, equipment, and mountain safety."
+    },
+    {
+      "question": "What is alpine ascents",
+      "answer": "Alpine Ascents is a mountaineering information platform. Explore climbing, history, records, techniques, stories, equipment, and mountain safety."
+    },
+    {
+      "question": "alpine ascent",
+      "answer": "Alpine Ascent is a mountaineering information platform covering climbing, history, records, techniques, stories, equipment, and safety."
+    },
+    {
+      "question": "What is alpine ascent?",
+      "answer": "Alpine Ascent is a mountaineering information platform covering climbing, history, records, techniques, stories, equipment, and safety."
+    },
+    {
+      "question": "What is alpine ascent",
+      "answer": "Alpine Ascent is a mountaineering information platform covering climbing, history, records, techniques, stories, equipment, and safety."
+    },
+    {
+      "question": "everest",
+      "answer": "Mount Everest is the world's highest mountain above sea level, approximately 8,849 metres high, in the Himalaya on the Nepal–China border."
+    },
+    {
+      "question": "What is everest?",
+      "answer": "Mount Everest is the world's highest mountain above sea level, approximately 8,849 metres high, in the Himalaya on the Nepal–China border."
+    },
+    {
+      "question": "What is everest",
+      "answer": "Mount Everest is the world's highest mountain above sea level, approximately 8,849 metres high, in the Himalaya on the Nepal–China border."
+    },
+    {
+      "question": "k2",
+      "answer": "K2 is 8,611 metres high, Pakistan's highest mountain, and the world's second-highest mountain above sea level."
+    },
+    {
+      "question": "What is k2?",
+      "answer": "K2 is 8,611 metres high, Pakistan's highest mountain, and the world's second-highest mountain above sea level."
+    },
+    {
+      "question": "What is k2",
+      "answer": "K2 is 8,611 metres high, Pakistan's highest mountain, and the world's second-highest mountain above sea level."
+    },
+    {
+      "question": "matterhorn",
+      "answer": "The Matterhorn is a famous Alpine peak whose first recorded ascent took place on 14 July 1865 in Edward Whymper's party. Four climbers died during the descent."
+    },
+    {
+      "question": "What is matterhorn?",
+      "answer": "The Matterhorn is a famous Alpine peak whose first recorded ascent took place on 14 July 1865 in Edward Whymper's party. Four climbers died during the descent."
+    },
+    {
+      "question": "What is matterhorn",
+      "answer": "The Matterhorn is a famous Alpine peak whose first recorded ascent took place on 14 July 1865 in Edward Whymper's party. Four climbers died during the descent."
+    },
+    {
+      "question": "mont blanc",
+      "answer": "Mont Blanc was first climbed in 1786 by Jacques Balmat and Michel-Gabriel Paccard, a landmark in the history of modern alpinism."
+    },
+    {
+      "question": "What is mont blanc?",
+      "answer": "Mont Blanc was first climbed in 1786 by Jacques Balmat and Michel-Gabriel Paccard, a landmark in the history of modern alpinism."
+    },
+    {
+      "question": "What is mont blanc",
+      "answer": "Mont Blanc was first climbed in 1786 by Jacques Balmat and Michel-Gabriel Paccard, a landmark in the history of modern alpinism."
+    },
+    {
+      "question": "golden age",
+      "answer": "The Golden Age of Alpinism generally refers to the mid-19th century, when many major peaks in the European Alps were climbed for the first time."
+    },
+    {
+      "question": "What is golden age?",
+      "answer": "The Golden Age of Alpinism generally refers to the mid-19th century, when many major peaks in the European Alps were climbed for the first time."
+    },
+    {
+      "question": "What is golden age",
+      "answer": "The Golden Age of Alpinism generally refers to the mid-19th century, when many major peaks in the European Alps were climbed for the first time."
+    },
+    {
+      "question": "eight thousand metre peaks",
+      "answer": "There are fourteen recognized mountains higher than 8,000 metres: Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri I, Manaslu, Nanga Parbat, Annapurna I, Gasherbrum I, Broad Peak, Gasherbrum II, and Shishapangma."
+    },
+    {
+      "question": "What is eight thousand metre peaks?",
+      "answer": "There are fourteen recognized mountains higher than 8,000 metres: Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri I, Manaslu, Nanga Parbat, Annapurna I, Gasherbrum I, Broad Peak, Gasherbrum II, and Shishapangma."
+    },
+    {
+      "question": "What is eight thousand metre peaks",
+      "answer": "There are fourteen recognized mountains higher than 8,000 metres: Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri I, Manaslu, Nanga Parbat, Annapurna I, Gasherbrum I, Broad Peak, Gasherbrum II, and Shishapangma."
+    },
+    {
+      "question": "8000m peaks",
+      "answer": "There are fourteen recognized 8,000-metre peaks, including Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri I, Manaslu, Nanga Parbat, Annapurna I, Gasherbrum I, Broad Peak, Gasherbrum II, and Shishapangma."
+    },
+    {
+      "question": "What is 8000m peaks?",
+      "answer": "There are fourteen recognized 8,000-metre peaks, including Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri I, Manaslu, Nanga Parbat, Annapurna I, Gasherbrum I, Broad Peak, Gasherbrum II, and Shishapangma."
+    },
+    {
+      "question": "What is 8000m peaks",
+      "answer": "There are fourteen recognized 8,000-metre peaks, including Everest, K2, Kangchenjunga, Lhotse, Makalu, Cho Oyu, Dhaulagiri I, Manaslu, Nanga Parbat, Annapurna I, Gasherbrum I, Broad Peak, Gasherbrum II, and Shishapangma."
+    },
+    {
+      "question": "crampons",
+      "answer": "Crampons are metal spikes attached to compatible boots to improve traction on snow and ice. Learn their use with appropriate instruction."
+    },
+    {
+      "question": "What is crampons?",
+      "answer": "Crampons are metal spikes attached to compatible boots to improve traction on snow and ice. Learn their use with appropriate instruction."
+    },
+    {
+      "question": "What is crampons",
+      "answer": "Crampons are metal spikes attached to compatible boots to improve traction on snow and ice. Learn their use with appropriate instruction."
+    },
+    {
+      "question": "ice axe",
+      "answer": "An ice axe can assist with balance and movement on snow and certain trained safety techniques. Tool choice and technique depend on terrain and conditions."
+    },
+    {
+      "question": "What is ice axe?",
+      "answer": "An ice axe can assist with balance and movement on snow and certain trained safety techniques. Tool choice and technique depend on terrain and conditions."
+    },
+    {
+      "question": "What is ice axe",
+      "answer": "An ice axe can assist with balance and movement on snow and certain trained safety techniques. Tool choice and technique depend on terrain and conditions."
+    },
+    {
+      "question": "self arrest",
+      "answer": "Self-arrest is a practiced technique intended to stop a slide on snow using an ice axe. Learn it with an instructor on a suitable training slope."
+    },
+    {
+      "question": "What is self arrest?",
+      "answer": "Self-arrest is a practiced technique intended to stop a slide on snow using an ice axe. Learn it with an instructor on a suitable training slope."
+    },
+    {
+      "question": "What is self arrest",
+      "answer": "Self-arrest is a practiced technique intended to stop a slide on snow using an ice axe. Learn it with an instructor on a suitable training slope."
+    },
+    {
+      "question": "crevasse rescue",
+      "answer": "Crevasse rescue is the organized process of assisting someone who has fallen into a glacier crevasse. It requires practiced rope systems and team coordination."
+    },
+    {
+      "question": "avalanche",
+      "answer": "An avalanche is a rapid movement of snow down a slope. Avalanche terrain requires current forecasts, specialized training, rescue equipment, and conservative decisions."
+    },
+    {
+      "question": "What is avalanche?",
+      "answer": "An avalanche is a rapid movement of snow down a slope. Avalanche terrain requires current forecasts, specialized training, rescue equipment, and conservative decisions."
+    },
+    {
+      "question": "What is avalanche",
+      "answer": "An avalanche is a rapid movement of snow down a slope. Avalanche terrain requires current forecasts, specialized training, rescue equipment, and conservative decisions."
+    },
+    {
+      "question": "safety",
+      "answer": "Mountain safety involves preparation, weather checks, suitable equipment, hazard awareness, communication, and willingness to turn around."
+    },
+    {
+      "question": "What is safety?",
+      "answer": "Mountain safety involves preparation, weather checks, suitable equipment, hazard awareness, communication, and willingness to turn around."
+    },
+    {
+      "question": "What is safety",
+      "answer": "Mountain safety involves preparation, weather checks, suitable equipment, hazard awareness, communication, and willingness to turn around."
+    },
+    {
+      "question": "equipment",
+      "answer": "Mountaineering equipment depends on the route and can include boots, layers, helmet, harness, rope, ice axe, crampons, navigation tools, food, water, and emergency supplies."
+    },
+    {
+      "question": "What is equipment?",
+      "answer": "Mountaineering equipment depends on the route and can include boots, layers, helmet, harness, rope, ice axe, crampons, navigation tools, food, water, and emergency supplies."
+    },
+    {
+      "question": "What is equipment",
+      "answer": "Mountaineering equipment depends on the route and can include boots, layers, helmet, harness, rope, ice axe, crampons, navigation tools, food, water, and emergency supplies."
+    },
+    {
+      "question": "women in climbing",
+      "answer": "Women have shaped climbing history through pioneering Alpine ascents and major Himalayan achievements. Notable figures include Annie Smith Peck, Junko Tabei, and Wanda Rutkiewicz."
+    },
+    {
+      "question": "What is women in climbing?",
+      "answer": "Women have shaped climbing history through pioneering Alpine ascents and major Himalayan achievements. Notable figures include Annie Smith Peck, Junko Tabei, and Wanda Rutkiewicz."
+    },
+    {
+      "question": "What is women in climbing",
+      "answer": "Women have shaped climbing history through pioneering Alpine ascents and major Himalayan achievements. Notable figures include Annie Smith Peck, Junko Tabei, and Wanda Rutkiewicz."
+    },
+    {
+      "question": "junko tabei",
+      "answer": "Junko Tabei was a Japanese mountaineer who became the first woman to summit Mount Everest in 1975 and later completed the Seven Summits."
+    },
+    {
+      "question": "What is junko tabei?",
+      "answer": "Junko Tabei was a Japanese mountaineer who became the first woman to summit Mount Everest in 1975 and later completed the Seven Summits."
+    },
+    {
+      "question": "What is junko tabei",
+      "answer": "Junko Tabei was a Japanese mountaineer who became the first woman to summit Mount Everest in 1975 and later completed the Seven Summits."
+    },
+    {
+      "question": "reinhold messner",
+      "answer": "Reinhold Messner is an Italian mountaineer known for influential high-altitude ascents and for becoming the first person widely recognized as having climbed all fourteen 8,000-metre peaks."
+    },
+    {
+      "question": "What is reinhold messner?",
+      "answer": "Reinhold Messner is an Italian mountaineer known for influential high-altitude ascents and for becoming the first person widely recognized as having climbed all fourteen 8,000-metre peaks."
+    },
+    {
+      "question": "What is reinhold messner",
+      "answer": "Reinhold Messner is an Italian mountaineer known for influential high-altitude ascents and for becoming the first person widely recognized as having climbed all fourteen 8,000-metre peaks."
+    },
+    {
+      "question": "edmund hillary",
+      "answer": "Edmund Hillary was a New Zealand mountaineer who reached Everest's summit with Tenzing Norgay on 29 May 1953."
+    },
+    {
+      "question": "What is edmund hillary?",
+      "answer": "Edmund Hillary was a New Zealand mountaineer who reached Everest's summit with Tenzing Norgay on 29 May 1953."
+    },
+    {
+      "question": "What is edmund hillary",
+      "answer": "Edmund Hillary was a New Zealand mountaineer who reached Everest's summit with Tenzing Norgay on 29 May 1953."
+    },
+    {
+      "question": "tenzing norgay",
+      "answer": "Tenzing Norgay was a Sherpa mountaineer who reached Everest's summit with Edmund Hillary on 29 May 1953."
+    },
+    {
+      "question": "What is tenzing norgay?",
+      "answer": "Tenzing Norgay was a Sherpa mountaineer who reached Everest's summit with Edmund Hillary on 29 May 1953."
+    },
+    {
+      "question": "What is tenzing norgay",
+      "answer": "Tenzing Norgay was a Sherpa mountaineer who reached Everest's summit with Edmund Hillary on 29 May 1953."
+    },
+    {
+      "question": "george mallory",
+      "answer": "George Mallory was a British mountaineer who disappeared with Andrew Irvine during an Everest attempt in 1924. Whether they reached the summit remains unresolved."
+    },
+    {
+      "question": "What is george mallory?",
+      "answer": "George Mallory was a British mountaineer who disappeared with Andrew Irvine during an Everest attempt in 1924. Whether they reached the summit remains unresolved."
+    },
+    {
+      "question": "What is george mallory",
+      "answer": "George Mallory was a British mountaineer who disappeared with Andrew Irvine during an Everest attempt in 1924. Whether they reached the summit remains unresolved."
+    },
+    {
+      "question": "leave no trace",
+      "answer": "Leave No Trace means minimizing environmental impact, respecting wildlife and local rules, and leaving natural places as undisturbed as possible."
+    },
+    {
+      "question": "summit fever",
+      "answer": "Summit fever is when the desire to reach the top overrides sound judgment. A clear turnaround time and honest team discussion help counter it."
+    },
+    {
+      "question": "turnaround time",
+      "answer": "A turnaround time is a pre-agreed deadline for stopping the ascent and descending, even if the summit has not been reached."
+    },
+    {
+      "question": "What is turnaround time?",
+      "answer": "A turnaround time is a pre-agreed deadline for stopping the ascent and descending, even if the summit has not been reached."
+    },
+    {
+      "question": "What is turnaround time",
+      "answer": "A turnaround time is a pre-agreed deadline for stopping the ascent and descending, even if the summit has not been reached."
+    },
+    {
+      "question": "mountain stories",
+      "answer": "Mountain stories can share expedition experiences, historical ascents, teamwork, difficult decisions, and lessons about respecting the mountains."
+    },
+    {
+      "question": "What is mountain stories?",
+      "answer": "Mountain stories can share expedition experiences, historical ascents, teamwork, difficult decisions, and lessons about respecting the mountains."
+    },
+    {
+      "question": "What is mountain stories",
+      "answer": "Mountain stories can share expedition experiences, historical ascents, teamwork, difficult decisions, and lessons about respecting the mountains."
+    }
+  ]
+}
