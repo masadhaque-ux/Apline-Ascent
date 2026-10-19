@@ -38,24 +38,14 @@ import { InnovationPage } from "./InnovationPage"
 import { GuidelinesPage } from "./GuidelinesPage"
 import { RecordSevenSummitsPage } from "./RecordSevenSummitsStaticPage"
 import { RecordSpeedPage } from "./RecordSpeedStaticPage"
-import  Sitemap from "./sitemap"
 
 function App() {
-    const [currentPage, setCurrentPage] = useState("home");
-    const navigateToPage = (page) => {
-        if (document.startViewTransition) {
-            document.startViewTransition(() => setCurrentPage(page));
-        } else {
-            setCurrentPage(page);
-        }
+    const [currentPage, setCurrentPageState] = useState("home");
+
+    const setCurrentPage = (page) => {
+        setCurrentPageState(page);
+        window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     };
-    useEffect(() => {
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: "instant"
-        });
-    }, [currentPage]);
     const [cart, setCart] = useState(() => {
         try {
             return JSON.parse(localStorage.getItem("alpineCart") || "[]");
@@ -82,7 +72,7 @@ function App() {
             }
             return [...currentCart, { ...product, quantity: Number(quantity || 1) }];
         });
-        navigateToPage("cart");
+        setCurrentPage("cart");
         window.scrollTo({ top: 0, left: 0, behavior: "instant" });
     };
 
@@ -111,12 +101,12 @@ function App() {
         <>
             <Navbar
                 currentPage={currentPage}
-                setCurrentPage={navigateToPage}
+                setCurrentPage={setCurrentPage}
                 cartCount={cartCount}
             />
 
-            <main className="pageTransition" key={currentPage}>
-                {currentPage === "home" && <HomePage setCurrentPage={navigateToPage} />}
+            <main>
+                {currentPage === "home" && <HomePage setCurrentPage={setCurrentPage} />}
 
                 {currentPage === "about" && <AboutPage />}
 
@@ -154,27 +144,27 @@ function App() {
                         />
                     )}
                     {currentPage === "techniques" && (
-                        <TechniquesStaticPage setCurrentPage={navigateToPage} />
+                        <TechniquesStaticPage setCurrentPage={setCurrentPage} />
                     )}
                     {currentPage === "techniques-crampons" && (
                         <TechniquesCramponsStaticPage
-                            setCurrentPage={navigateToPage}
+                            setCurrentPage={setCurrentPage}
                         />
                     )}
 
                     {currentPage === "techniques-crevasse" && (
                         <TechniquesCrevasseStaticPage
-                            setCurrentPage={navigateToPage}
+                            setCurrentPage={setCurrentPage}
                         />
                     )}
                     {currentPage === "techniques-self-arrest" && (
                         <TechniquesSelfArrestStaticPage
-                            setCurrentPage={navigateToPage}
+                            setCurrentPage={setCurrentPage}
                         />
                     )}
                     {currentPage === "techniques-styles" && (
                         <TechniquesStylesStaticPage
-                            setCurrentPage={navigateToPage}
+                            setCurrentPage={setCurrentPage}
                         />
                     )}
                     {currentPage === "stories" && (
@@ -191,7 +181,7 @@ function App() {
                             onNavigate={setCurrentPage}
                         />
                     )}
-                    {currentPage === "story-montblanc" && (
+                    {(currentPage === "story-montblanc" || currentPage === "story-mont-blanc") && (
                         <StoryMontBlancPage
                             onNavigate={setCurrentPage}
                         />
@@ -201,22 +191,22 @@ function App() {
                             onNavigate={setCurrentPage}
                         />
                     )}
-                    {currentPage === "climbing-record" && (
+                    {(currentPage === "climbing-record" || currentPage === "records") && (
                         <RecordsPage
                             onNavigate={setCurrentPage}
                         />
                     )}
-                    {currentPage === "eight-record" && (
+                    {(currentPage === "eight-record" || currentPage === "record-eight-thousanders") && (
                         <RecordEightThousandersPage
                             onNavigate={setCurrentPage}
                         />
                     )}
-                    {currentPage === "record-milestone" && (
+                    {(currentPage === "record-milestone" || currentPage === "record-milestones") && (
                         <RecordMilestonesPage
                             onNavigate={setCurrentPage}
                         />
                     )}
-                     {currentPage === "record-sevensummit" && (
+                     {(currentPage === "record-sevensummit" || currentPage === "record-seven-summits") && (
                         <RecordSevenSummitsPage
                             onNavigate={setCurrentPage}
                         />
@@ -251,16 +241,11 @@ function App() {
                             onNavigate={setCurrentPage}
                         />
                     )}
-                     {currentPage === "sitemap-page" && (
-                        <Sitemap
-                            onNavigate={setCurrentPage}
-                        />
-                    )}
                     
             </main>
 
 
-            <Footer setCurrentPage={navigateToPage} />
+            <Footer setCurrentPage={setCurrentPage} />
         </>
     );
 }

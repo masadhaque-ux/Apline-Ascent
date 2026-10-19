@@ -4,6 +4,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
     const [showAccount, setShowAccount] = useState(false);
     const [showRegister, setShowRegister] = useState(false);
     const [showCart, setShowCart] = useState(false);
+
     useEffect(() => {
         let visitor = localStorage.getItem("visitors");
 
@@ -19,7 +20,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
     return (
         <header className="navbar">
-            <div className="navWrap">
+            <div className="nav-container">
 
                 <a
                     href="#"
@@ -29,9 +30,9 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                         setCurrentPage("home");
                     }}
                 >
-                    <span className="logoIcon">
+                    <span className="logo-icon">
                         <img
-                            src="src/assets/images/logo3.png"
+                            src={`${import.meta.env.BASE_URL}src/assets/images/logo3.svg`}
                             alt="Alpine Ascent Logo"
                         />
                     </span>
@@ -42,24 +43,29 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                 </a>
 
                 {/* Visitor Counter */}
-                <div className="visitCounter">
-                    <span className="visitIcon">👥</span>
-                    <div className="visitDet">
-                        <span className="visitLabel">Visitors</span>
+                <div className="visitor-counter">
+                    <span className="visitor-icon">👥</span>
+                    <div className="visitor-details">
+                        <span className="visitor-label">Visitors</span>
                         <strong id="para">{visitorCount.toLocaleString()}</strong>
                     </div>
                 </div>
 
                 <input type="checkbox" id="menu-toggle" />
 
-                <label htmlFor="menu-toggle" className="menuBtn">
+                <label htmlFor="menu-toggle" className="menu-button">
                     ☰
                 </label>
 
-              <nav className="navMenu">
+                {/* KEEP YOUR EXISTING nav-menu HERE */}
 
-                    <a href="#"
-                        className={`navLink ${
+
+                <nav className="nav-menu">
+
+                    {/* Home */}
+                    <a
+                        href="#"
+                        className={`nav-link ${
                             currentPage === "home" ? "active" : ""
                         }`}
                         onClick={(e) => {
@@ -72,9 +78,11 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                         <button>Home</button>
                     </a>
 
+
+                    {/* About */}
                     <div className="dropdown">
 
-                        <a href="#" className={`navLink ${currentPage === "about" ? "active" : "" }`}
+                        <a href="#" className={`nav-link ${currentPage === "about" ? "active" : "" }`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("about");
@@ -83,9 +91,9 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             <button>About</button>
                         </a>
 
-                        <div className="dropdownMenu">
+                        <div className="dropdown-menu">
 
-                            <a href="#" className={`navLink ${currentPage === "about-essence" ? "active" : "" }`}
+                            <a href="#" className={`nav-link ${currentPage === "about-essence" ? "active" : "" }`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("about-essence");
@@ -99,7 +107,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
                         <a
                             href="#"
-                            className={`navLink ${currentPage === "about-tiers" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "about-tiers" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("about-tiers");
@@ -111,7 +119,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </small>
                         </a>
 
-                        <a href="#" className={`navLink ${currentPage === "about-philosophy" ? "active" : ""}`}
+                        <a href="#" className={`nav-link ${currentPage === "about-philosophy" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("about-philosophy");
@@ -132,7 +140,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
     <a
         href="#"
-        className={`navLink ${currentPage === "history" ? "active" : ""}`}
+        className={`nav-link ${currentPage === "history" ? "active" : ""}`}
         onClick={(e) => {
             e.preventDefault();
             setCurrentPage("history");
@@ -141,11 +149,11 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
         <button>History</button>
     </a>
 
-    <div className="dropdownMenu">
+    <div className="dropdown-menu">
 
         <a
             href="#"
-            className={`navLink ${currentPage === "pioneering" ? "active" : ""}`}
+            className={`nav-link ${currentPage === "pioneering" ? "active" : ""}`}
             onClick={(e) => {
                 e.preventDefault();
                 setCurrentPage("pioneering");
@@ -159,7 +167,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
         <a
             href="#"
-            className={`navLink ${currentPage === "golden-age" ? "active" : ""}`}
+            className={`nav-link ${currentPage === "golden-age" ? "active" : ""}`}
             onClick={(e) => {
                 e.preventDefault();
                 setCurrentPage("golden-age");
@@ -173,7 +181,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
         <a
             href="#"
-            className={`navLink ${currentPage === "8000-giants" ? "active" : ""}`}
+            className={`nav-link ${currentPage === "8000-giants" ? "active" : ""}`}
             onClick={(e) => {
                 e.preventDefault();
                 setCurrentPage("8000-giants");
@@ -187,7 +195,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
         <a
             href="#"
-            className={`navLink ${currentPage === "modern-alpinism" ? "active" : ""}`}
+            className={`nav-link ${currentPage === "modern-alpinism" ? "active" : ""}`}
             onClick={(e) => {
                 e.preventDefault();
                 setCurrentPage("modern-alpinism");
@@ -203,11 +211,12 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
 </div>
 
+                    {/* Techniques */}
                     <div className="dropdown">
 
                         <a
                             href="#"
-                            className={`navLink ${currentPage === "techniques" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "techniques" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("techniques");
@@ -216,10 +225,10 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             <button>Techniques</button>
                         </a>
 
-                        <div className="dropdownMenu">
+                        <div className="dropdown-menu">
 
                             <a href="#"
-                            className={`navLink ${currentPage === "techniques-styles" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "techniques-styles" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("techniques-styles");
@@ -233,7 +242,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
                             <a
                             href="#"
-                            className={`navLink ${currentPage === "techniques-crampons" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "techniques-crampons" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("techniques-crampons");
@@ -247,7 +256,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a href="#"
-                            className={`navLink ${currentPage === "techniques-self-arrest" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "techniques-self-arrest" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("techniques-self-arrest");
@@ -261,7 +270,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
                           <a
                             href="#"
-                            className={`navLink ${currentPage === "techniques-crevasse" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "techniques-crevasse" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("techniques-crevasse");
@@ -277,21 +286,23 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
                     </div>
 
+
+                    {/* Gallery */}
                     <div className="dropdown">
                         <a 
                         href="#"
-                        className={`navLink ${currentPage === "gallery-all" ? "active" : ""}`}
+                        className={`nav-link ${currentPage === "gallery" ? "active" : ""}`}
                          onClick={(e) => {
                             e.preventDefault();
-                            setCurrentPage("gallery-all");
+                            setCurrentPage("gallery");
                         }}
                          >
                             <button>Gallery</button>
                             </a>
-                       <div className="dropdownMenu">
+                       <div className="dropdown-menu">
                        <a
                             href="#"
-                            className={`navLink ${currentPage === "gallery-photos" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "gallery-photos" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("gallery-photos");
@@ -304,7 +315,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                         </a>
                         <a
                             href="#"
-                            className={`navLink ${currentPage === "gallery-videos" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "gallery-videos" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("gallery-videos");
@@ -316,15 +327,28 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </small>
                         </a>
                         
-                       
+                        <a
+                            href="#"
+                            className={`nav-link ${currentPage === "gallery-all" ? "active" : ""}`}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                setCurrentPage("gallery-all");
+                            }}
+                        >
+                            <strong>All Multimedia</strong>
+                            <small>
+                                All Photos & Videos
+                            </small>
+                        </a>
                         
                         </div>
                         </div>
 
+                    {/* Accessories */}
                     <div className="dropdown2">
                         <a 
                         href="#"
-                        className={`navLink ${currentPage === "accessories" ? "active" : ""}`}
+                        className={`nav-link ${currentPage === "accessories" ? "active" : ""}`}
                          onClick={(e) => {
                             e.preventDefault();
                             setCurrentPage("accessories");
@@ -334,10 +358,12 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
                     </div>
 
+
+                    {/* Stories */}
                     <div className="dropdown">
 
                         <a href="#"
-                        className={`navLink ${currentPage === "stories" ? "active" : ""}`}
+                        className={`nav-link ${currentPage === "stories" ? "active" : ""}`}
                          onClick={(e) => {
                             e.preventDefault();
                             setCurrentPage("stories");
@@ -346,10 +372,10 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             <button>Stories</button>
                         </a>
 
-                        <div className="dropdownMenu">
+                        <div className="dropdown-menu">
 
                             <a  href="#"
-                        className={`navLink ${currentPage === "story-aconcagua" ? "active" : ""}`}
+                        className={`nav-link ${currentPage === "story-aconcagua" ? "active" : ""}`}
                          onClick={(e) => {
                             e.preventDefault();
                             setCurrentPage("story-aconcagua");
@@ -362,7 +388,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a href="#"
-                            className={`navLink ${currentPage === "story-denali" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "story-denali" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("story-denali");
@@ -375,7 +401,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a href="#"
-                            className={`navLink ${currentPage === "story-kilimanjaro" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "story-kilimanjaro" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("story-kilimanjaro");
@@ -388,7 +414,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a  href="#"
-                            className={`navLink ${currentPage === "story-montblanc" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "story-montblanc" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("story-montblanc");
@@ -400,8 +426,8 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                                 </small>
                             </a>
 
-                            {/* <a href="#"
-                            className={`navLink ${currentPage === "story-rainier" ? "active" : ""}`}
+                            <a href="#"
+                            className={`nav-link ${currentPage === "story-rainier" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("story-rainier");
@@ -411,7 +437,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                                 <small>
                                     Highest Peak in Washington and the Cascade Range
                                 </small>
-                            </a> */}
+                            </a>
 
                         </div>
 
@@ -422,7 +448,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                      <div className="dropdown">
 
                         <a href="#"
-                            className={`navLink ${currentPage === "climbing-record" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "climbing-record" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("climbing-record");
@@ -431,10 +457,10 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             <button>Records</button>
                         </a>
 
-                        <div className="dropdownMenu">
+                        <div className="dropdown-menu">
 
                             <a href="#"
-                            className={`navLink ${currentPage === "eight-record" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "eight-record" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("eight-record");
@@ -447,24 +473,24 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a href="#"
-                            className={`navLink ${currentPage === "record-milestone" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "record-milestone" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("record-milestone");
                         }}
                          >
-                                <strong>Winter Feat</strong>
+                                <strong>Milestone Ascents</strong>
                                 <small>
-                                    Specialized cold-weather systems
+                                    Age-related and other milestone
                                 </small>
                             </a>
 
-                             <a href="#" className={`navLink ${currentPage === "record-sevensummit" ? "active" : ""}`} onClick={(e) => { e.preventDefault(); setCurrentPage("record-sevensummit"); }}>
+                             <a href="#" className={`nav-link ${currentPage === "record-sevensummit" ? "active" : ""}`} onClick={(e) => { e.preventDefault(); setCurrentPage("record-sevensummit"); }}>
                                 <strong>Seven Summit Record</strong>
                                 <small>Highest Peak of Each Continent</small>
                             </a>
 
-                            <a href="#" className={`navLink ${currentPage === "record-speed" ? "active" : ""}`} onClick={(e) => { e.preventDefault(); setCurrentPage("record-speed"); }}>
+                            <a href="#" className={`nav-link ${currentPage === "record-speed" ? "active" : ""}`} onClick={(e) => { e.preventDefault(); setCurrentPage("record-speed"); }}>
                                 <strong>Speed Record</strong>
                                 <small>Speed records depend on route</small>
                             </a>
@@ -477,14 +503,14 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                     {/* More */}
                     <div className="dropdown">
 
-                        <a href="#" className={`navLink ${currentPage === "shelter-page" ? "active" : ""}`} onClick={(e) => { e.preventDefault(); setCurrentPage("shelter-page"); }}>
+                        <a href="#" className={`nav-link ${currentPage === "shelter-page" ? "active" : ""}`} onClick={(e) => { e.preventDefault(); setCurrentPage("shelter-page"); }}>
                             <button>More</button>
                         </a>
 
-                        <div className="dropdownMenu">
+                        <div className="dropdown-menu">
 
                             <a href="#"
-                            className={`navLink ${currentPage === "shelter-page" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "shelter-page" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("shelter-page");
@@ -497,7 +523,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a href="#"
-                            className={`navLink ${currentPage === "hazards-page" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "hazards-page" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("hazards-page");
@@ -510,7 +536,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a href="#"
-                            className={`navLink ${currentPage === "clubmap-page" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "clubmap-page" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("clubmap-page");
@@ -523,7 +549,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a href="#"
-                            className={`navLink ${currentPage === "innovation-page" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "innovation-page" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("innovation-page");
@@ -536,7 +562,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                             </a>
 
                             <a href="#"
-                            className={`navLink ${currentPage === "guidelines-page" ? "active" : ""}`}
+                            className={`nav-link ${currentPage === "guidelines-page" ? "active" : ""}`}
                             onClick={(e) => {
                                 e.preventDefault();
                                 setCurrentPage("guidelines-page");
@@ -554,7 +580,7 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
 
                 </nav>
 
-             <div className="accCartOptions">
+                <div className="account-cart-options">
                     <button type="button" onClick={() => { setShowAccount(true); setShowRegister(false); setShowCart(false); }}>
                         Sign In
                     </button>
@@ -572,9 +598,9 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                 </div>
 
                 {showAccount && (
-                    <div className="accPopupOverlay" onClick={() => setShowAccount(false)}>
-                        <div className="accPopup" role="dialog" aria-modal="true" aria-label={showRegister ? "Register" : "Sign in"} onClick={(e) => e.stopPropagation()}>
-                            <button className="popupClose" type="button" onClick={() => setShowAccount(false)} aria-label="Close popup">×</button>
+                    <div className="account-popup-overlay" onClick={() => setShowAccount(false)}>
+                        <div className="account-popup" role="dialog" aria-modal="true" aria-label={showRegister ? "Register" : "Sign in"} onClick={(e) => e.stopPropagation()}>
+                            <button className="popup-close" type="button" onClick={() => setShowAccount(false)} aria-label="Close popup">×</button>
                             <h2>{showRegister ? "Create Account" : "Sign In"}</h2>
                             <form onSubmit={(e) => { e.preventDefault(); alert(showRegister ? "Registration form submitted. Connect this form to a backend to create an account." : "Sign-in form submitted. Connect this form to a backend to verify your account."); }}>
                                 {showRegister && 
@@ -583,16 +609,15 @@ function Navbar({ setCurrentPage, currentPage, cartCount = 0 }) {
                                 <input type="password" placeholder="Password" aria-label="Password" required />
                                 {showRegister && 
                                 <input type="password" placeholder="Confirm password" aria-label="Confirm password" required />}
-                                <button className="popupSubmit" type="submit">{showRegister ? "Register" : "Sign In"}</button>
+                                <button className="popup-submit" type="submit">{showRegister ? "Register" : "Sign In"}</button>
                             </form>
-                            <p className="popupRegText">
+                            <p className="popup-register-text">
                                 {showRegister ? "Already have an account?" : "New user?"}{" "}
                                 <button type="button" onClick={() => setShowRegister(!showRegister)}>{showRegister ? "Sign in" : "Register here"}</button>
                             </p>
                         </div>
                     </div>
                 )}
-
 
 
             </div>
@@ -614,8 +639,8 @@ function DateTimeTicker() {
     }, []);
 
     return (
-        <div className="dateTimeTicker" aria-label="Current date and time" tabIndex="0">
-            <div className="tickerText">
+        <div className="date-time-ticker" aria-label="Current date and time" tabIndex="0">
+            <div className="ticker-text">
                 Current Date &amp; Time:{" "}
                 {currentTime.toLocaleDateString('en-UK')}{" "}
                 | {currentTime.toLocaleTimeString()}
@@ -628,13 +653,13 @@ function DateTimeTicker() {
 function Footer({ setCurrentPage = () => {} }) {
     return (
         <>
-        <footer className="foot">
+        <footer className="footer">
 
-            <div className="footWrap">
+            <div className="footer-container">
 
-                <div className="footBrand">
+                <div className="footer-brand">
 
-                    <div className="footLogo">
+                    <div className="footer-logo">
 
                         <span>
                             <strong>Alpine</strong> Ascent
@@ -654,7 +679,7 @@ function Footer({ setCurrentPage = () => {} }) {
                 </div>
 
 
-                <div className="footColumn">
+                <div className="footer-column">
 
                     <h3>
                         Knowledge Core
@@ -670,7 +695,7 @@ function Footer({ setCurrentPage = () => {} }) {
                 </div>
 
 
-                <div className="footColumn">
+                <div className="footer-column">
 
                     <h3>
                         Field & Community
@@ -683,11 +708,11 @@ function Footer({ setCurrentPage = () => {} }) {
                     <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("accessories"); }}>Climbing Accessories</a>
                     <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("innovation-page"); }}>Latest Technology</a>
                     <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("guidelines-page"); }}>Mountain Guidelines</a>
-                    <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("sitemap-page"); }}>Sitemap</a>
+
                 </div>
 
 
-                <div className="footColumn news">
+                <div className="footer-column newsletter">
 
                     <h3>
                         Alpine Weather Dispatch
@@ -717,7 +742,7 @@ function Footer({ setCurrentPage = () => {} }) {
             </div>
 
 
-            <div className="footBottom">
+            <div className="footer-bottom">
                 <DateTimeTicker />
             </div>
 
@@ -777,27 +802,27 @@ function Chatbot() {
     }
 
     return (
-        <div className="chatbotRoot">
+        <div className="aa-chatbot-root">
            
             {isOpen && (
-                <section className="chatWindow" role="dialog" aria-label="Alpine Ascent chatbot">
-                    <div className="aachatheader">
-                        <div><h2 className="aachatheading">Alpine Ascent Assistant</h2><span className="chatSubhead">Your mountain knowledge companion</span></div>
-                        <button className="chatClose" type="button" onClick={() => setIsOpen(false)} aria-label="Close chat">×</button>
+                <section className="aa-chat-window" role="dialog" aria-label="Alpine Ascent chatbot">
+                    <div className="aa-chat-header">
+                        <div><h2 className="aa-chat-heading">Alpine Ascent Assistant</h2><span className="aa-chat-subheading">Your mountain knowledge companion</span></div>
+                        <button className="aa-chat-close" type="button" onClick={() => setIsOpen(false)} aria-label="Close chat">×</button>
                     </div>
-                    <div className="chatMessages" aria-live="polite">
+                    <div className="aa-chat-messages" aria-live="polite">
                         {messages.map((message, index) => (
-                            <div className={`chatMessage ${message.type}`} key={`${index}-${message.type}`}>{message.text}</div>
+                            <div className={`aa-chat-message ${message.type}`} key={`${index}-${message.type}`}>{message.text}</div>
                         ))}
                         <div ref={messagesEndRef} />
                     </div>
-                    <form className="chatForm" onSubmit={sendMessage}>
-                        <input className="chatInput" type="text" value={userInput} onChange={(event) => setUserInput(event.target.value)} placeholder="Ask about the mountains..." aria-label="Type your message" />
-                        <button className="chatSend" type="submit">Send</button>
+                    <form className="aa-chat-form" onSubmit={sendMessage}>
+                        <input className="aa-chat-input" type="text" value={userInput} onChange={(event) => setUserInput(event.target.value)} placeholder="Ask about the mountains..." aria-label="Type your message" />
+                        <button className="aa-chat-send" type="submit">Send</button>
                     </form>
                 </section>
             )}
-            <button className="chatToggle" type="button" onClick={() => setIsOpen((open) => !open)} aria-label={isOpen ? "Close chatbot" : "Open chatbot"} aria-expanded={isOpen}>
+            <button className="aa-chat-toggle" type="button" onClick={() => setIsOpen((open) => !open)} aria-label={isOpen ? "Close chatbot" : "Open chatbot"} aria-expanded={isOpen}>
                 {isOpen ? (
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M18 6 6 18M6 6l12 12" /></svg>
                 ) : (

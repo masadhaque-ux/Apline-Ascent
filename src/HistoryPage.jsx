@@ -6,17 +6,17 @@ function HistoryPage() {
   const [selected, setSelected] = useState(milestones[0]);
 
   return (
-    <div className="histPage">
+    <div className="history-page">
 
-      <section className="mountSec">
-        <div className="mountCont">
-          <p className="orgTop">Chronicles of Human</p>
+      <section className="mountaineering-section">
+        <div className="mountaineering-content">
+          <p className="orange-top">Chronicles of Human</p>
 
-          <span className="mountLabel">
+          <span className="mountaineering-label">
             History of Mountaineering
           </span>
 
-          <p className="labelWhite">
+          <p className="label-white">
             From the 1786 conquest of Mont Blanc to the
             <span style={{ color: "var(--orange)" }}>
               <strong>
@@ -31,9 +31,9 @@ function HistoryPage() {
         </div>
       </section>
 
-      <section className="histHero">
+      <section className="history-hero">
 
-        <p className="histTopOrg">
+        <p className="history-top-orange">
           ALPINE ASCENT / HISTORY
         </p>
 
@@ -47,28 +47,28 @@ function HistoryPage() {
 
       </section>
 
-      <section className="milesSec">
+      <section className="milestones-section">
 
-        <div className="milesList">
+        <div className="milestones-list">
 
           {milestones.map((item) => (
             <button
-              className={`mileBox ${
+              className={`milestone-box ${
                 selected.year === item.year ? "active" : ""
               }`}
               key={item.year}
               onClick={() => setSelected(item)}
             >
 
-              <span className="mileYear">
+              <span className="milestone-year">
                 {item.year}
               </span>
 
-              <span className="mileTitle">
+              <span className="milestone-title">
                 {item.title}
               </span>
 
-              <span className="milePeak">
+              <span className="milestone-peak">
                 {item.peak}
               </span>
 
@@ -77,19 +77,19 @@ function HistoryPage() {
 
         </div>
 
-        <div className="mileDetail">
+        <div className="milestone-detail">
 
-          <p className="detailLabel">
+          <p className="detail-label">
             {selected.era}
           </p>
 
           <h2>{selected.title}</h2>
 
-          <div className="detailYear">
+          <div className="detail-year">
             {selected.year}
           </div>
 
-          <div className="detailInfo">
+          <div className="detail-info">
 
             <div>
               <span>PEAK</span>
@@ -108,7 +108,7 @@ function HistoryPage() {
 
           </div>
 
-          <p className="detailText">
+          <p className="detail-text">
             {selected.details}
           </p>
 

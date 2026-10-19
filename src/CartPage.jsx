@@ -10,26 +10,26 @@ function CartPage({ cart = [], onRemove, onQuantityChange, onNavigate }) {
     );
 
     return (
-        <main className="cartPage">
-            <div className="cartWrap">
-                <p className="cartSmall">ALPINE ASCENT STORE</p>
+        <main className="aa-cart-page">
+            <div className="aa-cart-container">
+                <p className="aa-cart-eyebrow">ALPINE ASCENT STORE</p>
                 <h1>Your <span>Shopping Cart</span></h1>
-                <p className="cartIntro">Manage your mountain gear before checkout.</p>
+                <p className="aa-cart-intro">Manage your mountain gear before checkout.</p>
 
                 {cart.length === 0 ? (
-                    <section className="cartEmpty">
-                        <div className="cartEmptyIcon">🛒</div>
+                    <section className="aa-cart-empty">
+                        <div className="aa-cart-empty-icon">🛒</div>
                         <h2>Your cart is empty</h2>
                         <p>Find the equipment you need for your next adventure.</p>
                         <button onClick={() => onNavigate("accessories")}>Browse Store</button>
                     </section>
                 ) : (
-                    <div className="cartGrid">
-                        <section className="cartItems">
+                    <div className="aa-cart-grid">
+                        <section className="aa-cart-items">
                             <h2>Cart Items <span>({itemCount})</span></h2>
                             {cart.map((item) => (
-                                <article className="cartItem" key={item.id}>
-                                    <div className="cartImg">
+                                <article className="aa-cart-item" key={item.id}>
+                                    <div className="aa-cart-image">
                                         {item.image ? (
                                             <img
                                                 src={item.image.startsWith("/") ? item.image : `/${item.image}`}
@@ -37,10 +37,10 @@ function CartPage({ cart = [], onRemove, onQuantityChange, onNavigate }) {
                                             />
                                         ) : <span>🏔️</span>}
                                     </div>
-                                    <div className="cartInfo">
+                                    <div className="aa-cart-info">
                                         <h3>{item.name || item.title || "Mountaineering item"}</h3>
-                                        <p className="cartUnitPrice">Rs {priceOf(item).toLocaleString()}</p>
-                                        <div className="cartCtrl">
+                                        <p className="aa-cart-unit-price">Rs {priceOf(item).toLocaleString()}</p>
+                                        <div className="aa-cart-controls">
                                             <label>
                                                 Qty
                                                 <input
@@ -53,31 +53,31 @@ function CartPage({ cart = [], onRemove, onQuantityChange, onNavigate }) {
                                                     }
                                                 />
                                             </label>
-                                            <button className="cartDel" onClick={() => onRemove(item.id)}>
+                                            <button className="aa-cart-remove" onClick={() => onRemove(item.id)}>
                                                 Remove
                                             </button>
                                         </div>
                                     </div>
-                                    <strong className="cartLineTotal">
+                                    <strong className="aa-cart-line-total">
                                         Rs {(priceOf(item) * Number(item.quantity || 1)).toLocaleString()}
                                     </strong>
                                 </article>
                             ))}
                         </section>
 
-                        <aside className="cartSum">
+                        <aside className="aa-cart-summary">
                             <h2>Order Summary</h2>
-                            <div className="cartSumRow">
+                            <div className="aa-cart-summary-row">
                                 <span>Total items</span><strong>{itemCount}</strong>
                             </div>
-                            <div className="cartSumRow cartTotal">
+                            <div className="aa-cart-summary-row aa-cart-subtotal">
                                 <span>Subtotal</span><strong>Rs {subtotal.toLocaleString()}</strong>
                             </div>
                             <p>Shipping and any applicable taxes are calculated separately.</p>
-                            <button className="cartCheck" onClick={() => alert("Your cart is saved. Checkout and payment processing have not been configured yet.")}>
+                            <button className="aa-cart-checkout" onClick={() => alert("Your cart is saved. Checkout and payment processing have not been configured yet.")}>
                                 Proceed to Checkout
                             </button>
-                            <button className="cartNext" onClick={() => onNavigate("accessories")}>
+                            <button className="aa-cart-continue" onClick={() => onNavigate("accessories")}>
                                 Continue Shopping
                             </button>
                         </aside>

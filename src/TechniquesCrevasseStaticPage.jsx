@@ -12,8 +12,8 @@ export const TechniquesCrevasseStaticPage = ({ setCurrentPage }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">Rope teams &amp; rescue</div>
+                <div className="hero-inner">
+                    <div className="eyebrow">Rope teams &amp; rescue</div>
                     <h1>Crevasse Rescue &amp; Hauling Systems</h1>
                     <p>
                         Crevasse rescue depends on team preparation, a secure
@@ -25,9 +25,9 @@ export const TechniquesCrevasseStaticPage = ({ setCurrentPage }) => {
                 </div>
             </section>
 
-            <section className="techSec">
-                <div className="wrap">
-                    <div className="crumb">
+            <section className="techniques-section">
+                <div className="container">
+                    <div className="breadcrumb">
                         <button
                             type="button"
                             className="link"
@@ -38,8 +38,8 @@ export const TechniquesCrevasseStaticPage = ({ setCurrentPage }) => {
                         {" / "}Crevasse Rescue &amp; Hauling Systems
                     </div>
 
-                    <div className="contGrid">
-                        <section className="contCard">
+                    <div className="content-grid">
+                        <section className="content-card">
                             <span className="tag">Rope teams &amp; rescue</span>
                             <h2>Crevasse Rescue &amp; Hauling Systems</h2>
                             <p>
@@ -83,10 +83,29 @@ export const TechniquesCrevasseStaticPage = ({ setCurrentPage }) => {
                         </section>
 
                         <aside>
-                            <div className="contCard">
+                            <div className="content-card">
                                 <h2>Related techniques</h2>
                                 <div className="pills">
-                                    
+                                    <button
+                                        type="button"
+                                        onClick={() => navigateTo("techniques-styles")}
+                                    >
+                                        Alpine vs Siege Styles
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        onClick={() => navigateTo("techniques-crampons")}
+                                    >
+                                        Crampon Mechanics
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        onClick={() => navigateTo("techniques-self-arrest")}
+                                    >
+                                        Self-Arrest &amp; Axe Drills
+                                    </button>
                                 </div>
                                 <p>
                                     Preparation, judgment, and supervised
@@ -96,8 +115,8 @@ export const TechniquesCrevasseStaticPage = ({ setCurrentPage }) => {
                             </div>
 
                             <img
-                                className="techImg"
-                                src="src/assets/images/climbing_technique_1790702882353.jpg"
+                                className="techniques-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                                 alt="Mountaineering training on snow and ice"
                             />
                         </aside>

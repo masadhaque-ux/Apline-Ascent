@@ -2,10 +2,10 @@ import "./PhilosophyAndCreed.css";
 
 function PhilosophyAndCreed() {
     return (
-        <main className="aboutPage">
+        <main className="about-page">
 
-            <section className="pageHead">
-                <span className="catBadge">ABOUT · ALPINE ETHICS</span>
+            <section className="page-header">
+                <span className="category-badge">ABOUT · ALPINE ETHICS</span>
 
                 <h1>The Philosophy &amp; Unwritten Code</h1>
 
@@ -15,10 +15,10 @@ function PhilosophyAndCreed() {
                 </p>
             </section>
 
-            <section className="contArea">
+            <section className="content-area">
 
-                <div className="fellowshipBox">
-                    <div className="secLabel">
+                <div className="fellowship-box">
+                    <div className="section-label">
                         ♥ &nbsp; FELLOWSHIP OF THE ROPE
                     </div>
 
@@ -33,14 +33,14 @@ function PhilosophyAndCreed() {
                     </p>
                 </div>
 
-                <h2 className="pillarsTitle">
+                <h2 className="pillars-title">
                     The 4 Pillars of Alpine Ethics
                 </h2>
 
-                <div className="pillarGrid">
+                <div className="pillar-grid">
 
-                    <article className="pillarCard">
-                        <div className="pillarNumber">PILLAR 01</div>
+                    <article className="pillar-card">
+                        <div className="pillar-number">PILLAR 01</div>
 
                         <h3>Self-Reliance Over Entitlement</h3>
 
@@ -51,8 +51,8 @@ function PhilosophyAndCreed() {
                         </p>
                     </article>
 
-                    <article className="pillarCard">
-                        <div className="pillarNumber">PILLAR 02</div>
+                    <article className="pillar-card">
+                        <div className="pillar-number">PILLAR 02</div>
 
                         <h3>The Summit is Optional; Returning is Mandatory</h3>
 
@@ -64,8 +64,8 @@ function PhilosophyAndCreed() {
                         </p>
                     </article>
 
-                    <article className="pillarCard">
-                        <div className="pillarNumber">PILLAR 03</div>
+                    <article className="pillar-card">
+                        <div className="pillar-number">PILLAR 03</div>
 
                         <h3>Pure Clean Climbing &amp; LNT</h3>
 
@@ -76,8 +76,8 @@ function PhilosophyAndCreed() {
                         </p>
                     </article>
 
-                    <article className="pillarCard">
-                        <div className="pillarNumber">PILLAR 04</div>
+                    <article className="pillar-card">
+                        <div className="pillar-number">PILLAR 04</div>
 
                         <h3>Humility Before the Heights</h3>
 
@@ -90,8 +90,8 @@ function PhilosophyAndCreed() {
 
                 </div>
 
-                <div className="pageNav">
-                    <a href="#history" className="nextBtn">
+                <div className="page-navigation">
+                    <a href="#history" className="next-button">
                         Explore Pioneers of 1786 →
                     </a>
                 </div>

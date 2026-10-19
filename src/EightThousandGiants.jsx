@@ -2,16 +2,16 @@ import "./History.css";
 
 export function EightThousandGiants() {
   return (
-    <div className="histSubpage">
-      <section className="histHero">
-        <p className="small">ALPINE ASCENT / HISTORY</p>
+    <div className="history-subpage">
+      <section className="history-hero">
+        <p className="eyebrow">ALPINE ASCENT / HISTORY</p>
         <h1>8,000m Giants</h1>
         <p>
           The extraordinary race to climb the highest mountains on Earth.
         </p>
       </section>
 
-      <section className="histCont">
+      <section className="history-content">
         <h2>The Himalayan Era</h2>
         <p>
           The twentieth century brought mountaineering into the extreme
@@ -19,7 +19,7 @@ export function EightThousandGiants() {
           metres.
         </p>
 
-        <div className="histCard">
+        <div className="history-card">
           <span>1950</span>
           <h3>Annapurna I</h3>
           <p>
@@ -28,7 +28,7 @@ export function EightThousandGiants() {
           </p>
         </div>
 
-        <div className="histCard">
+        <div className="history-card">
           <span>1953</span>
           <h3>Mount Everest</h3>
           <p>

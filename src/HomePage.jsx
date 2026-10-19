@@ -2,86 +2,86 @@ import "./home.css";
 
 function HomePage({ setCurrentPage = () => {} }) {
     return (
-        <main className="homePage">
+        <main className="home-page">
 
-            <section className="heroSec">
+            <section className="hero-section">
 
-                <div className="heroBg">
-                    <img src="src/assets/images/hero_alpine_ascent_1790702854836.jpg" alt="High altitude Himalayan mountain peaks" />
+                <div className="hero-background">
+                    <img src={`${import.meta.env.BASE_URL}src/assets/images/hero_alpine_ascent_1790702854836.jpg`} alt="High altitude Himalayan mountain peaks" />
                 </div>
 
-                <div className="heroOverlay"></div>
+                <div className="hero-overlay"></div>
 
-                <div className="heroCont">
+                <div className="hero-content">
 
-                    <div className="heroBadge">
-                        <span className="badgeDot">●</span>
+                    <div className="hero-badge">
+                        <span className="badge-dot">●</span>
                         Setting International Mountaineering &amp; Guiding Standards
                     </div>
 
-                    <h1 className="heroTitle">
+                    <h1 className="hero-title">
                         <span>The Summit</span>
                         <span> Awaits. <strong>Master</strong> </span>
                         <span>Alpine Ascents.</span>
                     </h1>
 
-                    <p className="heroDesc">
+                    <p className="hero-description">
                         Unparalleled mountain adventures, world-standard high-altitude
                         guiding, and comprehensive knowledge for every mountaineer.
                         From fundamental snow craft to 8,000-meter Himalayan giants.
                     </p>
 
-                    <div className="heroActions">
+                    <div className="hero-actions">
 
-                        <a href="#" className="heroBtn mainBtn" onClick={(e) => { e.preventDefault(); setCurrentPage("guidelines-page"); }}>
-                            <span className="btnIcon">◉</span>
+                        <a href="#" className="hero-button primary-button" onClick={(e) => { e.preventDefault(); setCurrentPage("guidelines-page"); }}>
+                            <span className="button-icon">◉</span>
                             Explore Mountaineering Guide
                         </a>
 
-                        <a href="#" className="heroBtn subBtn" onClick={(e) => { e.preventDefault(); setCurrentPage("clubmap-page"); }}>
+                        <a href="#" className="hero-button secondary-button" onClick={(e) => { e.preventDefault(); setCurrentPage("clubmap-page"); }}>
                             <span>⌖</span>
                             Find Global Clubs Near You
                         </a>
 
-                        <a href="#" className="heroBtn subBtn" onClick={(e) => { e.preventDefault(); setCurrentPage("stories"); }}>
+                        <a href="#" className="hero-button secondary-button" onClick={(e) => { e.preventDefault(); setCurrentPage("stories"); }}>
                             <span>♙</span>
                             Success Stories of Organized Camps
                         </a>
 
                     </div>
 
-                    <div className="heroStats">
+                    <div className="hero-stats">
 
-                        <div className="statItem">
-                            <span className="statNumber">14 / 14</span>
-                            <span className="statLabel">
+                        <div className="stat-item">
+                            <span className="stat-number">14 / 14</span>
+                            <span className="stat-label">
                                 8,000M PEAKS COVERED
                             </span>
                         </div>
 
-                        <div className="statItem">
-                            <span className="statNumber org">
+                        <div className="stat-item">
+                            <span className="stat-number orange">
                                 7 SUMMITS
                             </span>
-                            <span className="statLabel">
+                            <span className="stat-label">
                                 GLOBAL CONTINENTS GUIDED
                             </span>
                         </div>
 
-                        <div className="statItem">
-                            <span className="statNumber green">
+                        <div className="stat-item">
+                            <span className="stat-number green">
                                 98.2%
                             </span>
-                            <span className="statLabel">
+                            <span className="stat-label">
                                 SAFETY RECORD STANDARD
                             </span>
                         </div>
 
-                        <div className="statItem">
-                            <span className="statNumber gold">
+                        <div className="stat-item">
+                            <span className="stat-number gold">
                                 38+ YEARS
                             </span>
-                            <span className="statLabel">
+                            <span className="stat-label">
                                 ALPINE HERITAGE &amp; LORE
                             </span>
                         </div>
@@ -96,13 +96,13 @@ function HomePage({ setCurrentPage = () => {} }) {
 
             {/* ================= ABOUT / MISSION SECTION ================= */}
 
-            <section className="missionSec" id="about">
+            <section className="mission-section" id="about">
 
-                <div className="missionCont">
+                <div className="mission-content">
                     
-                    <div className="missionLeft">
+                    <div className="mission-left">
 
-                        <div className="secSmallTitle">
+                        <div className="section-small-title">
                             © THE ALPINE ASCENTS MISSION
                         </div>
 
@@ -124,13 +124,13 @@ function HomePage({ setCurrentPage = () => {} }) {
                             fun adventures.
                         </p>
 
-                        <div className="missionBtns">
+                        <div className="mission-buttons">
 
-                            <a href="#" className="smallOrgBtn" onClick={(e) => { e.preventDefault(); setCurrentPage("about-essence"); }}>
+                            <a href="#" className="small-orange-button" onClick={(e) => { e.preventDefault(); setCurrentPage("about-essence"); }}>
                                 READ MOUNTAINEERING FOUNDATION →
                             </a>
 
-                            <a href="#" className="smallDarkBtn" onClick={(e) => { e.preventDefault(); setCurrentPage("stories"); }}>
+                            <a href="#" className="small-dark-button" onClick={(e) => { e.preventDefault(); setCurrentPage("stories"); }}>
                                 JOIN AN EXPEDITION
                             </a>
 
@@ -139,10 +139,10 @@ function HomePage({ setCurrentPage = () => {} }) {
                     </div>
 
 
-                    <div className="missionRight">
+                    <div className="mission-right">
 
-                        <div className="missionBox">
-                            <span className="missionNumber orgText">
+                        <div className="mission-box">
+                            <span className="mission-number orange-text">
                                 100%
                             </span>
                             <strong>IFMGA / AMGA Certified</strong>
@@ -151,8 +151,8 @@ function HomePage({ setCurrentPage = () => {} }) {
                             </p>
                         </div>
 
-                        <div className="missionBox">
-                            <span className="missionNumber">
+                        <div className="mission-box">
+                            <span className="mission-number">
                                 38+ Yrs
                             </span>
                             <strong>Expedition Heritage</strong>
@@ -161,8 +161,8 @@ function HomePage({ setCurrentPage = () => {} }) {
                             </p>
                         </div>
 
-                        <div className="missionBox">
-                            <span className="missionNumber greenText">
+                        <div className="mission-box">
+                            <span className="mission-number green-text">
                                 14 / 14
                             </span>
                             <strong>8,000m Coverage</strong>
@@ -171,8 +171,8 @@ function HomePage({ setCurrentPage = () => {} }) {
                             </p>
                         </div>
 
-                        <div className="missionBox">
-                            <span className="missionNumber goldText">
+                        <div className="mission-box">
+                            <span className="mission-number gold-text">
                                 0 INT
                             </span>
                             <strong>Clean Glacier Code</strong>
@@ -190,11 +190,11 @@ function HomePage({ setCurrentPage = () => {} }) {
 
             {/* ================= KNOWLEDGE SECTION ================= */}
 
-            <section className="knowSec">
+            <section className="knowledge-section">
 
-                <div className="knowHead">
+                <div className="knowledge-heading">
 
-                    <div className="secTag">
+                    <div className="section-tag">
                         DEDICATED EXPEDITION PAGES
                     </div>
 
@@ -215,12 +215,12 @@ function HomePage({ setCurrentPage = () => {} }) {
                 </div>
 
 
-                <div className="knowGrid">
+                <div className="knowledge-grid">
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                        
                         <h3>About Mountaineering</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             The Spirit, Definition &amp; Philosophy
                         </div>
                         
@@ -230,18 +230,18 @@ function HomePage({ setCurrentPage = () => {} }) {
                             and dangerous techniques.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("about"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                        
 
                         <h3>Historical Milestones</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             1786 Mont Blanc to 2021 Winter K2
                         </div>
 
@@ -251,18 +251,18 @@ function HomePage({ setCurrentPage = () => {} }) {
                             speed feats.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("history"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                         
 
                         <h3>Styles &amp; Techniques</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             Alpine vs Siege &amp; Ice Techniques
                         </div>
 
@@ -272,17 +272,17 @@ function HomePage({ setCurrentPage = () => {} }) {
                             hauling systems.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("techniques"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                        
                         <h3>Expedition Sheltering</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             Basecamp Domes, Bivies &amp; Huts
                         </div>
 
@@ -292,18 +292,18 @@ function HomePage({ setCurrentPage = () => {} }) {
                             engineered snow caves, and alpine refuges.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("shelter-page"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                        
 
                         <h3>Hazards &amp; Altitude Triage</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             Objective Perils &amp; Hypoxia Assessment
                         </div>
 
@@ -313,18 +313,18 @@ function HomePage({ setCurrentPage = () => {} }) {
                             AMS, HAPE and HACE.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("hazards-page"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                         
 
                         <h3>World Records Registry</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             14 Eight-Thousanders &amp; Seven Summits
                         </div>
 
@@ -333,17 +333,17 @@ function HomePage({ setCurrentPage = () => {} }) {
                             winter firsts, and youngest/oldest mountaineers on Earth.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("climbing-record"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                         
                         <h3>Clubs &amp; Geolocation Map</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             Interactive World Map &amp; Proximity
                         </div>
 
@@ -353,18 +353,18 @@ function HomePage({ setCurrentPage = () => {} }) {
                             and guided expedition bases.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("clubmap-page"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                        
 
                         <h3>Camp Success Stories</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             Rainier, Denali, Aconcagua, Everest
                         </div>
 
@@ -374,18 +374,18 @@ function HomePage({ setCurrentPage = () => {} }) {
                             expeditions.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("stories"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                         
 
                         <h3>Multimedia Gallery</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             High-Res Photography &amp; Video Guides
                         </div>
 
@@ -395,17 +395,17 @@ function HomePage({ setCurrentPage = () => {} }) {
                             climbing.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("gallery"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                         
                         <h3>Climbing Accessories Store</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             Crampons, Ice Tools, Beacons &amp; Ropes
                         </div>
 
@@ -415,17 +415,17 @@ function HomePage({ setCurrentPage = () => {} }) {
                             and Cat 4 glacier optics.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("accessories"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
                        
                         <h3>Latest Developments</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             Carbon Gear, Satellite SOS &amp; AI Weather
                         </div>
 
@@ -435,17 +435,17 @@ function HomePage({ setCurrentPage = () => {} }) {
                             predictive algorithms.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("innovation-page"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>
                     </div>
 
 
-                    <div className="knowCard">
+                    <div className="knowledge-card">
 
                         <h3>Guidelines &amp; Pack Readiness</h3>
-                        <div className="cardOrgText">
+                        <div className="card-orange-text">
                             The 10 Essentials &amp; Alpine List
                         </div>
 
@@ -455,7 +455,7 @@ function HomePage({ setCurrentPage = () => {} }) {
                             principles for guided zones.
                         </p>
 
-                        <div className="cardBottom">
+                        <div className="card-bottom">
                             <a href="#" onClick={(e) => { e.preventDefault(); setCurrentPage("guidelines-page"); }}>Open Dedicated Page →</a>
                             <small>VIEW PAGE</small>
                         </div>

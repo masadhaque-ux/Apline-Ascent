@@ -28,7 +28,7 @@ function GalleryAllPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/about-mountain.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/about-mountain.jpg`}
                         alt="Historic expedition" />
                     <div className="gallery-card-content">
                         <span>Mountain</span>
@@ -39,7 +39,7 @@ function GalleryAllPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/alpine_high_camp_1790702869575.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}
                         alt="Alpine landscape" />
                     <div className="gallery-card-content">
                         <span>LANDSCAPE</span>
@@ -50,7 +50,7 @@ function GalleryAllPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/aoaraki 2.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/aoaraki 2.jpg`}
                         alt="High altitude camp" />
                     <div className="gallery-card-content">
                         <span>EXPEDITION</span>
@@ -61,7 +61,7 @@ function GalleryAllPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/climbing_technique_1790702882353.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                         alt="Climbing technique" />
                     <div className="gallery-card-content">
                         <span>CLIMBING</span>
@@ -72,7 +72,7 @@ function GalleryAllPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/mountain_hazards_1790702893898.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/mountain_hazards_1790702893898.jpg`}
                         alt="Mountain hazards" />
                     <div className="gallery-card-content">
                         <span>SAFETY</span>
@@ -83,7 +83,7 @@ function GalleryAllPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/climbing_accessories_gear_1790845482874.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/climbing_accessories_gear_1790845482874.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -93,7 +93,7 @@ function GalleryAllPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/denali 1.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/denali 1.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -103,7 +103,7 @@ function GalleryAllPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/denali 2.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/denali 2.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -113,7 +113,7 @@ function GalleryAllPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/denali 3.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/denali 3.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -123,7 +123,7 @@ function GalleryAllPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/himalyanmountainpeak.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/himalyanmountainpeak.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -133,7 +133,7 @@ function GalleryAllPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/k2 1.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/k2 1.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -143,7 +143,7 @@ function GalleryAllPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/K2 2.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/K2 2.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -153,8 +153,8 @@ function GalleryAllPage() {
                 </article>
                 <article className="video-card">
         <div className="video-preview">
-            <video controls autoplay muted width="400">
-                <source src="src/assets/videos/matterhorndrone.mp4" type="video/mp4" />
+            <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/Zermatt & Matterhorn in 8K 60p HDR - Switzerland’s Most Iconic Mountain.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -167,7 +167,7 @@ function GalleryAllPage() {
             </p>
 
             <a
-                href="/videos/alpine-movement.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/Zermatt & Matterhorn in 8K 60p HDR - Switzerland’s Most Iconic Mountain.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -179,8 +179,8 @@ function GalleryAllPage() {
 
     <article className="video-card">
         <div className="video-preview">
-             <video controls autoplay muted width="400">
-                <source src="src/assets/videos/fuji.mp4" type="video/mp4" />
+             <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/fuji.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -193,7 +193,7 @@ function GalleryAllPage() {
             </p>
 
             <a
-                href="/videos/crampon-footwork.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/fuji.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -205,8 +205,8 @@ function GalleryAllPage() {
 
     <article className="video-card">
         <div className="video-preview">
-             <video controls autoplay muted width="400">
-                <source src="src/assets/videos/himalayaas.mp4" type="video/mp4" />
+             <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/aoraki mountains guide.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -219,7 +219,7 @@ function GalleryAllPage() {
             </p>
 
             <a
-                href="/videos/self-arrest.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/aoraki mountains guide.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -231,8 +231,8 @@ function GalleryAllPage() {
 
     <article className="video-card">
         <div className="video-preview">
-             <video controls autoplay muted width="400">
-                <source src="src/assets/videos/k2.mp4" type="video/mp4" />
+             <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/nanga parbat.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -245,7 +245,7 @@ function GalleryAllPage() {
             </p>
 
             <a
-                href="/videos/crevasse-rescue.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/nanga parbat.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -257,8 +257,8 @@ function GalleryAllPage() {
 
     <article className="video-card">
         <div className="video-preview">
-            <video controls autoplay muted width="400">
-                <source src="src/assets/videos/nangaparbat.mp4" type="video/mp4" />
+            <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/mount everset.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -272,7 +272,7 @@ function GalleryAllPage() {
             </p>
 
             <a
-                href="/videos/high-camp.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/mount everset.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -284,8 +284,8 @@ function GalleryAllPage() {
 
     <article className="video-card">
         <div className="video-preview">
-             <video controls autoplay muted width="400">
-                <source src="src/assets/videos/Project _ MONT BLANC _ Cinematic Short Film - Sony A7CII.mp4" type="video/mp4" />
+             <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/Denali National Park Guide_ Green Bus Tour to Eielson Visitors Center, Grizzly Bears & More.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -299,7 +299,7 @@ function GalleryAllPage() {
             </p>
 
             <a
-                href="/videos/mountain-hazards.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/Denali National Park Guide_ Green Bus Tour to Eielson Visitors Center, Grizzly Bears & More.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >

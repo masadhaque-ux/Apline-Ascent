@@ -8,8 +8,8 @@ export const StoryDenaliPage = ({
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         Expedition field notes
                     </div>
 
@@ -24,9 +24,9 @@ export const StoryDenaliPage = ({
             </section>
 
             <main>
-                <div className="wrap">
+                <div className="container">
 
-                    <div className="crumb">
+                    <div className="breadcrumb">
                         <a
                             href="#"
                             onClick={(e) => {
@@ -39,9 +39,9 @@ export const StoryDenaliPage = ({
                         {" / "}Denali
                     </div>
 
-                    <div className="contGrid">
+                    <div className="content-grid">
 
-                        <section className="contCard">
+                        <section className="content-card">
                             <span className="tag">Alaska</span>
 
                             <h2>Denali: expedition profile</h2>
@@ -106,11 +106,11 @@ export const StoryDenaliPage = ({
                                     maxWidth: "100%",
                                     objectFit: "cover"
                                 }}
-                                src="src/assets/images/hero_alpine_ascent_1790702854836.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/hero_alpine_ascent_1790702854836.jpg`}
                                 alt="Denali mountain landscape"
                             />
 
-                            <div className="contCard">
+                            <div className="content-card">
                                 <h2>More field stories</h2>
 
                                 <div className="pills">

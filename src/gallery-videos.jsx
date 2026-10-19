@@ -30,8 +30,8 @@ function GalleryVideosPage() {
 
     <article className="video-card">
         <div className="video-preview">
-            <video controls autoplay muted width="400">
-                <source src="src/assets/videos/matterhorndrone.mp4" type="video/mp4" />
+            <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/Zermatt & Matterhorn in 8K 60p HDR - Switzerland’s Most Iconic Mountain.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -44,7 +44,7 @@ function GalleryVideosPage() {
             </p>
 
             <a
-                href="/videos/alpine-movement.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/Zermatt & Matterhorn in 8K 60p HDR - Switzerland’s Most Iconic Mountain.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -56,8 +56,8 @@ function GalleryVideosPage() {
 
     <article className="video-card">
         <div className="video-preview">
-             <video controls autoplay muted width="400">
-                <source src="src/assets/videos/fuji.mp4" type="video/mp4" />
+             <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/fuji.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -70,7 +70,7 @@ function GalleryVideosPage() {
             </p>
 
             <a
-                href="/videos/crampon-footwork.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/fuji.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -82,8 +82,8 @@ function GalleryVideosPage() {
 
     <article className="video-card">
         <div className="video-preview">
-             <video controls autoplay muted width="400">
-                <source src="src/assets/videos/himalayaas.mp4" type="video/mp4" />
+             <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/aoraki mountains guide.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -96,7 +96,7 @@ function GalleryVideosPage() {
             </p>
 
             <a
-                href="/videos/self-arrest.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/aoraki mountains guide.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -108,8 +108,8 @@ function GalleryVideosPage() {
 
     <article className="video-card">
         <div className="video-preview">
-             <video controls autoplay muted width="400">
-                <source src="src/assets/videos/k2.mp4" type="video/mp4" />
+             <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/nanga parbat.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -122,7 +122,7 @@ function GalleryVideosPage() {
             </p>
 
             <a
-                href="/videos/crevasse-rescue.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/nanga parbat.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -134,8 +134,8 @@ function GalleryVideosPage() {
 
     <article className="video-card">
         <div className="video-preview">
-            <video controls autoplay muted width="400">
-                <source src="src/assets/videos/nangaparbat.mp4" type="video/mp4" />
+            <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/mount everset.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -149,7 +149,7 @@ function GalleryVideosPage() {
             </p>
 
             <a
-                href="/videos/high-camp.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/mount everset.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -161,8 +161,8 @@ function GalleryVideosPage() {
 
     <article className="video-card">
         <div className="video-preview">
-             <video controls autoplay muted width="400">
-                <source src="src/assets/videos/Project _ MONT BLANC _ Cinematic Short Film - Sony A7CII.mp4" type="video/mp4" />
+             <video controls autoPlay muted width="400">
+                <source src={`${import.meta.env.BASE_URL}src/assets/videos/Denali National Park Guide_ Green Bus Tour to Eielson Visitors Center, Grizzly Bears & More.mp4`} type="video/mp4" />
                 Your browser does not support video.
             </video>
         </div>
@@ -176,7 +176,7 @@ function GalleryVideosPage() {
             </p>
 
             <a
-                href="/videos/mountain-hazards.mp4"
+                href={`${import.meta.env.BASE_URL}src/assets/videos/Denali National Park Guide_ Green Bus Tour to Eielson Visitors Center, Grizzly Bears & More.mp4`}
                 target="_blank"
                 rel="noopener noreferrer"
             >

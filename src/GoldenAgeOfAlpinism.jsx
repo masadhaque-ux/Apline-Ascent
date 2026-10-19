@@ -2,9 +2,9 @@ import "./History.css";
 
 export function GoldenAgeOfAlpinism() {
   return (
-    <div className="histSubpage">
-      <section className="histHero">
-        <p className="small">ALPINE ASCENT / HISTORY</p>
+    <div className="history-subpage">
+      <section className="history-hero">
+        <p className="eyebrow">ALPINE ASCENT / HISTORY</p>
         <h1>Golden Age of Alpinism</h1>
         <p>
           A remarkable period of exploration and first ascents in the European
@@ -12,7 +12,7 @@ export function GoldenAgeOfAlpinism() {
         </p>
       </section>
 
-      <section className="histCont">
+      <section className="history-content">
         <h2>The Golden Age</h2>
         <p>
           Between the middle of the nineteenth century and the early years of
@@ -20,7 +20,7 @@ export function GoldenAgeOfAlpinism() {
           first ascents.
         </p>
 
-        <div className="histCard">
+        <div className="history-card">
           <span>1865</span>
           <h3>Matterhorn Conquered</h3>
           <p>
@@ -29,7 +29,7 @@ export function GoldenAgeOfAlpinism() {
           </p>
         </div>
 
-        <div className="histCard">
+        <div className="history-card">
           <span>LEGACY</span>
           <h3>New Routes and Techniques</h3>
           <p>

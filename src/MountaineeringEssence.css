@@ -24,19 +24,19 @@ body {
     font-family: var(--font-sans);
 }
 
-.aboutPage {
+.about-page {
     min-height: 100vh;
 }
 
-.pageHead {
+.page-header {
     max-width: 1000px;
     margin: auto;
     padding: 80px 25px 70px;
     text-align: center;
 }
 
-.catBadge,
-.secLabel {
+.category-badge,
+.section-label {
     color: var(--orange);
     font-family: var(--font-mono);
     font-size: 9px;
@@ -44,7 +44,7 @@ body {
     letter-spacing: .12em;
 }
 
-.catBadge {
+.category-badge {
     display: inline-block;
     padding: 7px 12px;
     border: 1px solid rgba(249,115,22,.35);
@@ -52,7 +52,7 @@ body {
     background: rgba(249,115,22,.08);
 }
 
-.pageHead h1 {
+.page-header h1 {
     margin-top: 18px;
     color: white;
     font-family: var(--font-display);
@@ -61,7 +61,7 @@ body {
     letter-spacing: -.05em;
 }
 
-.pageHead p {
+.page-header p {
     max-width: 760px;
     margin: 22px auto 0;
     color: var(--muted);
@@ -69,14 +69,14 @@ body {
     line-height: 1.7;
 }
 
-.contArea {
+.content-area {
     max-width: 1150px;
     margin: auto;
     padding: 0 25px 70px;
 }
 
-.contBox,
-.warningBox {
+.content-box,
+.warning-box {
     padding: 35px;
     border-radius: 20px;
     background: var(--dark-card);
@@ -84,8 +84,8 @@ body {
     box-shadow: 0 20px 45px rgba(0,0,0,.2);
 }
 
-.contBox h2,
-.warningBox h2 {
+.content-box h2,
+.warning-box h2 {
     margin-top: 10px;
     color: white;
     font-family: var(--font-display);
@@ -93,15 +93,15 @@ body {
     line-height: 1.05;
 }
 
-.contBox > p,
-.warningBox .introText {
+.content-box > p,
+.warning-box .intro-text {
     margin-top: 18px;
     color: #cbd5e1;
     font-size: 14px;
     line-height: 1.8;
 }
 
-.coreMotive {
+.core-motive {
     margin-top: 25px;
     padding: 18px;
     border-radius: 12px;
@@ -113,35 +113,35 @@ body {
     line-height: 1.7;
 }
 
-.coreMotive strong {
+.core-motive strong {
     color: var(--orange);
 }
 
-.warningBox {
+.warning-box {
     margin-top: 35px;
     background: linear-gradient(135deg, rgba(69,10,10,.35), #0f1722 45%);
     border-color: rgba(248,113,113,.3);
 }
 
-.warningLabel {
+.warning-label {
     color: var(--red);
 }
 
-.hazardGrid {
+.hazard-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
     margin-top: 30px;
 }
 
-.hazardCard {
+.hazard-card {
     padding: 20px;
     border-radius: 14px;
     background: #070b10;
     border: 1px solid var(--border);
 }
 
-.hazardIcon {
+.hazard-icon {
     width: 40px;
     height: 40px;
     display: flex;
@@ -154,26 +154,26 @@ body {
     border: 1px solid rgba(248,113,113,.25);
 }
 
-.hazardCard h3 {
+.hazard-card h3 {
     color: white;
     font-size: 16px;
     line-height: 1.3;
 }
 
-.hazardCard p {
+.hazard-card p {
     margin-top: 10px;
     color: #94a3b8;
     font-size: 11px;
     line-height: 1.7;
 }
 
-.pageNav {
+.page-navigation {
     margin-top: 35px;
     padding-top: 25px;
     border-top: 1px solid var(--border);
 }
 
-.nextBtn {
+.next-button {
     display: inline-block;
     padding: 13px 20px;
     border-radius: 9px;
@@ -184,53 +184,28 @@ body {
     font-weight: 700;
 }
 
-.nextBtn:hover {
+.next-button:hover {
     background: #ea580c;
 }
 
 @media screen and (max-width: 800px) {
-    .hazardGrid {
+    .hazard-grid {
         grid-template-columns: 1fr;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .pageHead {
+    .page-header {
         padding: 55px 18px 45px;
     }
 
-    .contArea {
+    .content-area {
         padding: 0 15px 50px;
     }
 
-    .contBox,
-    .warningBox {
+    .content-box,
+    .warning-box {
         padding: 22px;
         border-radius: 14px;
     }
-}
-
-/* Layout and page transition fixes */
-.pageTransition {
-    animation: alpinePageFade 1.25s ease both;
-    transform-origin: center top;
-}
-@keyframes alpinePageFade {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    .pageTransition { animation: none; }
-}
-
-/* Keep main titles and introductory text centered in their own content area */
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    margin-left: auto;
-    margin-right: auto;
 }

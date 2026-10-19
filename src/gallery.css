@@ -292,27 +292,3 @@ body {
     height: 220px;
     object-fit: cover;
 }
-/* Layout and page transition fixes */
-.pageTransition {
-    animation: alpinePageFade 1.25s ease both;
-    transform-origin: center top;
-}
-@keyframes alpinePageFade {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    .pageTransition { animation: none; }
-}
-
-/* Keep main titles and introductory text centered in their own content area */
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    margin-left: auto;
-    margin-right: auto;
-}

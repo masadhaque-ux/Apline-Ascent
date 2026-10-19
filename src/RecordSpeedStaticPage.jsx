@@ -5,8 +5,8 @@ export const RecordSpeedPage = ({ onNavigate = () => {} }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="orgTop">
+                <div className="hero-inner">
+                    <div className="orange-top">
                         World record archive
                     </div>
 
@@ -21,8 +21,8 @@ export const RecordSpeedPage = ({ onNavigate = () => {} }) => {
             </section>
 
             <main>
-                <div className="wrap">
-                    <div className="crumb">
+                <div className="container">
+                    <div className="breadcrumb">
                         <a
                             href="#"
                             onClick={(e) => {
@@ -35,8 +35,8 @@ export const RecordSpeedPage = ({ onNavigate = () => {} }) => {
                         {' / Speed Ascents'}
                     </div>
 
-                    <div className="contGrid">
-                        <section className="contCard">
+                    <div className="content-grid">
+                        <section className="content-card">
                             <span className="tag">
                                 Time trials
                             </span>
@@ -79,7 +79,7 @@ export const RecordSpeedPage = ({ onNavigate = () => {} }) => {
                             </ul>
 
                             <div className="callout">
-                                <img src="src/assets/images/mountaintop.webp" alt="" />
+                                <img src={`${import.meta.env.BASE_URL}src/assets/images/mountaintop.webp`} alt="" />
                             </div>
                         </section>
 
@@ -89,12 +89,12 @@ export const RecordSpeedPage = ({ onNavigate = () => {} }) => {
                                     borderRadius: "14px",
                                     border: "1px solid var(--line)"
                                 }}
-                                src="src/assets/images/climbing_technique_1790702882353.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                                 alt="Speed Ascents mountaineering"
                             />
 
-                            <div className="contCard">
-                                <img src="src/assets/images/montblan.jpg" alt="" />
+                            <div className="content-card">
+                                <img src={`${import.meta.env.BASE_URL}src/assets/images/montblan.jpg`} alt="" />
                             </div>
                         </aside>
                     </div>

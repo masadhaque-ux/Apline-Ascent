@@ -5,8 +5,8 @@ export const RecordSevenSummitsPage = ({ onNavigate = () => {} }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="orgTop">
+                <div className="hero-inner">
+                    <div className="orange-top">
                         World record archive
                     </div>
 
@@ -21,8 +21,8 @@ export const RecordSevenSummitsPage = ({ onNavigate = () => {} }) => {
             </section>
 
             <main>
-                <div className="wrap">
-                    <div className="crumb">
+                <div className="container">
+                    <div className="breadcrumb">
                         <a
                             href="#"
                             onClick={(e) => {
@@ -35,8 +35,8 @@ export const RecordSevenSummitsPage = ({ onNavigate = () => {} }) => {
                         {' / Seven Summits'}
                     </div>
 
-                    <div className="contGrid">
-                        <section className="contCard">
+                    <div className="content-grid">
+                        <section className="content-card">
                             <span className="tag">
                                 Global challenge
                             </span>
@@ -80,7 +80,7 @@ export const RecordSevenSummitsPage = ({ onNavigate = () => {} }) => {
                             </ul>
 
                             <div className="callout">
-                                <img src="src/assets/images/about-mountain.jpg" alt="" />
+                                <img src={`${import.meta.env.BASE_URL}src/assets/images/about-mountain.jpg`} alt="" />
                             </div>
                         </section>
 
@@ -90,12 +90,12 @@ export const RecordSevenSummitsPage = ({ onNavigate = () => {} }) => {
                                     borderRadius: "14px",
                                     border: "1px solid var(--line)"
                                 }}
-                                src="src/assets/images/hero_alpine_ascent_1790702854836.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/hero_alpine_ascent_1790702854836.jpg`}
                                 alt="Seven Summits mountaineering"
                             />
 
-                            <div className="contCard">
-                                <img src="src/assets/images/mtop2.jpg" alt="" />
+                            <div className="content-card">
+                                <img src={`${import.meta.env.BASE_URL}src/assets/images/mtop2.jpg`} alt="" />
                             </div>
                         </aside>
                     </div>

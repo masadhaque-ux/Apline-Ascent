@@ -10,8 +10,8 @@ export const RecordEightThousandersPage = ({ onNavigate = () => {} }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         World Record Archive
                     </div>
 
@@ -27,8 +27,8 @@ export const RecordEightThousandersPage = ({ onNavigate = () => {} }) => {
             </section>
 
             <main>
-                <div className="wrap">
-                    <div className="crumb">
+                <div className="container">
+                    <div className="breadcrumb">
                         <a
                             href="#records"
                             onClick={(event) =>
@@ -41,8 +41,8 @@ export const RecordEightThousandersPage = ({ onNavigate = () => {} }) => {
                         <span> / 14 Eight-Thousanders</span>
                     </div>
 
-                    <div className="contGrid">
-                        <section className="contCard">
+                    <div className="content-grid">
+                        <section className="content-card">
                             <span className="tag">
                                 High Altitude
                             </span>
@@ -72,8 +72,8 @@ export const RecordEightThousandersPage = ({ onNavigate = () => {} }) => {
 
                             <div className="callout">
                                 <img
-                                className="recordImg"
-                                src="src/assets/images/mtop2.jpg"
+                                className="record-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/mtop2.jpg`}
                                 alt="Historic high-altitude mountaineering expedition"
                                 
                             />
@@ -82,15 +82,15 @@ export const RecordEightThousandersPage = ({ onNavigate = () => {} }) => {
 
                         <aside>
                             <img
-                                className="recordImg"
-                                src="src/assets/images/mountaintop.jpg"
+                                className="record-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/mountaintop.jpg`}
                                 alt="Historic high-altitude mountaineering expedition"
                                 
                             />
 
-                            <div className="contCard">
-                                <img className="recordImg"
-                                src="src/assets/images/mounteverest3.jpg"/>
+                            <div className="content-card">
+                                <img className="record-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/mounteverest3.jpg`}/>
                                 {/* <h2>Record Categories</h2>
 
                                 <div className="pills">
@@ -157,9 +157,9 @@ export const RecordEightThousandersPage = ({ onNavigate = () => {} }) => {
                     </div>
                 </div>
                 <h3>List of 77 Names in the Historical Roster</h3>
-        <div className="tableResponsive">
+        <div className="table-responsive">
             
-            <table className="recordTable">
+            <table className="record-table">
                 
                 <thead>
                     <tr>

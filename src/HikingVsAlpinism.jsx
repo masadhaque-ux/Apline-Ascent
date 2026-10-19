@@ -2,10 +2,10 @@ import "./HikingVsAlpinism.css";
 
 function HikingVsAlpinism() {
     return (
-        <main className="aboutPage">
+        <main className="about-page">
 
-            <section className="pageHead">
-                <span className="catBadge">
+            <section className="page-header">
+                <span className="category-badge">
                     ABOUT · DISCIPLINE COMPARISONS
                 </span>
 
@@ -17,9 +17,9 @@ function HikingVsAlpinism() {
                 </p>
             </section>
 
-            <section className="contArea">
+            <section className="content-area">
 
-                <div className="introBox">
+                <div className="intro-box">
                     <h2>The Three Tiers of High Alpine Progression</h2>
 
                     <p>
@@ -29,10 +29,10 @@ function HikingVsAlpinism() {
                     </p>
                 </div>
 
-                <div className="tierGrid">
+                <div className="tier-grid">
 
-                    <article className="tierCard">
-                        <div className="tierTop">
+                    <article className="tier-card">
+                        <div className="tier-top">
                             <span>Tier 01</span>
                             <strong>LOW</strong>
                         </div>
@@ -62,8 +62,8 @@ function HikingVsAlpinism() {
                         </div>
                     </article>
 
-                    <article className="tierCard">
-                        <div className="tierTop">
+                    <article className="tier-card">
+                        <div className="tier-top">
                             <span>Tier 02</span>
                             <strong>HIGH</strong>
                         </div>
@@ -93,8 +93,8 @@ function HikingVsAlpinism() {
                         </div>
                     </article>
 
-                    <article className="tierCard">
-                        <div className="tierTop">
+                    <article className="tier-card">
+                        <div className="tier-top">
                             <span>Tier 03</span>
                             <strong>EXTREME</strong>
                         </div>
@@ -126,8 +126,8 @@ function HikingVsAlpinism() {
 
                 </div>
 
-                <div className="pageNav">
-                    <a href="#about-philosophy" className="nextBtn">
+                <div className="page-navigation">
+                    <a href="#about-philosophy" className="next-button">
                         Next: Read The Mountaineer's Philosophy →
                     </a>
                 </div>

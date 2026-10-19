@@ -12,8 +12,8 @@ export const TechniquesStylesStaticPage = ({ setCurrentPage }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">Strategy &amp; planning</div>
+                <div className="hero-inner">
+                    <div className="eyebrow">Strategy &amp; planning</div>
                     <h1>Alpine Style vs Expedition Siege Style</h1>
                     <p>
                         Alpine style prioritizes a small team, limited
@@ -24,9 +24,9 @@ export const TechniquesStylesStaticPage = ({ setCurrentPage }) => {
                 </div>
             </section>
 
-            <section className="techSec">
-                <div className="wrap">
-                    <div className="crumb">
+            <section className="techniques-section">
+                <div className="container">
+                    <div className="breadcrumb">
                         <button
                             type="button"
                             className="link"
@@ -37,8 +37,8 @@ export const TechniquesStylesStaticPage = ({ setCurrentPage }) => {
                         {" / "}Alpine Style vs Expedition Siege Style
                     </div>
 
-                    <div className="contGrid">
-                        <section className="contCard">
+                    <div className="content-grid">
+                        <section className="content-card">
                             <span className="tag">
                                 Strategy &amp; planning
                             </span>
@@ -75,10 +75,37 @@ export const TechniquesStylesStaticPage = ({ setCurrentPage }) => {
                         </section>
 
                         <aside>
-                            <div className="contCard">
+                            <div className="content-card">
                                 <h2>Related techniques</h2>
 
-                               
+                                <div className="pills">
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            navigateTo("techniques-crampons")
+                                        }
+                                    >
+                                        Crampon Mechanics
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            navigateTo("techniques-self-arrest")
+                                        }
+                                    >
+                                        Self-Arrest &amp; Axe Drills
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            navigateTo("techniques-crevasse")
+                                        }
+                                    >
+                                        Crevasse Rescue Systems
+                                    </button>
+                                </div>
 
                                 <p>
                                     Preparation, judgment, and supervised
@@ -88,8 +115,8 @@ export const TechniquesStylesStaticPage = ({ setCurrentPage }) => {
                             </div>
 
                             <img
-                                className="techImg"
-                                src="src/assets/images/climbing_technique_1790702882353.jpg"
+                                className="techniques-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                                 alt="Mountaineering training on snow and ice"
                             />
                         </aside>

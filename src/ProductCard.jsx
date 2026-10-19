@@ -2,19 +2,19 @@ import React from "react";
 
 function ProductCard({ product, onView, onAddToCart }) {
     return (
-        <article className="accCard">
-            <div className="accCardImg">
-                <span className="accBadge">{product.category}</span>
+        <article className="accessory-card">
+            <div className="accessory-card-img">
+                <span className="accessory-badge">{product.category}</span>
                 <img src={product.image.startsWith("/") ? product.image : "/" + product.image} alt={product.name} />
             </div>
-            <div className="accCardCont">
+            <div className="accessory-card-content">
                 <h3>{product.name}</h3>
-                <p className="accPrice">Rs {Number(product.price).toLocaleString()}</p>
-                <button className="accViewbtn" onClick={() => onView(product)}>
+                <p className="accessory-price">Rs {Number(product.price).toLocaleString()}</p>
+                <button className="accessory-viewbutton" onClick={() => onView(product)}>
                     View Details
                 </button>
                 <button
-                    className="accAddbtn"
+                    className="accessory-addbutton"
                     onClick={() => onAddToCart && onAddToCart(product, 1)}
                 >
                     Add to Cart

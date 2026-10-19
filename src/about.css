@@ -1,4 +1,4 @@
-.aboutPage {
+.about-page {
     width: 100%;
     background: #080c11;
     color: #e7edf4;
@@ -6,30 +6,32 @@
     overflow: hidden;
 }
 
-.aboutPage * {
+.about-page * {
     box-sizing: border-box;
 }
 
-.aboutPage h1,
-.aboutPage h2,
-.aboutPage h3,
-.aboutPage p {
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page p {
     margin-top: 0;
 }
 
-.aboutWrap {
+.about-container {
     width: min(1200px, 100%);
     /* height: 100%; */
     margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
-     /* background-image: url(./assets/images/montblan.jpg);
+     /* background-image: url(/Apline-Ascent/src/assets/images/montblan.jpg);
     background-size: cover;
     background-position: center; */
 }
 
 
-.aboutIntro {
+/* INTRO */
+
+.about-intro {
     min-height: 420px;
     display: flex;
     align-items: center;
@@ -38,15 +40,15 @@
     background: radial-gradient(circle at 70% 30%, rgba(255, 91, 0, 0.08), transparent 35%), #080c11;
 }
 
-.aboutIntro .aboutWrap {
+.about-intro .about-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
 
-.aboutLabel,
-.secLabel {
+.about-label,
+.section-label {
     display: block;
     margin-bottom: 22px;
     color: #ff6b00;
@@ -57,7 +59,7 @@
     text-transform: uppercase;
 }
 
-.aboutPage .aboutIntro h1 {
+.about-page .about-intro h1 {
     margin: 0;
     max-width: 900px;
     color: #f5f7fa;
@@ -69,7 +71,7 @@
    
 }
 
-.aboutIntroText {
+.about-intro-text {
     max-width: 760px;
     margin: 32px auto 0;
     color: #8ea0b4;
@@ -77,39 +79,42 @@
     line-height: 1.8;
 }
 
-.aboutStory {
+
+/* STORY */
+
+.about-story {
     padding: 90px 0;
     border-bottom: 1px solid #1b232d;
 }
 
-.aboutStoryGrid {
+.about-story-grid {
     display: grid;
     grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
     gap: 70px;
     align-items: center;
 }
 
-.aboutImgWrap {
+.about-image-wrapper {
     position: relative;
     width: 100%;
     min-height: 560px;
     overflow: hidden;
     border: 1px solid #1b232d;
     background: #0c1219;
-    background-image: url(./assets/images/mounteverest1.jpg);
+    background-image: url(/Apline-Ascent/src/assets/images/mounteverest1.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
 }
 
-.aboutImg {
+.about-image {
     display: block;
     width: 100%;
     height: 560px;
     object-fit: cover;
 }
 
-.aboutImgCaption {
+.about-image-caption {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -117,18 +122,22 @@
     display: flex;
     justify-content: space-between;
     padding: 18px 20px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.85),
+        transparent
+    );
     color: #d9e0e8;
     font-family: "JetBrains Mono", monospace;
     font-size: 9px;
     letter-spacing: 0.12em;
 }
 
-.aboutStoryCont {
+.about-story-content {
     max-width: 560px;
 }
 
-.aboutPage .aboutStoryCont h2 {
+.about-page .about-story-content h2 {
     margin: 0 0 30px;
     color: #f5f7fa;
     font-family: "Syne", sans-serif;
@@ -138,14 +147,14 @@
     letter-spacing: -0.045em;
 }
 
-.aboutStoryCont p {
+.about-story-content p {
     margin-bottom: 20px;
     color: #91a0b0;
     font-size: 15px;
     line-height: 1.8;
 }
 
-.aboutHighlight {
+.about-highlight {
     display: flex;
     align-items: center;
     gap: 18px;
@@ -154,25 +163,28 @@
     border-top: 1px solid #1b232d;
 }
 
-.aboutHighlight strong {
+.about-highlight strong {
     color: #ff6b00;
     font-family: "Syne", sans-serif;
     font-size: 42px;
     line-height: 1;
 }
 
-.aboutHighlight span {
+.about-highlight span {
     color: #a6b3c1;
     font-size: 13px;
 }
 
-.valuesSec {
+
+/* VALUES */
+
+.values-section {
     padding: 110px 0;
     border-bottom: 1px solid #1b232d;
     background: #06090d;
 }
 
-.valuesHead {
+.values-heading {
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -180,7 +192,7 @@
     margin-bottom: 60px;
 }
 
-.aboutPage .valuesHead h2 {
+.about-page .values-heading h2 {
     margin: 0;
     max-width: 700px;
     color: #f5f7fa;
@@ -191,7 +203,7 @@
     letter-spacing: -0.055em;
 }
 
-.valuesHead > p {
+.values-heading > p {
     max-width: 360px;
     margin: 0;
     color: #8191a3;
@@ -199,20 +211,20 @@
     line-height: 1.7;
 }
 
-.valuesGrid {
+.values-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
 }
 
-.valueCard {
+.value-card {
     height: 150px;
     padding: 28px;
     border: 1px solid #1b232d;
     background: #0b1118;
 }
 
-/* .valueNumber {
+/* .value-number {
     display: block;
     margin-bottom: 1px;
     color: #ff6b00;
@@ -221,7 +233,7 @@
     letter-spacing: 0.1em;
 } */
 
-.valueCard h3 {
+.value-card h3 {
     margin-bottom: 5px;
     color: #ee6c09;
     font-family: "Syne", sans-serif;
@@ -229,26 +241,29 @@
     font-weight: 700;
 }
 
-.valueCard p {
+.value-card p {
     margin: 0;
     color: #77889a;
     font-size: 12px;
     line-height: 1.7;
 }
 
-.missionSec {
+
+/* MISSION */
+
+.mission-section {
     padding: 120px 0;
     text-align: center;
     background: #080c11;
 }
 
-.missionCont {
+.mission-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.aboutPage .missionSec h2 {
+.about-page .mission-section h2 {
     margin: 0;
     color: #f5f7fa;
     font-family: "Syne", sans-serif;
@@ -258,7 +273,7 @@
     letter-spacing: -0.05em;
 }
 
-.missionSec p {
+.mission-section p {
     max-width: 680px;
     margin: 30px auto;
     color: #0c0b0a;
@@ -267,7 +282,7 @@
     font-weight: bolder;
 }
 
-.aboutBtn {
+.about-button {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -280,36 +295,38 @@
     letter-spacing: 0.08em;
     text-decoration: none;
     transition: 0.25s ease;
-    border-radius: 5px;
 }
 
-.aboutBtn:hover {
+.about-button:hover {
     background: #ff7d1f;
     transform: translateY(-2px);
 }
 
-.aboutBtn span {
+.about-button span {
     font-size: 14px;
 }
 
+
+/* RESPONSIVE */
+
 @media (max-width: 900px) {
 
-    .aboutStoryGrid {
+    .about-story-grid {
         grid-template-columns: 1fr;
         gap: 50px;
     }
 
-    .aboutStoryCont {
+    .about-story-content {
         max-width: none;
     }
 
-    .valuesHead {
+    .values-heading {
         flex-direction: column;
         align-items: flex-start;
         gap: 25px;
     }
 
-    .valuesGrid {
+    .values-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -318,75 +335,51 @@
 
 @media (max-width: 600px) {
 
-    .aboutWrap {
+    .about-container {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    .aboutIntro {
+    .about-intro {
         min-height: 380px;
     }
 
-    .aboutPage .aboutIntro h1 {
+    .about-page .about-intro h1 {
         font-size: 52px;
     }
 
-    .aboutStory {
+    .about-story {
         padding: 60px 0;
     }
 
-    .aboutImgWrap,
-    .aboutImg {
+    .about-image-wrapper,
+    .about-image {
         height: 400px;
         min-height: 400px;
     }
 
-    .aboutPage .aboutStoryCont h2 {
+    .about-page .about-story-content h2 {
         font-size: 48px;
     }
 
-    .valuesSec {
+    .values-section {
         padding: 70px 0;
     }
 
-    .valuesGrid {
+    .values-grid {
         grid-template-columns: 1fr;
     }
 
-    .valueCard {
+    .value-card {
         min-height: auto;
     }
 
-    .missionSec {
+    .mission-section {
         padding: 80px 0;
     }
 
-    .aboutPage .missionSec h2 {
+    .about-page .mission-section h2 {
         font-size: 48px;
     }
 
-}
-
-.pageTransition {
-    animation: alpinePageFade 1.25s ease both;
-    transform-origin: center top;
-}
-@keyframes alpinePageFade {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    .pageTransition { animation: none; }
-}
-
-
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    margin-left: auto;
-    margin-right: auto;
 }

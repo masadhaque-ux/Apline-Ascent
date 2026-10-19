@@ -22,7 +22,6 @@
 
     --orange: #f97316;
     --orange-light: #fb923c;
-    --orange-dark: #c45506;
     --gold: #fbbf24;
     --green: #34d399;
 
@@ -58,7 +57,7 @@ body {
     z-index: 1000;
 }
 
-.navWrap {
+.nav-container {
     width: 100%;
     max-width: 1400px;
     margin: 0;
@@ -94,7 +93,7 @@ body {
     color: #ffffff;
 }
 
-.logoIcon > img {
+.logo-icon > img {
     width: 50px;
     height: 50px;
     display: flex;
@@ -105,7 +104,7 @@ body {
     font-size: 18px;
 }
 
-.navMenu {
+.nav-menu {
     display: flex;
     align-items: center;
     margin-right: 270px;
@@ -113,7 +112,7 @@ body {
 }
 
 
-.navLink {
+.nav-link {
     position: relative;
     color: #94a3b8;
     text-decoration: none;
@@ -126,7 +125,7 @@ body {
     align-items: center;
 }
 
-.navLink > button {
+.nav-link > button {
     background: none;
     border: none;
     color: inherit;
@@ -138,11 +137,11 @@ body {
     align-items: center;
 }
 
-.navLink:hover {
+.nav-link:hover {
     color: #fb923c;
 }
 
-.navLink.active {
+.nav-link.active {
     color: white;
     background-color: #f97316;   
     border: 1px solid #f97316;
@@ -156,7 +155,7 @@ body {
     border-radius: 5px;
 }
 
-.navLink.active::after {
+.nav-link.active::after {
     display: none;
 }
 
@@ -168,7 +167,7 @@ body {
     position: relative;
 }
 
-.dropdownMenu {
+.dropdown-menu {
     position: absolute;
     top: 100%;
     left: 50%;
@@ -182,11 +181,11 @@ body {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
 }
 
-.dropdown:hover .dropdownMenu {
+.dropdown:hover .dropdown-menu {
     display: block;
 }
 
-.dropdownMenu a {
+.dropdown-menu a {
     display: block;
     padding: 12px;
     color: #cbd5e1;
@@ -196,29 +195,29 @@ body {
     text-align: left;
 }
 
-.dropdownMenu a:hover {
+.dropdown-menu a:hover {
     background: #151f2a;
     color: #fb923c;
 }
 
-.dropdownMenu strong {
+.dropdown-menu strong {
     display: block;
     font-size: 13px;
     margin-bottom: 4px;
 }
 
-.dropdownMenu small {
+.dropdown-menu small {
     display: block;
     color: #64748b;
     font-size: 11px;
     line-height: 1.4;
 }
 
-.dropdownMenu a:hover small {
+.dropdown-menu a:hover small {
     color: #94a3b8;
 }
 
-.expBtn {
+.expedition-button {
     text-decoration: none;
     color: white;
     background: linear-gradient(135deg, #f97316, #ea580c);
@@ -230,7 +229,7 @@ body {
     transition: 0.3s;
 }
 
-.expBtn:hover {
+.expedition-button:hover {
     background: linear-gradient(
         135deg,
         #fb923c,
@@ -244,14 +243,14 @@ body {
     display: none;
 }
 
-.menuBtn {
+.menu-button {
     display: none;
     font-size: 28px;
     color: white;
     cursor: pointer;
 }
 
-.foot {
+.footer {
     background: #05080c;
     border-top: 1px solid #26303c;
     padding-top: 60px;
@@ -259,7 +258,7 @@ body {
     margin-top: 50px;
 }
 
-.footWrap {
+.footer-container {
     width: 90%;
     max-width: 1400px;
     margin: auto;
@@ -274,7 +273,7 @@ body {
     border-bottom: 1px solid #1e293b;
 }
 
-.footLogo {
+.footer-logo {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -283,7 +282,7 @@ body {
     margin-bottom: 18px;
 }
 
-.footBrand p {
+.footer-brand p {
     color: #94a3b8;
     font-size: 13px;
     line-height: 1.7;
@@ -292,7 +291,7 @@ body {
     text-align: left;
 }
 
-.footColumn h3 {
+.footer-column h3 {
     color: white;
     font-size: 12px;
     text-transform: uppercase;
@@ -301,7 +300,7 @@ body {
     text-align: left;
 }
 
-.footColumn a {
+.footer-column a {
     display: block;
     color: #94a3b8;
     text-decoration: none;
@@ -311,12 +310,12 @@ body {
     text-align: left;
 }
 
-.footColumn a:hover {
+.footer-column a:hover {
     color: #fb923c;
     padding-left: 3px;
 }
 
-.news p {
+.newsletter p {
     color: #64748b;
     font-size: 12px;
     line-height: 1.6;
@@ -324,13 +323,13 @@ body {
     text-align: left;
 }
 
-.news form {
+.newsletter form {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.news input {
+.newsletter input {
     width: 100%;
     padding: 11px;
     border-radius: 8px;
@@ -340,15 +339,15 @@ body {
     outline: none;
 }
 
-.news input:focus {
+.newsletter input:focus {
     border-color: #f97316;
 }
 
-.news input::placeholder {
+.newsletter input::placeholder {
     color: #475569;
 }
 
-.news button {
+.newsletter button {
     padding: 11px;
     border: none;
     border-radius: 8px;
@@ -363,7 +362,7 @@ body {
     transition: 0.3s;
 }
 
-.news button:hover {
+.newsletter button:hover {
     background: linear-gradient(
         135deg,
         #fb923c,
@@ -371,7 +370,7 @@ body {
     );
 }
 
-.footBottom {
+.footer-bottom {
     width: 90%;
     max-width: 1400px;
     margin: auto;
@@ -384,7 +383,7 @@ body {
     font-size: 11px;
 }
 
-.footBottom button {
+.footer-bottom button {
     background: transparent;
     border: none;
     color: #cbd5e1;
@@ -393,25 +392,25 @@ body {
     transition: 0.3s;
 }
 
-.footBottom button:hover {
+.footer-bottom button:hover {
     color: #fb923c;
 }
 
 @media screen and (max-width: 1100px) {
-    .navMenu {
+    .nav-menu {
         gap: 12px;
     }
 
-    .navLink {
+    .nav-link {
         font-size: 12px;
     }
 
-    .expBtn {
+    .expedition-button {
         padding: 9px 12px;
         font-size: 11px;
     }
 
-    .footWrap {
+    .footer-container {
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -421,7 +420,7 @@ body {
         width: 100%;
     }
 
-    .navWrap {
+    .nav-container {
         width: 100%;
         min-height: 65px;
         display: flex;
@@ -438,7 +437,7 @@ body {
         margin-right: auto;
     }
 
-    .menuBtn {
+    .menu-button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -453,11 +452,11 @@ body {
         transform: none;
     }
 
-    #menu-toggle:checked + .menuBtn {
+    #menu-toggle:checked + .menu-button {
         transform: none;
     }
 
-    .navMenu {
+    .nav-menu {
         display: none;
         order: 4;
         width: 100%;
@@ -469,17 +468,17 @@ body {
         flex-basis: 100%;
     }
 
-    #menu-toggle:checked ~ .navMenu {
+    #menu-toggle:checked ~ .nav-menu {
         display: flex;
     }
 
-    .navLink {
+    .nav-link {
         width: 100%;
         padding: 13px 5px;
         border-bottom: 1px solid #1e293b;
     }
 
-    .navLink.active::after {
+    .nav-link.active::after {
         display: none;
     }
 
@@ -487,7 +486,7 @@ body {
         width: 100%;
     }
 
-    .dropdownMenu {
+    .dropdown-menu {
         position: static;
         transform: none;
         width: 100%;
@@ -497,34 +496,34 @@ body {
         padding-left: 15px;
     }
 
-    .dropdown:hover .dropdownMenu {
+    .dropdown:hover .dropdown-menu {
         display: block;
     }
 
-    .expBtn {
+    .expedition-button {
         margin-left: auto;
         margin-right: 0;
         font-size: 11px;
         padding: 9px 12px;
     }
 
-    .foot {
+    .footer {
         padding-top: 40px;
     }
 
-    .footWrap {
+    .footer-container {
         grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    .footBottom {
+    .footer-bottom {
         flex-direction: column;
         text-align: center;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .navWrap {
+    .nav-container {
         width: 100%;
         padding: 0 12px;
     }
@@ -533,34 +532,34 @@ body {
         font-size: 17px;
     }
 
-    .logoIcon img {
+    .logo-icon img {
         width: 38px;
         height: 38px;
         object-fit: contain;
     }
 
-    .menuBtn {
+    .menu-button {
         width: 40px;
         height: 40px;
         margin-left: 8px;
         flex-shrink: 0;
     }
 
-    .expBtn {
+    .expedition-button {
         display: none;
     }
 
-    .footWrap {
+    .footer-container {
         width: 88%;
     }
 
-    .footBottom {
+    .footer-bottom {
         width: 88%;
     }
 }
 
 /* Visitor Counter */
-.visitCounter {
+.visitor-counter {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -575,24 +574,24 @@ body {
     color: #e2e8f0;
 }
 
-.visitIcon {
+.visitor-icon {
     font-size: 21px;
 }
 
-.visitDet {
+.visitor-details {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
 
-.visitLabel {
+.visitor-label {
     color: #aab5c5;
     font-size: 12px;
     /* text-transform: uppercase; */
     letter-spacing: 1px;
 }
 
-.visitDet strong {
+.visitor-details strong {
     color: #e85d04;
     font-size: 17px;
     line-height: .5;
@@ -601,35 +600,35 @@ body {
 
 /* Responsive navbar */
 @media (max-width: 900px) {
-    .visitCounter {
+    .visitor-counter {
         margin-left: auto;
         margin-right: 12px;
         padding: 6px 9px;
     }
 
-    .visitIcon {
+    .visitor-icon {
         font-size: 18px;
     }
 
-    .visitDet strong {
+    .visitor-details strong {
         font-size: 15px;
     }
 }
 
 @media (max-width: 480px) {
-    .visitCounter {
+    .visitor-counter {
         gap: 5px;
         padding: 5px 7px;
     }
 
-    .visitLabel {
+    .visitor-label {
         font-size: 9px;
     }
 }
-.chatbotRoot { 
+.aa-chatbot-root { 
     font-family: Arial, sans-serif; 
 }
-.chatToggle { 
+.aa-chat-toggle { 
     position: fixed; 
     right: 24px; 
     bottom: 24px; 
@@ -646,14 +645,14 @@ body {
     box-shadow: 0 8px 25px rgba(0,0,0,.35); 
     transition: transform .2s ease, background .2s ease; }
 
-.chatToggle:hover { 
+.aa-chat-toggle:hover { 
         transform: translateY(-3px); 
         background: #f97316; 
     }
-.chatToggle svg { 
+.aa-chat-toggle svg { 
         width: 25px; height: 25px; 
 }
-.chatWindow { 
+.aa-chat-window { 
         position: fixed; 
         right: 24px; 
         bottom: 94px; 
@@ -667,7 +666,7 @@ body {
         background: #f4f6f8; 
         box-shadow: 0 15px 45px rgba(0,0,0,.38); 
  }
-.aachatheader { 
+.aa-chat-header { 
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
@@ -677,19 +676,19 @@ body {
     color: #fff; 
     border-bottom: 2px solid #e85d04; 
 }
-.aachatheading { 
+.aa-chat-heading { 
     margin: 0; 
     font-size: 16px; 
     font-weight: 700;
  }
-.chatSubhead { 
+.aa-chat-subheading { 
     display: block; 
     margin-top: 4px; 
     color: #cbd5e1; 
     font-size: 11px; 
     font-weight: 400; 
 }
-.chatClose { 
+.aa-chat-close { 
     border: 0; 
     background: transparent; 
     color: #fff; 
@@ -697,7 +696,7 @@ body {
     line-height: 1; 
     cursor: pointer; 
 }
-.chatMessages { 
+.aa-chat-messages { 
     flex: 1; 
     display: flex; 
     flex-direction: column; 
@@ -706,7 +705,7 @@ body {
     padding: 14px 12px; 
     background: #eef1f4; 
 }
-.chatMessage { 
+.aa-chat-message { 
     max-width: 86%; 
     padding: 10px 12px; 
     border-radius: 12px; 
@@ -715,25 +714,25 @@ body {
     overflow-wrap: anywhere; 
     white-space: pre-wrap; 
 }
-.chatMessage.bot { 
+.aa-chat-message.bot { 
     align-self: flex-start; 
     color: #e9eef5; 
     background: #101a28; 
     border-bottom-left-radius: 4px; 
 }
-.chatMessage.user { 
+.aa-chat-message.user { 
     align-self: flex-end; 
     color: #fff; 
     background: #c94d00; 
     border-bottom-right-radius: 4px; }
-.chatForm { 
+.aa-chat-form { 
     display: flex; 
     gap: 8px; 
     padding: 11px; 
     background: #fff; 
     border-top: 1px solid #d8dee6; 
 }
-.chatInput { 
+.aa-chat-input { 
     flex: 1; 
     min-width: 0; 
     padding: 11px 12px; 
@@ -744,11 +743,11 @@ body {
     background: #fff; 
     font-size: 13px; 
 }
-.chatInput:focus { 
+.aa-chat-input:focus { 
     border-color: #e85d04; 
     box-shadow: 0 0 0 2px rgba(232,93,4,.12); 
 }
-.chatSend { 
+.aa-chat-send { 
     padding: 0 14px; 
     border: 0; 
     border-radius: 9px; 
@@ -756,18 +755,18 @@ body {
     color: #fff; 
     font-weight: 700; 
     cursor: pointer; }
-.chatSend:hover { 
+.aa-chat-send:hover { 
     background: #c94d00; 
 }
 
 @media (max-width: 480px) { 
-.chatToggle { 
+.aa-chat-toggle { 
     right: 15px; 
     bottom: 15px; 
     width: 53px; 
     height: 53px; 
 } 
-.chatWindow { 
+.aa-chat-window { 
     right: 10px; 
     bottom: 78px; 
     width: calc(100vw - 20px); 
@@ -777,11 +776,11 @@ body {
 
 
 /* Sign In and Cart buttons */
-.navWrap {
+.nav-container {
     position: relative;
 }
 
-.accCartOptions {
+.account-cart-options {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -794,7 +793,7 @@ body {
     z-index: 1002;
 }
 
-.accCartOptions button {
+.account-cart-options button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -812,18 +811,18 @@ body {
     transition: background 0.2s, color 0.2s;
 }
 
-.accCartOptions button:hover {
+.account-cart-options button:hover {
     background: #f97316;
     color: #ffffff;
 }
 
 /* Keep navbar links from going underneath the account buttons */
-.navMenu {
+.nav-menu {
     margin-right: 270px;
 }
 
 /* Centered Sign In, Register and Cart popup */
-.accPopupOverlay {
+.account-popup-overlay {
     position: fixed;
     inset: 0;
     width: 100%;
@@ -836,7 +835,7 @@ body {
     z-index: 10000;
 }
 
-.accPopup {
+.account-popup {
     position: relative;
     width: 100%;
     max-width: 420px;
@@ -852,14 +851,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.accPopup h2 {
+.account-popup h2 {
     margin: 0 0 22px;
     color: #ffffff;
     text-align: center;
     font-size: 25px;
 }
 
-.popupClose {
+.popup-close {
     position: absolute;
     top: 9px;
     right: 13px;
@@ -871,17 +870,17 @@ body {
     cursor: pointer;
 }
 
-.popupClose:hover {
+.popup-close:hover {
     color: #f97316;
 }
 
-.accPopup form {
+.account-popup form {
     display: flex;
     flex-direction: column;
     gap: 13px;
 }
 
-.accPopup form input {
+.account-popup form input {
     width: 100%;
     min-width: 0;
     padding: 13px 12px;
@@ -893,16 +892,16 @@ body {
     font-size: 14px;
 }
 
-.accPopup form input::placeholder {
+.account-popup form input::placeholder {
     color: #8290a3;
 }
 
-.accPopup form input:focus {
+.account-popup form input:focus {
     border-color: #f97316;
     box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.15);
 }
 
-.accPopup .popupSubmit {
+.account-popup .popup-submit {
     width: 100%;
     margin-top: 5px;
     padding: 12px 15px;
@@ -915,18 +914,18 @@ body {
     cursor: pointer;
 }
 
-.accPopup .popupSubmit:hover {
+.account-popup .popup-submit:hover {
     background: #ea580c;
 }
 
-.popupRegText {
+.popup-register-text {
     margin: 20px 0 0;
     color: #94a3b8;
     text-align: center;
     font-size: 13px;
 }
 
-.popupRegText button {
+.popup-register-text button {
     border: 0;
     background: transparent;
     color: #fb923c;
@@ -935,15 +934,15 @@ body {
     cursor: pointer;
 }
 
-.popupRegText button:hover {
+.popup-register-text button:hover {
     color: #ffffff;
 }
 
-.cartPopup {
+.cart-popup {
     text-align: center;
 }
 
-.cartPopup p {
+.cart-popup p {
     margin: 15px 0 20px;
     color: #94a3b8;
     font-size: 14px;
@@ -951,27 +950,27 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    .navWrap {
+    .nav-container {
         gap: 12px;
     }
 
-    .accCartOptions {
+    .account-cart-options {
         right: 10px;
         gap: 5px;
     }
 
-    .accCartOptions button {
+    .account-cart-options button {
         padding: 8px 9px;
         font-size: 11px;
     }
 
-    .navMenu {
+    .nav-menu {
         margin-right: 210px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .accCartOptions {
+    .account-cart-options {
         position: static;
         transform: none;
         order: 2;
@@ -979,53 +978,53 @@ body {
         margin-right: 8px;
     }
 
-    .accCartOptions button {
+    .account-cart-options button {
         padding: 8px 9px;
         font-size: 11px;
     }
 
-    .navMenu {
+    .nav-menu {
         margin-right: 0;
     }
 
-    .accPopup {
+    .account-popup {
         max-width: 390px;
         padding: 30px 22px 22px;
     }
 }
 
 @media screen and (max-width: 480px) {
-    .accCartOptions {
+    .account-cart-options {
         gap: 5px;
         margin-right: 5px;
     }
 
-    .accCartOptions button {
+    .account-cart-options button {
         padding: 7px;
         font-size: 10px;
     }
 
-    .accPopup {
+    .account-popup {
         padding: 30px 18px 20px;
     }
 
-    .accPopup h2 {
+    .account-popup h2 {
         font-size: 22px;
     }
 }
 
 
-.dateTimeTicker {
+.date-time-ticker {
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
     border: 1px solid var(--orange);
-    background-color: var(--orange-dark);
+    background-color: var(--orange);
     border-radius: 5px;
 }
 
-.dateTimeTicker .tickerText {
+.date-time-ticker .ticker-text {
     display: inline-block;
     width: max-content;
     padding: 9px 12px 6px;
@@ -1045,62 +1044,7 @@ body {
     }
 }
 
-.accCartOptions button.active {
+.account-cart-options button.active {
     border-color: #e85d04;
     color: #e85d04;
-}
-
-/* Layout and page transition fixes */
-.pageTransition {
-    animation: alpinePageFade 1.25s ease both;
-    transform-origin: center top;
-}
-@keyframes alpinePageFade {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    .pageTransition { animation: none; }
-}
-
-/* Keep main titles and introductory text centered in their own content area */
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    text-align: center;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    text-align: center;
-}
-
-/* Smooth fade-out of the old page and fade-in of the next page */
-::view-transition-old(root) {
-    animation: alpineFadeOut 900ms ease both;
-}
-::view-transition-new(root) {
-    animation: alpineFadeIn 1200ms ease both;
-}
-@keyframes alpineFadeOut {
-    from { opacity: 1; }
-    to { opacity: 0; }
-}
-@keyframes alpineFadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    ::view-transition-old(root), ::view-transition-new(root) {
-        animation-duration: 1ms;
-    }
 }

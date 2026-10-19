@@ -23,61 +23,61 @@
     --muted: #94a3b8;
 }
 
-.accPage * { 
+.accessories-page * { 
     box-sizing: border-box;
  }
-.accPage button { 
+.accessories-page button { 
     cursor: pointer; 
     font: inherit; 
 }
-.accHead { 
+.accessories-heading { 
     text-align: center;
      padding: 25px 20px 10px;
     margin-top: 100px;
     }
-.accTopline { 
+.accessories-topline { 
     margin: 0; 
     color: var(--orange); 
     letter-spacing: 3px; 
     font-size: 12px; 
     font-weight: 800; 
 }
-.accHead h1 { 
+.accessories-heading h1 { 
     margin: 12px 230px; 
     font-size: clamp(30px, 4vw, 46px); 
     font-weight: 800; 
     font-family: var(--font-display);
     color: var(--text);
 }
-.accHead h1 span { 
+.accessories-heading h1 span { 
     color: var(--orange); 
 }
-.accSlogan { 
+.accessories-slogan { 
     margin: 0; color: var(--muted); 
 }
 
-.accBtns { 
+.accessories-buttons { 
     display: flex; 
     flex-wrap: wrap; 
     justify-content: center; 
     gap: 10px; 
     padding: 25px 20px; 
 }
-.accBtns button { 
+.accessories-buttons button { 
     padding: 10px 20px; 
     border: 1px solid var(--card-border); 
     border-radius: 25px;
     background: var(--card);
     color: var(--muted); 
 }
-.accBtns button:hover, 
-.accBtns button.active { 
+.accessories-buttons button:hover, 
+.accessories-buttons button.active { 
     background: var(--orange); 
     border-color: var(--orange); 
     color: #fff; 
 }
 
-.accGrid { 
+.accessories-grid { 
     display: grid; 
     grid-template-columns: repeat(4, minmax(0, 1fr)); 
     gap: 22px;
@@ -85,7 +85,7 @@
     max-width: 1300px; 
     margin: 0 auto; 
 }
-.accCard { 
+.accessory-card { 
     display: flex; 
     flex-direction: column; 
     min-width: 0; 
@@ -95,11 +95,11 @@
     background: var(--card); 
     transition: transform .2s, border-color .2s; 
 }
-.accCard:hover { 
+.accessory-card:hover { 
     transform: translateY(-4px); 
     border-color: var(--orange); 
 }
-.accCardImg { 
+.accessory-card-img { 
     position: relative; 
     display: flex;
     align-items: center; 
@@ -108,60 +108,22 @@
     padding: 14px; 
     background: #fff; 
 }
-.accCardImg img { 
-    max-width: 100%; 
-    max-height: 100%; 
-    object-fit: contain;
-}
-.accBadge { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    z-index: 1; 
-    padding: 5px 10px; 
-    border-radius: 20px; 
-    background: var(--orange-light); 
-    color: #fff; 
-    font-size: 11px; 
-}
-.accCardCont { 
-    display: flex; 
-    flex: 1; 
-    flex-direction: column; 
-    padding: 14px; 
-}
-.accCardCont h3 { 
-    min-height: 2.8em; 
-    margin: 0 0 8px; 
-    font-size: 16px; 
-    line-height: 1.4; 
-}
-.accPrice { 
-    margin: 0 0 12px; 
-    color: var(--gold); 
-    font-weight: 700; 
-}
-.accViewbtn { 
-    width: 100%; 
-    margin-top: auto; 
-    padding: 10px; 
-    border: 1px solid var(--orange); 
-    border-radius: 8px; 
-    background: transparent; 
-    color: var(--text); 
-}
-.accViewbtn:hover { 
-    background: var(--orange); 
-}
+.accessory-card-img img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.accessory-badge { position: absolute; top: 10px; left: 10px; z-index: 1; padding: 5px 10px; border-radius: 20px; background: var(--orange-light); color: #fff; font-size: 11px; }
+.accessory-card-content { display: flex; flex: 1; flex-direction: column; padding: 14px; }
+.accessory-card-content h3 { min-height: 2.8em; margin: 0 0 8px; font-size: 16px; line-height: 1.4; }
+.accessory-price { margin: 0 0 12px; color: var(--gold); font-weight: 700; }
+.accessory-viewbutton { width: 100%; margin-top: auto; padding: 10px; border: 1px solid var(--orange); border-radius: 8px; background: transparent; color: var(--text); }
+.accessory-viewbutton:hover { background: var(--orange); }
 
-.accBackBtn {
+.accessory-back-btn {
       background: transparent; 
       color: var(--orange-light); 
       margin-right: 900px;
       padding: 60px 0px;
       border: 0;
     }
-.accProdBox { 
+.accessory-product-box { 
     display: flex;
     gap: 35px; 
     width: 92%;
@@ -172,7 +134,7 @@
     border-radius: 16px;
     background: var(--card);
     }
-.accProdImg { 
+.accessory-product-image { 
     display: flex; 
     flex: 1; 
     align-items: center;
@@ -182,17 +144,17 @@
     border-radius: 10px; 
     background: #fff;
     }
-.accProdImg img { 
+.accessory-product-image img { 
     display: block;
     max-width: 100%; 
     max-height: 500px; 
     object-fit: contain; 
    }
-.accProdInfo { 
+.accessory-product-info { 
     flex: 1; 
     min-width: 0; 
    }
-.accDetailBadge { 
+.accessory-detail-badge { 
     display: inline-block; 
     padding: 5px 14px; 
     border-radius: 20px; 
@@ -201,7 +163,7 @@
     font-size: 18px; 
     margin-right: 430px;
    }
-.accProdInfo h1 { 
+.accessory-product-info h1 { 
     margin: 14px 0 8px; 
     font-size: 29px;
     text-align: start; 
@@ -209,7 +171,7 @@
     font-weight: 700;
     letter-spacing: 0.5px;
    }
-.accProdInfo h2 { 
+.accessory-product-info h2 { 
     margin: 0 0 8px; 
     color: var(--gold); 
     font-family: var(--font-mono);
@@ -217,7 +179,7 @@
     text-align: start;
     font-size: 30px;
   }
-.accStock span{ 
+.accessory-stock span{ 
     font-weight: 800; 
     font-family: var(--font-sans);
     margin-right: 350px;
@@ -229,18 +191,18 @@
     font-size: 28px;
     text-align: start;
   }
-.accProdInfo > p { 
+.accessory-product-info > p { 
     line-height: 1.7; 
     color: var(--text); 
     text-align: start;
   }
-.accSpecs { 
+.accessory-specs { 
     margin: 20px 0; 
     padding: 0; 
     list-style: none; 
     border-top: 1px solid var(--card-border); 
   }
-.accSpecs li { 
+.accessory-specs li { 
     display: flex; 
     justify-content: space-between; 
     gap: 15px; 
@@ -248,16 +210,16 @@
     border-bottom: 1px solid var(--card-border); 
     color: var(--muted);
   }
-.accSpecs li span { 
+.accessory-specs li span { 
     color: var(--muted); 
   }
-.accProdInfo label { 
+.accessory-product-info label { 
     margin-right: 400px; 
     font-weight: 700; 
     font-family: var(--font-sans);
     font-size: 22px;
   }
-.accProdInfo input { 
+.accessory-product-info input { 
     width: 100px; 
     padding: 8px; 
     border: 1px solid var(--card-border); 
@@ -269,7 +231,7 @@
     font-size: 16px;
 
 }
-.accCartBtn { 
+.accessory-cart-btn { 
     display: block; 
     margin-top: 20px; 
     padding: 12px 25px; 
@@ -281,61 +243,11 @@
     margin-right:4;
 }
 
-@media (max-width: 1050px) { 
-    .accGrid { 
-        grid-template-columns: repeat(3, minmax(0, 1fr)); 
-    } 
-}
-@media (max-width: 760px) { 
-    .accGrid { 
-        grid-template-columns: repeat(2, minmax(0, 1fr)); 
-    } 
-    .accProdBox { 
-        flex-direction: column; 
-        gap: 22px; 
-    } 
-    .accProdImg img { 
-        max-height: 350px; 
-    } 
-}
-@media (max-width: 480px) { 
-    .accPage { 
-        padding-top: 10px; 
-    } 
-    .accHead { 
-        padding-top: 20px; 
-    } 
-    .accGrid { 
-        width: 94%; 
-        gap: 12px; 
-    } 
-    .accCardImg { 
-        height: 160px; 
-        padding: 8px; 
-    } .accCardCont { 
-        padding: 10px; 
-    } 
-    .accCardCont h3 { 
-        font-size: 13px; 
-    } 
-    .accBtns { 
-        gap: 7px; 
-        padding: 20px 10px; 
-    } 
-    .accBtns button { 
-        padding: 8px 12px; 
-        font-size: 12px; 
-    } 
-    .accProdBox { 
-        width: 94%; 
-        padding: 14px; 
-    } 
-    .accProdInfo h1 { 
-        font-size: 24px; 
-    } 
-}
+@media (max-width: 1050px) { .accessories-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .accessories-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .accessory-product-box { flex-direction: column; gap: 22px; } .accessory-product-image img { max-height: 350px; } }
+@media (max-width: 480px) { .accessories-page { padding-top: 10px; } .accessories-heading { padding-top: 20px; } .accessories-grid { width: 94%; gap: 12px; } .accessory-card-img { height: 160px; padding: 8px; } .accessory-card-content { padding: 10px; } .accessory-card-content h3 { font-size: 13px; } .accessories-buttons { gap: 7px; padding: 20px 10px; } .accessories-buttons button { padding: 8px 12px; font-size: 12px; } .accessory-product-box { width: 94%; padding: 14px; } .accessory-product-info h1 { font-size: 24px; } }
 
-.accAddbtn {
+.accessory-addbutton {
     width: 100%;
     margin-top: 9px;
     padding: 10px;
@@ -345,29 +257,4 @@
     color: #fff;
     font-weight: 700;
 }
-.accAddbtn:hover { background: #b83d00; border-color: #b83d00; }
-
-/* Layout and page transition fixes */
-.pageTransition {
-    animation: alpinePageFade 1.25s ease both;
-    transform-origin: center top;
-}
-@keyframes alpinePageFade {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    .pageTransition { animation: none; }
-}
-
-/* Keep main titles and introductory text centered in their own content area */
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    margin-left: auto;
-    margin-right: auto;
-}
+.accessory-addbutton:hover { background: #b83d00; border-color: #b83d00; }

@@ -5,7 +5,7 @@ import "./other.css";
 export const RecordsPage = ({ onNavigate = () => {} }) => {
     const recordCategories = [
         {
-            image: "src/assets/images/historic_expedition_1790702905379.jpg",
+            image: `${import.meta.env.BASE_URL}src/assets/images/historic_expedition_1790702905379.jpg`,
             alt: "Historic mountaineering expedition",
             tag: "High altitude",
             title: "14 Eight-Thousanders",
@@ -14,7 +14,7 @@ export const RecordsPage = ({ onNavigate = () => {} }) => {
             page: "record-eight-thousanders",
         },
         {
-            image: "src/assets/images/hero_alpine_ascent_1790702854836.jpg",
+            image: `${import.meta.env.BASE_URL}src/assets/images/hero_alpine_ascent_1790702854836.jpg`,
             alt: "High mountain summit representing the Seven Summits challenge",
             tag: "Global challenge",
             title: "Seven Summits",
@@ -23,7 +23,7 @@ export const RecordsPage = ({ onNavigate = () => {} }) => {
             page: "record-seven-summits",
         },
         {
-            image: "src/assets/images/climbing_technique_1790702882353.jpg",
+            image: `${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`,
             alt: "Mountaineer climbing a steep mountain route",
             tag: "Time trials",
             title: "Speed Ascents",
@@ -32,7 +32,7 @@ export const RecordsPage = ({ onNavigate = () => {} }) => {
             page: "record-speed",
         },
         {
-            image: "src/assets/images/mountain_hazards_1790702893898.jpg",
+            image: `${import.meta.env.BASE_URL}src/assets/images/mountain_hazards_1790702893898.jpg`,
             alt: "Snow-covered mountain terrain in winter",
             tag: "Winter climbing",
             title: "Winter Feats",
@@ -40,15 +40,15 @@ export const RecordsPage = ({ onNavigate = () => {} }) => {
                 "Winter ascents demand specialized cold-weather systems, risk management, and careful assessment of weather and snow conditions.",
             page: "record-winter",
         },
-        // {
-        //     image: "src/assets/images/alpine_high_camp_1790702869575.jpg",
-        //     alt: "High-altitude mountaineering camp",
-        //     tag: "Human achievement",
-        //     title: "Milestone Ascents",
-        //     description:
-        //         "Age-related and other milestone ascents highlight individual achievement, but context and verified reporting matter.",
-        //     page: "record-milestones",
-        // },
+        {
+            image: `${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`,
+            alt: "High-altitude mountaineering camp",
+            tag: "Human achievement",
+            title: "Milestone Ascents",
+            description:
+                "Age-related and other milestone ascents highlight individual achievement, but context and verified reporting matter.",
+            page: "record-milestones",
+        },
     ];
 
     const handleNavigate = (event, page) => {
@@ -59,8 +59,8 @@ export const RecordsPage = ({ onNavigate = () => {} }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         Pinnacles of Human Achievement
                     </div>
 
@@ -75,9 +75,9 @@ export const RecordsPage = ({ onNavigate = () => {} }) => {
             </section>
 
             <main>
-                <div className="wrap">
-                    <div className="secHead">
-                        <div className="small">
+                <div className="container">
+                    <div className="section-heading">
+                        <div className="eyebrow">
                             Pinnacles of Achievement
                         </div>
 
@@ -100,7 +100,7 @@ export const RecordsPage = ({ onNavigate = () => {} }) => {
                                     loading="lazy"
                                 />
 
-                                <div className="cardBody">
+                                <div className="card-body">
                                     <span className="tag">
                                         {record.tag}
                                     </span>

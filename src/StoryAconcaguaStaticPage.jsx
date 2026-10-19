@@ -8,8 +8,8 @@ export const StoryAconcaguaPage = ({
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         Expedition field notes
                     </div>
 
@@ -24,9 +24,9 @@ export const StoryAconcaguaPage = ({
             </section>
 
             <main>
-                <div className="wrap">
+                <div className="container">
 
-                    <div className="crumb">
+                    <div className="breadcrumb">
                         <a
                             href="#"
                             onClick={(e) => {
@@ -39,9 +39,9 @@ export const StoryAconcaguaPage = ({
                         {" / "}Aconcagua
                     </div>
 
-                    <div className="contGrid">
+                    <div className="content-grid">
 
-                        <section className="contCard">
+                        <section className="content-card">
                             <span className="tag">
                                 South America
                             </span>
@@ -106,11 +106,11 @@ export const StoryAconcaguaPage = ({
                                     maxWidth: "100%",
                                     objectFit: "cover"
                                 }}
-                                src="src/assets/images/historic_expedition_1790702905379.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/historic_expedition_1790702905379.jpg`}
                                 alt="Aconcagua mountain landscape"
                             />
 
-                            <div className="contCard">
+                            <div className="content-card">
                                 <h2>More field stories</h2>
 
                                 <div className="pills">

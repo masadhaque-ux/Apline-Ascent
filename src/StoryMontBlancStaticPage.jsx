@@ -8,8 +8,8 @@ export const StoryMontBlancPage = ({
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         Expedition field notes
                     </div>
 
@@ -23,9 +23,9 @@ export const StoryMontBlancPage = ({
             </section>
 
             <main>
-                <div className="wrap">
+                <div className="container">
 
-                    <div className="crumb">
+                    <div className="breadcrumb">
                         <a
                             href="#"
                             onClick={(e) => {
@@ -38,9 +38,9 @@ export const StoryMontBlancPage = ({
                         {" / "}Mont Blanc
                     </div>
 
-                    <div className="contGrid">
+                    <div className="content-grid">
 
-                        <section className="contCard">
+                        <section className="content-card">
                             <span className="tag">
                                 European Alps
                             </span>
@@ -111,11 +111,11 @@ export const StoryMontBlancPage = ({
                                     maxWidth: "100%",
                                     objectFit: "cover"
                                 }}
-                                src="src/assets/images/climbing_technique_1790702882353.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                                 alt="Mont Blanc mountain landscape"
                             />
 
-                            <div className="contCard">
+                            <div className="content-card">
                                 <h2>More field stories</h2>
 
                                 <div className="pills">

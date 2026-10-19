@@ -21,19 +21,19 @@ function ProductDetail({ product, onBack, onAddToCart, onGoToCart }) {
     }
 
     return (
-        <section className="accDetailPage">
-            <button className="accBackBtn" onClick={onBack}>← Back to Accessories</button>
-            <div className="accProdBox">
-                <div className="accProdImg">
+        <section className="accessory-detail-page">
+            <button className="accessory-back-btn" onClick={onBack}>← Back to Accessories</button>
+            <div className="accessory-product-box">
+                <div className="accessory-product-image">
                     <img src={product.image.startsWith("/") ? product.image : "/" + product.image} alt={product.name} />
                 </div>
-                <div className="accProdInfo">
-                    <span className="accDetailBadge">{product.category}</span>
+                <div className="accessory-product-info">
+                    <span className="accessory-detail-badge">{product.category}</span>
                     <h1>{product.name}</h1>
                     <h2>Rs {Number(product.price).toLocaleString()}</h2>
-                    <p className="accStock">● {product.stock}</p>
+                    <p className="accessory-stock">● {product.stock}</p>
                     <p>{product.description}</p>
-                    <ul className="accSpecs">
+                    <ul className="accessory-specs">
                         <li><span>Product ID</span> #{product.id}</li>
                         <li><span>Category</span> {product.category}</li>
                         <li><span>Delivery</span> {product.delivery}</li>
@@ -46,7 +46,7 @@ function ProductDetail({ product, onBack, onAddToCart, onGoToCart }) {
                         value={quantity}
                         onChange={(event) => setQuantity(Math.max(1, Number(event.target.value)))}
                     />
-                    <button className="accCartBtn" onClick={addToCart}>Add to Cart</button>
+                    <button className="accessory-cart-btn" onClick={addToCart}>Add to Cart</button>
                 </div>
             </div>
         </section>

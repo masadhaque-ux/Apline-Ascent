@@ -33,18 +33,18 @@ body {
     font-family: var(--font-sans);
 }
 
-.homePage {
+.home-page {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
 }
 
 
-.heroSec {
+.hero-section {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    margin-top: -25px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,36 +52,22 @@ body {
     overflow: hidden;
 }
 
-.heroBg {
+.hero-background {
     position: absolute;
     inset: 0;
     z-index: 0;
 }
 
-.heroBg img {
+.hero-background img {
     width: 100%;
     height: 100%;
     display: block;
 
     object-fit: cover;
     object-position: center;
-    animation: bgFade 8s ease-in-out infinite;
-    z-index: 0;
 }
-@keyframes bgFade {
-    0% {
-        opacity: 0.3;
-    }
 
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0.3;
-    }
-}
-.heroOverlay {
+.hero-overlay {
     position: absolute;
     inset: 0;
     z-index: 1;
@@ -90,7 +76,7 @@ body {
         linear-gradient( to right, rgba(8, 12, 17, 0.48) 0%, rgba(8, 12, 17, 0.08) 50%, rgba(8, 12, 17, 0.42) 100%);
 }
 
-.heroCont {
+.hero-content {
     position: relative;
     z-index: 2;
 
@@ -103,7 +89,7 @@ body {
     text-align: center;
 }
 
-.heroBadge {
+.hero-badge {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -128,12 +114,12 @@ body {
     margin-bottom: 35px;
 }
 
-.badgeDot {
+.badge-dot {
     color: #f97316;
     font-size: 8px;
 }
 
-.heroTitle {
+.hero-title {
     max-width: 950px;
 
     margin: 0 auto;
@@ -153,11 +139,11 @@ body {
     text-shadow: 0 8px 25px rgba(0, 0, 0, 0.55);
 }
 
-.heroTitle span {
+.hero-title span {
     display: block;
 }
 
-.heroTitle strong {
+.hero-title strong {
     font-weight: 800;
 
     background:
@@ -170,7 +156,7 @@ body {
     color: transparent;
 }
 
-.heroTitle span:last-child {
+.hero-title span:last-child {
     background:
         linear-gradient(90deg, #fbbf24 0%, #f97316 55%, #ea580c 100%);
 
@@ -181,7 +167,7 @@ body {
     color: transparent;
 }
 
-.heroDesc {
+.hero-description {
     max-width: 760px;
 
     margin: 30px auto 0;
@@ -196,7 +182,7 @@ body {
     text-shadow: 0 4px 15px rgba(0, 0, 0, 0.75);
 }
 
-.heroActions {
+.hero-actions {
     display: flex;
 
     align-items: center;
@@ -209,7 +195,7 @@ body {
     margin-top: 28px;
 }
 
-.heroBtn {
+.hero-button {
     display: inline-flex;
 
     align-items: center;
@@ -231,7 +217,7 @@ body {
     transition: 0.3s;
 }
 
-.mainBtn {
+.primary-button {
     color: #ffffff;
 
     background: linear-gradient(135deg, #f97316, #ea580c );
@@ -239,13 +225,13 @@ body {
     box-shadow: 0 8px 28px rgba(249, 115, 22, 0.35);
 }
 
-.mainBtn:hover {
+.primary-button:hover {
     transform: translateY(-3px);
 
     box-shadow: 0 12px 35px rgba(249, 115, 22, 0.52);
 }
 
-.subBtn {
+.secondary-button {
     color: #ffffff;
 
     background: rgba(8, 12, 17, 0.68);
@@ -255,7 +241,7 @@ body {
     backdrop-filter: blur(8px);
 }
 
-.subBtn:hover {
+.secondary-button:hover {
     transform: translateY(-3px);
 
     border-color: #fb923c;
@@ -263,12 +249,12 @@ body {
     background: rgba(249, 115, 22, 0.15);
 }
 
-.btnIcon {
+.button-icon {
     font-size: 10px;
     color: #ffffff;
 }
 
-.heroStats {
+.hero-stats {
     max-width: 850px;
 
     margin: 48px auto 0;
@@ -284,7 +270,7 @@ body {
     gap: 25px;
 }
 
-.statItem {
+.stat-item {
     display: flex;
 
     flex-direction: column;
@@ -294,7 +280,7 @@ body {
     gap: 7px;
 }
 
-.statNumber {
+.stat-number {
     color: #ffffff;
 
     font-family: var(--font-display);
@@ -306,19 +292,19 @@ body {
     letter-spacing: -0.04em;
 }
 
-.statNumber.org {
+.stat-number.orange {
     color: #fb923c;
 }
 
-.statNumber.green {
+.stat-number.green {
     color: #34d399;
 }
 
-.statNumber.gold {
+.stat-number.gold {
     color: #fcd34d;
 }
 
-.statLabel {
+.stat-label {
     color: #94a3b8;
 
     font-family: var(--font-mono);
@@ -332,7 +318,7 @@ body {
     text-align: center;
 }
 
-.scrollDown {
+.scroll-down {
     display: flex;
 
     align-items: center;
@@ -360,7 +346,7 @@ body {
     transition: 0.3s;
 }
 
-.scrollDown:hover {
+.scroll-down:hover {
     transform: translateY(4px);
 
     border-color: #fb923c;
@@ -369,7 +355,7 @@ body {
 }
 
 
-.missionSec {
+.mission-section {
     width: 100%;
     background: #090e15;
 
@@ -377,8 +363,8 @@ body {
     border-bottom: 1px solid #121a25;
 }
 
-.missionCont {
-    background-image : url("src/assets/images/khilimanjaro 1.jpg");
+.mission-content {
+    background-image : url("/Apline-Ascent/src/assets/images/khilimanjaro 1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -397,7 +383,7 @@ body {
     align-items: center;
 }
 
-.secSmallTitle {
+.section-small-title {
     color: #f97316;
 
     font-family: var(--font-mono);
@@ -411,7 +397,7 @@ body {
     margin-bottom: 15px;
 }
 
-.missionLeft h2 {
+.mission-left h2 {
     color: #ffffff;
 
     font-family: var(--font-display);
@@ -425,7 +411,7 @@ body {
     margin-bottom: 20px;
 }
 
-.missionCont >.missionLeft >p {
+.mission-content >.mission-left >p {
     max-width: 650px;
 
     color: #1c1c1c;
@@ -437,7 +423,7 @@ body {
     text-align: justify;
 }
 
-.missionBtns {
+.mission-buttons {
     display: flex;
 
     gap: 8px;
@@ -448,8 +434,8 @@ body {
     justify-content: center;
 }
 
-.smallOrgBtn,
-.smallDarkBtn {
+.small-orange-button,
+.small-dark-button {
     display: inline-flex;
 
     align-items: center;
@@ -470,19 +456,19 @@ body {
     transition: 0.3s;
 }
 
-.smallOrgBtn {
+.small-orange-button {
     color: #ffffff;
 
     background: #f97316;
 }
 
-.smallOrgBtn:hover {
+.small-orange-button:hover {
     background: #ea580c;
 
     transform: translateY(-2px);
 }
 
-.smallDarkBtn {
+.small-dark-button {
     color: #dbe4ef;
 
     background: #111927;
@@ -490,13 +476,13 @@ body {
     border: 1px solid #273448;
 }
 
-.smallDarkBtn:hover {
+.small-dark-button:hover {
     border-color: #f97316;
 
     color: #fb923c;
 }
 
-.missionRight {
+.mission-right {
     display: grid;
 
     grid-template-columns: repeat(2, 1fr);
@@ -504,7 +490,7 @@ body {
     gap: 10px;
 }
 
-.missionBox {
+.mission-box {
     min-height: 100px;
     width : 200px;
     padding: 15px;
@@ -515,12 +501,12 @@ body {
 
     border-radius: 8px;
 }
-.missionRight >.missionBox >p{
+.mission-right >.mission-box >p{
     color: orange;
     font-size : 12px;
 }
 
-.missionNumber {
+.mission-number {
     display: block;
 
     color: #e2e8f0;
@@ -534,19 +520,19 @@ body {
     margin-bottom: 7px;
 }
 
-.orgText {
+.orange-text {
     color: #f97316;
 }
 
-.greenText {
+.green-text {
     color: #34d399;
 }
 
-.goldText {
+.gold-text {
     color: #fbbf24;
 }
 
-.missionBox strong {
+.mission-box strong {
     display: block;
 
     color: #dbe4ef;
@@ -556,7 +542,7 @@ body {
     margin-bottom: 5px;
 }
 
-.missionBox p {
+.mission-box p {
     color: #64748b;
 
     font-size: 7px;
@@ -569,7 +555,7 @@ body {
    KNOWLEDGE SECTION
 ========================================================= */
 
-.knowSec {
+.knowledge-section {
     width: 100%;
 
     background: #080d13;
@@ -577,7 +563,7 @@ body {
     padding: 75px 25px;
 }
 
-.knowHead {
+.knowledge-heading {
     max-width: 650px;
 
     margin: 0 auto 50px;
@@ -585,7 +571,7 @@ body {
     text-align: center;
 }
 
-.secTag {
+.section-tag {
     display: inline-block;
 
     color: #f97316;
@@ -601,7 +587,7 @@ body {
     margin-bottom: 12px;
 }
 
-.knowHead h2 {
+.knowledge-heading h2 {
     color: #ffffff;
 
     font-family: var(--font-display);
@@ -615,7 +601,7 @@ body {
     margin-bottom: 20px;
 }
 
-.knowHead p {
+.knowledge-heading p {
     color: #94a3b8;
 
     font-size: 15px;
@@ -627,7 +613,7 @@ body {
     margin: auto;
 }
 
-.knowGrid {
+.knowledge-grid {
     max-width: 1200px;
 
     margin: auto;
@@ -639,7 +625,7 @@ body {
     gap: 12px;
 }
 
-.knowCard {
+.knowledge-card {
     min-height: 200px;
     height: 200px;
     padding: 13px;
@@ -653,7 +639,7 @@ body {
     transition: 0.3s;
 }
 
-.knowCard:hover {
+.knowledge-card:hover {
     transform: translateY(-4px);
 
     border-color: rgba(249, 115, 22, 0.55);
@@ -662,7 +648,7 @@ body {
     cursor : pointer;
 }
 
-.cardTop {
+.card-top {
     display: flex;
 
     align-items: center;
@@ -672,7 +658,7 @@ body {
     margin-bottom: 15px;
 }
 
-.cardIcon {
+.card-icon {
     width: 25px;
     height: 25px;
 
@@ -692,7 +678,7 @@ body {
     font-size: 12px;
 }
 
-.cardTop > span {
+.card-top > span {
     color: #64748b;
 
     font-family: var(--font-mono);
@@ -710,7 +696,7 @@ body {
     letter-spacing: 0.08em;
 }
 
-.knowCard h3 {
+.knowledge-card h3 {
     color: #f8fafc;
 
     font-family: var(--font-display);
@@ -720,7 +706,7 @@ body {
     margin-bottom: 4px;
 }
 
-.cardOrgText {
+.card-orange-text {
     color: #f97316;
 
     font-size: 12px;
@@ -730,7 +716,7 @@ body {
     margin-bottom: 10px;
 }
 
-.knowCard p {
+.knowledge-card p {
     color: #7f8da2;
 
     font-size: 13px;
@@ -738,7 +724,7 @@ body {
     line-height: 1.6;
 }
 
-.cardBottom {
+.card-bottom {
     display: flex;
 
     align-items: center;
@@ -748,7 +734,7 @@ body {
     margin-top: 20px;
 }
 
-.cardBottom a {
+.card-bottom a {
     color: #f97316;
 
     font-size: 10px;
@@ -758,11 +744,11 @@ body {
     text-decoration: none;
 }
 
-.cardBottom a:hover {
+.card-bottom a:hover {
     color: #fb923c;
 }
 
-.cardBottom small {
+.card-bottom small {
     color: #475569;
 
     font-family: var(--font-mono);
@@ -775,7 +761,7 @@ body {
    FEATURED EXPEDITION
 ========================================================= */
 
-.featSec {
+.featured-section {
     width: 100%;
 
     background: #090f17;
@@ -783,7 +769,7 @@ body {
     padding: 55px 25px 65px;
 }
 
-.featBox {
+.featured-box {
     max-width: 1200px;
 
     min-height: 270px;
@@ -809,11 +795,11 @@ body {
         );
 }
 
-.featCont {
+.featured-content {
     max-width: 600px;
 }
 
-.featLabel {
+.featured-label {
     display: inline-block;
 
     color: #ffffff;
@@ -831,7 +817,7 @@ body {
     margin-bottom: 12px;
 }
 
-.featCont h2 {
+.featured-content h2 {
     color: #ffffff;
 
     font-family: var(--font-display);
@@ -845,7 +831,7 @@ body {
     margin-bottom: 15px;
 }
 
-.featCont p {
+.featured-content p {
     max-width: 620px;
 
     color: #94a3b8;
@@ -857,7 +843,7 @@ body {
     margin-bottom: 18px;
 }
 
-.featBtns {
+.featured-buttons {
     display: flex;
 
     gap: 8px;
@@ -872,21 +858,21 @@ body {
 
 @media screen and (max-width: 1000px) {
 
-    .heroCont {
+    .hero-content {
         padding: 120px 25px 45px;
     }
 
-    .heroTitle {
+    .hero-title {
         font-size: clamp(55px, 8vw, 80px);
     }
 
-    .missionCont {
+    .mission-content {
         grid-template-columns: 1fr;
 
         gap: 40px;
     }
 
-    .knowGrid {
+    .knowledge-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -894,15 +880,15 @@ body {
 
 @media screen and (max-width: 700px) {
 
-    .heroSec {
+    .hero-section {
         min-height: 100svh;
     }
 
-    .heroCont {
+    .hero-content {
         padding: 110px 16px 35px;
     }
 
-    .heroBadge {
+    .hero-badge {
         max-width: 95%;
 
         padding: 8px 13px;
@@ -912,31 +898,31 @@ body {
         line-height: 1.4;
     }
 
-    .heroTitle {
+    .hero-title {
         font-size: clamp(42px, 12vw, 65px);
 
         line-height: 0.91;
     }
 
-    .heroDesc {
+    .hero-description {
         margin-top: 25px;
 
         font-size: 13px;
     }
 
-    .heroActions {
+    .hero-actions {
         flex-direction: column;
 
         width: 100%;
     }
 
-    .heroBtn {
+    .hero-button {
         width: 100%;
 
         max-width: 310px;
     }
 
-    .heroStats {
+    .hero-stats {
         grid-template-columns: repeat(2, 1fr);
 
         gap: 25px 10px;
@@ -944,49 +930,49 @@ body {
         margin-top: 38px;
     }
 
-    .statNumber {
+    .stat-number {
         font-size: 21px;
     }
 
-    .statLabel {
+    .stat-label {
         font-size: 6px;
     }
 
-    .missionCont {
+    .mission-content {
         padding: 55px 18px;
     }
 
-    .missionLeft h2 {
+    .mission-left h2 {
         font-size: 35px;
     }
 
-    .missionRight {
+    .mission-right {
         grid-template-columns: 1fr 1fr;
     }
 
-    .knowSec {
+    .knowledge-section {
         padding: 55px 15px;
     }
 
-    .knowGrid {
+    .knowledge-grid {
         grid-template-columns: 1fr;
     }
 
-    .knowHead h2 {
+    .knowledge-heading h2 {
         font-size: 42px;
     }
 
-    .featSec {
+    .featured-section {
         padding: 40px 15px;
     }
 
-    .featBox {
+    .featured-box {
         padding: 22px;
 
         min-height: auto;
     }
 
-    .featCont h2 {
+    .featured-content h2 {
         font-size: 34px;
     }
 }
@@ -998,56 +984,32 @@ body {
 
 @media screen and (max-width: 450px) {
 
-    .heroCont {
+    .hero-content {
         padding: 100px 14px 30px;
     }
 
-    .heroTitle {
+    .hero-title {
         font-size: 40px;
     }
 
-    .heroDesc {
+    .hero-description {
         font-size: 12px;
     }
 
-    .missionRight {
+    .mission-right {
         grid-template-columns: 1fr;
     }
 
-    .missionLeft h2 {
+    .mission-left h2 {
         font-size: 31px;
     }
 
-    .featCont h2 {
+    .featured-content h2 {
         font-size: 30px;
     }
 
-    .smallOrgBtn,
-    .smallDarkBtn {
+    .small-orange-button,
+    .small-dark-button {
         width: 100%;
     }
-}
-/* Layout and page transition fixes */
-.pageTransition {
-    animation: alpinePageFade 1.25s ease both;
-    transform-origin: center top;
-}
-@keyframes alpinePageFade {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    .pageTransition { animation: none; }
-}
-
-/* Keep main titles and introductory text centered in their own content area */
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    margin-left: auto;
-    margin-right: auto;
 }

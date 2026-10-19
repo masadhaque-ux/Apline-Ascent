@@ -6,8 +6,8 @@ export function IndexStaticPage({ onNavigate }) {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         Alpine Ascent Knowledge Base
                     </div>
 
@@ -21,10 +21,10 @@ export function IndexStaticPage({ onNavigate }) {
                 </div>
             </section>
 
-            <div className="wrap">
+            <div className="container">
 
-                <div className="secHead">
-                    <div className="small">
+                <div className="section-heading">
+                    <div className="eyebrow">
                         Explore Alpine Ascent
                     </div>
 
@@ -39,11 +39,11 @@ export function IndexStaticPage({ onNavigate }) {
 
                     <article className="card">
                         <img
-                            src="/assets/images/climbing_technique_1790702882353.jpg"
+                            src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                             alt="Mountaineering Techniques"
                         />
 
-                        <div className="cardBody">
+                        <div className="card-body">
                             <span className="tag">Skills</span>
 
                             <h3>Techniques</h3>
@@ -68,11 +68,11 @@ export function IndexStaticPage({ onNavigate }) {
 
                     <article className="card">
                         <img
-                            src="/assets/images/alpine_high_camp_1790702869575.jpg"
+                            src={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}
                             alt="Mountaineering Expedition"
                         />
 
-                        <div className="cardBody">
+                        <div className="card-body">
                             <span className="tag">Field notes</span>
 
                             <h3>Stories</h3>
@@ -98,11 +98,11 @@ export function IndexStaticPage({ onNavigate }) {
 
                     <article className="card">
                         <img
-                            src="/assets/images/historic_expedition_1790702905379.jpg"
+                            src={`${import.meta.env.BASE_URL}src/assets/images/historic_expedition_1790702905379.jpg`}
                             alt="Historic Mountaineering Expedition"
                         />
 
-                        <div className="cardBody">
+                        <div className="card-body">
                             <span className="tag">Achievements</span>
 
                             <h3>Records</h3>

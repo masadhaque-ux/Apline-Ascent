@@ -27,18 +27,18 @@ function Accessories({ onAddToCart, onGoToCart }) {
         : products.filter((product) => product.category === category);
 
     return (
-        <main className="accPage">
+        <main className="accessories-page">
             {selected ? (
                 <ProductDetail product={selected} onBack={() => setSelected(null)} onAddToCart={onAddToCart} onGoToCart={onGoToCart} />
             ) : (
                 <>
-                    <section className="accHead">
-                        <p className="accTopline">ALPINE ASCENT · GEAR SHOP</p>
+                    <section className="accessories-heading">
+                        <p className="accessories-topline">ALPINE ASCENT · GEAR SHOP</p>
                         <h1>Climbing <span>Accessories</span></h1>
-                        <p className="accSlogan">Reliable equipment for your next mountain adventure.</p>
+                        <p className="accessories-slogan">Reliable equipment for your next mountain adventure.</p>
                     </section>
 
-                    <div className="accBtns">
+                    <div className="accessories-buttons">
                         {categories.map((name) => (
                             <button
                                 key={name}
@@ -50,7 +50,7 @@ function Accessories({ onAddToCart, onGoToCart }) {
                         ))}
                     </div>
 
-                    <section className="accGrid">
+                    <section className="accessories-grid">
                         {shownProducts.map((product) => (
                             <ProductCard
                                 key={product.id}

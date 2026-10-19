@@ -2,41 +2,41 @@ import "./about.css";
 
 function AboutPage() {
     return (
-        <main className="aboutPage" id="about">
+        <main className="about-page" id="about">
 
-            <section className="aboutIntro">
-                <div className="aboutWrap">
+            <section className="about-intro">
+                <div className="about-container">
                     
-                    <span className="aboutLabel">ABOUT ALPINE ASCENT</span>
+                    <span className="about-label">ABOUT ALPINE ASCENT</span>
                     
 
                     <h1>
                         Built for the <br /> Mountains.
                     </h1>
 
-                    <p className="aboutIntroText">
+                    <p className="about-intro-text">
                         Alpine Ascent is built around a simple idea: better preparation creates better adventures. We combine mountain knowledge, technical skill, and a deep respect for the alpine environment.
                     </p>
                 </div>
             </section>
 
 
-            <section className="aboutStory">
-                <div className="aboutWrap aboutStoryGrid">
+            <section className="about-story">
+                <div className="about-container about-story-grid">
 
-                    <div className="aboutImgWrap">
+                    <div className="about-image-wrapper">
                         
 
-                        <div className="aboutImgCaption">
+                        <div className="about-image-caption">
                             <span>THE ALPINE SPIRIT</span>
                             <span>EST. 1988</span>
                         </div>
                     </div>
 
 
-                    <div className="aboutStoryCont">
+                    <div className="about-story-content">
 
-                        <span className="secLabel">
+                        <span className="section-label">
                             OUR PURPOSE
                         </span>
 
@@ -67,7 +67,7 @@ function AboutPage() {
                             and respect.
                         </p>
 
-                        <div className="aboutHighlight">
+                        <div className="about-highlight">
                             <strong>38+</strong>
                             <span>Years of Alpine Heritage</span>
                         </div>
@@ -77,12 +77,12 @@ function AboutPage() {
             </section>
 
 
-            <section className="valuesSec">
-                <div className="aboutWrap">
+            <section className="values-section">
+                <div className="about-container">
 
-                    <div className="valuesHead">
+                    <div className="values-heading">
                         <div>
-                            <span className="secLabel">
+                            <span className="section-label">
                                 WHAT GUIDES US
                             </span>
 
@@ -101,10 +101,10 @@ function AboutPage() {
                     </div>
 
 
-                    <div className="valuesGrid">
+                    <div className="values-grid">
 
-                        <article className="valueCard">
-                            {/* <span className="valueNumber">01</span> */}
+                        <article className="value-card">
+                            {/* <span className="value-number">01</span> */}
 
                             <h3>Safety First</h3>
 
@@ -115,8 +115,8 @@ function AboutPage() {
                         </article>
 
 
-                        <article className="valueCard">
-                            {/* <span className="valueNumber">02</span> */}
+                        <article className="value-card">
+                            {/* <span className="value-number">02</span> */}
 
                             <h3>Knowledge</h3>
 
@@ -127,8 +127,8 @@ function AboutPage() {
                         </article>
 
 
-                        <article className="valueCard">
-                            {/* <span className="valueNumber">03</span> */}
+                        <article className="value-card">
+                            {/* <span className="value-number">03</span> */}
 
                             <h3>Respect</h3>
 
@@ -139,8 +139,8 @@ function AboutPage() {
                         </article>
 
 
-                        <article className="valueCard">
-                            {/* <span className="valueNumber">04</span> */}
+                        <article className="value-card">
+                            {/* <span className="value-number">04</span> */}
 
                             <h3>Progress</h3>
 
@@ -156,10 +156,10 @@ function AboutPage() {
             </section>
 
 
-            <section className="missionSec">
-                <div className="aboutWrap missionCont">
+            <section className="mission-section">
+                <div className="about-container mission-content">
 
-                    <span className="secLabel">
+                    <span className="section-label">
                         OUR MISSION
                     </span>
 
@@ -175,7 +175,7 @@ function AboutPage() {
                         less time guessing and more time experiencing the mountains.
                     </p>
 
-                    <a href="#contact" className="aboutBtn">
+                    <a href="#contact" className="about-button">
                         EXPLORE THE MOUNTAINS
                         <span>↗</span>
                     </a>

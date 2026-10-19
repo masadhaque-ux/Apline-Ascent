@@ -12,8 +12,8 @@ export const RecordMilestonesPage = ({
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">World Record Archive</div>
+                <div className="hero-inner">
+                    <div className="eyebrow">World Record Archive</div>
                     <h1>Milestone Ascents</h1>
                     <p>
                         Age-related and other milestone ascents highlight
@@ -24,8 +24,8 @@ export const RecordMilestonesPage = ({
             </section>
 
             <main>
-                <div className="wrap">
-                    <div className="crumb">
+                <div className="container">
+                    <div className="breadcrumb">
                         <a
                             href="#records"
                             onClick={(event) =>
@@ -37,8 +37,8 @@ export const RecordMilestonesPage = ({
                         <span> / Milestone Ascents</span>
                     </div>
 
-                    <div className="contGrid">
-                        <section className="contCard">
+                    <div className="content-grid">
+                        <section className="content-card">
                             <span className="tag">Human Achievement</span>
 
                             <h2>Milestone Ascents</h2>
@@ -74,8 +74,8 @@ export const RecordMilestonesPage = ({
 
                             <div className="callout">
                                 <img
-                                className="recordImg"
-                                src="src/assets/images/hcamp3.jpg"
+                                className="record-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/hcamp3.jpg`}
                                 alt="High-altitude alpine camp representing milestone ascents"
                                 loading="lazy"
                             />
@@ -84,16 +84,16 @@ export const RecordMilestonesPage = ({
 
                         <aside>
                             <img
-                                className="recordImg"
-                                src="src/assets/images/alpinecamp.jpg"
+                                className="record-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/alpinecamp.jpg`}
                                 alt="High-altitude alpine camp representing milestone ascents"
                                 loading="lazy"
                             />
 
-                            <div className="contCard">
+                            <div className="content-card">
                                 <img
-                                className="recordImg"
-                                src="src/assets/images/hcamp2.jpg"
+                                className="record-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/hcamp2.jpg`}
                                 alt="High-altitude alpine camp representing milestone ascents"
                                 loading="lazy"
                             />

@@ -28,7 +28,7 @@ function GalleryPhotosPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/about-mountain.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/about-mountain.jpg`}
                         alt="Historic expedition" />
                     <div className="gallery-card-content">
                         <span>Mountain</span>
@@ -39,7 +39,7 @@ function GalleryPhotosPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/alpine_high_camp_1790702869575.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}
                         alt="Alpine landscape" />
                     <div className="gallery-card-content">
                         <span>LANDSCAPE</span>
@@ -50,7 +50,7 @@ function GalleryPhotosPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/aoaraki 2.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/aoaraki 2.jpg`}
                         alt="High altitude camp" />
                     <div className="gallery-card-content">
                         <span>EXPEDITION</span>
@@ -61,7 +61,7 @@ function GalleryPhotosPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/climbing_technique_1790702882353.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                         alt="Climbing technique" />
                     <div className="gallery-card-content">
                         <span>CLIMBING</span>
@@ -72,7 +72,7 @@ function GalleryPhotosPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/mountain_hazards_1790702893898.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/mountain_hazards_1790702893898.jpg`}
                         alt="Mountain hazards" />
                     <div className="gallery-card-content">
                         <span>SAFETY</span>
@@ -83,7 +83,7 @@ function GalleryPhotosPage() {
 
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/climbing_accessories_gear_1790845482874.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/climbing_accessories_gear_1790845482874.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -93,7 +93,7 @@ function GalleryPhotosPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/denali 1.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/denali 1.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -103,7 +103,7 @@ function GalleryPhotosPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/denali 2.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/denali 2.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -113,7 +113,7 @@ function GalleryPhotosPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/denali 3.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/denali 3.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -123,7 +123,7 @@ function GalleryPhotosPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/himalyanmountainpeak.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/himalyanmountainpeak.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -133,7 +133,7 @@ function GalleryPhotosPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/k2 1.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/k2 1.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>
@@ -143,7 +143,7 @@ function GalleryPhotosPage() {
                 </article>
                 <article className="gallery-card">
                     <img className="gallery-image"
-                        src="src/assets/images/K2 2.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/K2 2.jpg`}
                         alt="Climbing equipment" />
                     <div className="gallery-card-content">
                         <span>EQUIPMENT</span>

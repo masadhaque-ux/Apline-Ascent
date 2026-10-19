@@ -12,8 +12,8 @@ export const TechniquesSelfArrestStaticPage = ({ setCurrentPage }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         Safety &amp; essential skills
                     </div>
                     <h1>Ice Axe Self-Arrest &amp; Slide Arrest Drills</h1>
@@ -27,9 +27,9 @@ export const TechniquesSelfArrestStaticPage = ({ setCurrentPage }) => {
                 </div>
             </section>
 
-            <section className="techSec">
-                <div className="wrap">
-                    <div className="crumb">
+            <section className="techniques-section">
+                <div className="container">
+                    <div className="breadcrumb">
                         <button
                             type="button"
                             className="link"
@@ -40,8 +40,8 @@ export const TechniquesSelfArrestStaticPage = ({ setCurrentPage }) => {
                         {" / "}Ice Axe Self-Arrest &amp; Slide Arrest Drills
                     </div>
 
-                    <div className="contGrid">
-                        <section className="contCard">
+                    <div className="content-grid">
+                        <section className="content-card">
                             <span className="tag">
                                 Safety &amp; essential skills
                             </span>
@@ -86,11 +86,36 @@ export const TechniquesSelfArrestStaticPage = ({ setCurrentPage }) => {
                         </section>
 
                         <aside>
-                            <div className="contCard">
+                            <div className="content-card">
                                 <h2>Related techniques</h2>
 
                                 <div className="pills">
-                                    
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            navigateTo("techniques-styles")
+                                        }
+                                    >
+                                        Alpine vs Siege Styles
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            navigateTo("techniques-crampons")
+                                        }
+                                    >
+                                        Crampon Mechanics
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            navigateTo("techniques-crevasse")
+                                        }
+                                    >
+                                        Crevasse Rescue Systems
+                                    </button>
                                 </div>
 
                                 <p>
@@ -101,8 +126,8 @@ export const TechniquesSelfArrestStaticPage = ({ setCurrentPage }) => {
                             </div>
 
                             <img
-                                className="techImg"
-                                src="src/assets/images/climbing_technique_1790702882353.jpg"
+                                className="techniques-image"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                                 alt="Mountaineering training on snow and ice"
                             />
                         </aside>

@@ -2,10 +2,10 @@ import "./MountaineeringEssence.css";
 
 function MountaineeringEssence() {
     return (
-        <main className="aboutPage">
+        <main className="about-page">
 
-            <section className="pageHead">
-                <span className="catBadge">ABOUT · ESSENCE &amp; HAZARDS</span>
+            <section className="page-header">
+                <span className="category-badge">ABOUT · ESSENCE &amp; HAZARDS</span>
 
                 <h1>Mountaineering Essence &amp; Spirit</h1>
 
@@ -16,10 +16,10 @@ function MountaineeringEssence() {
                 </p>
             </section>
 
-            <section className="contArea">
+            <section className="content-area">
 
-                <div className="contBox">
-                    <div className="secLabel">
+                <div className="content-box">
+                    <div className="section-label">
                         ▲ &nbsp; DEFINITION OF ALPINISM
                     </div>
 
@@ -35,7 +35,7 @@ function MountaineeringEssence() {
                         psychological composure in the death zone.
                     </p>
 
-                    <div className="coreMotive">
+                    <div className="core-motive">
                         <strong>The Core Motive:</strong>{" "}
                         Climbing for the pure joy and test of the ascent. It is an
                         internal journey where summiting represents personal self-mastery
@@ -43,23 +43,23 @@ function MountaineeringEssence() {
                     </div>
                 </div>
 
-                <div className="warningBox">
-                    <div className="secLabel warningLabel">
+                <div className="warning-box">
+                    <div className="section-label warning-label">
                         ⚠ &nbsp; CRITICAL WARNING
                     </div>
 
                     <h2>Severe Hazards for the Untrained Climber</h2>
 
-                    <p className="introText">
+                    <p className="intro-text">
                         In high-altitude mountaineering, nature is indifferent.
                         Venturing onto glaciated slopes or into altitude without proper
                         training frequently proves fatal.
                     </p>
 
-                    <div className="hazardGrid">
+                    <div className="hazard-grid">
 
-                        <article className="hazardCard">
-                            <div className="hazardIcon">♥</div>
+                        <article className="hazard-card">
+                            <div className="hazard-icon">♥</div>
 
                             <h3>Acute Mountain Sickness &amp; Hypoxia</h3>
 
@@ -71,8 +71,8 @@ function MountaineeringEssence() {
                             </p>
                         </article>
 
-                        <article className="hazardCard">
-                            <div className="hazardIcon">⚠</div>
+                        <article className="hazard-card">
+                            <div className="hazard-icon">⚠</div>
 
                             <h3>Hidden Crevasses &amp; Snow Bridges</h3>
 
@@ -84,8 +84,8 @@ function MountaineeringEssence() {
                             </p>
                         </article>
 
-                        <article className="hazardCard">
-                            <div className="hazardIcon">✓</div>
+                        <article className="hazard-card">
+                            <div className="hazard-icon">✓</div>
 
                             <h3>Objective Avalanche &amp; Serac Collapse</h3>
 
@@ -99,8 +99,8 @@ function MountaineeringEssence() {
                     </div>
                 </div>
 
-                <div className="pageNav">
-                    <a href="#about-tiers" className="nextBtn">
+                <div className="page-navigation">
+                    <a href="#about-tiers" className="next-button">
                         Next: Explore Hiking vs Alpinism Tiers →
                     </a>
                 </div>

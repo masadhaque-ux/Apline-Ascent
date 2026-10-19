@@ -27,9 +27,9 @@ function GalleryPage() {
 
             <div className="gallery-grid">
 
-                <a className="gallery-card" href="src/assets/images/mounteverest3.jpg">
+                <a className="gallery-card" href={`${import.meta.env.BASE_URL}src/assets/images/mounteverest3.jpg`}>
                     <img className="gallery-image"
-                        src="src/assets/images/mounteverest3.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/mounteverest3.jpg`}
                         alt="Historic mountain expedition" />
                     <div className="gallery-card-content">
                         <span>PHOTO ARCHIVE</span>
@@ -41,9 +41,9 @@ function GalleryPage() {
                     </div>
                 </a>
 
-                <a className="gallery-card" href="src/assets/images/mounteverest1.jpg">
+                <a className="gallery-card" href={`${import.meta.env.BASE_URL}src/assets/images/mounteverest1.jpg`}>
                     <img className="gallery-image"
-                        src="src/assets/images/mounteverest1.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/mounteverest1.jpg`}
                         alt="Alpine mountain landscape" />
                     <div className="gallery-card-content">
                         <span>PHOTO ARCHIVE</span>
@@ -55,9 +55,9 @@ function GalleryPage() {
                     </div>
                 </a>
 
-                <a className="gallery-card" href="src/assets/images/climbing_technique_1790702882353.jpg">
+                <a className="gallery-card" href={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}>
                     <img className="gallery-image"
-                        src="src/assets/images/climbing_technique_1790702882353.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                         alt="Climbing technique" />
                     <div className="gallery-card-content">
                         <span>INSTRUCTION</span>
@@ -69,9 +69,9 @@ function GalleryPage() {
                     </div>
                 </a>
 
-                <a className="gallery-card" href="src/assets/images/alpine_high_camp_1790702869575.jpg">
+                <a className="gallery-card" href={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}>
                     <img className="gallery-image"
-                        src="src/assets/images/alpine_high_camp_1790702869575.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}
                         alt="Alpine high camp" />
                     <div className="gallery-card-content">
                         <span>PHOTO ARCHIVE</span>
@@ -83,9 +83,9 @@ function GalleryPage() {
                     </div>
                 </a>
 
-                <a className="gallery-card" href="src/assets/images/mountain_hazards_1790702893898.jpg">
+                <a className="gallery-card" href={`${import.meta.env.BASE_URL}src/assets/images/mountain_hazards_1790702893898.jpg`}>
                     <img className="gallery-image"
-                        src="src/assets/images/mountain_hazards_1790702893898.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/mountain_hazards_1790702893898.jpg`}
                         alt="Mountain hazards" />
                     <div className="gallery-card-content">
                         <span>INSTRUCTION</span>
@@ -97,9 +97,9 @@ function GalleryPage() {
                     </div>
                 </a>
 
-                <a className="gallery-card" href="src/assets/images/climbing_accessories_gear_1790845482874.jpg">
+                <a className="gallery-card" href={`${import.meta.env.BASE_URL}src/assets/images/climbing_accessories_gear_1790845482874.jpg`}>
                     <img className="gallery-image"
-                        src="src/assets/images/climbing_accessories_gear_1790845482874.jpg"
+                        src={`${import.meta.env.BASE_URL}src/assets/images/climbing_accessories_gear_1790845482874.jpg`}
                         alt="Climbing accessories and gear" />
                     <div className="gallery-card-content">
                         <span>MULTIMEDIA</span>

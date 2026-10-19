@@ -8,8 +8,8 @@ export const StoryRainierPage = ({
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         Expedition field notes
                     </div>
 
@@ -24,9 +24,9 @@ export const StoryRainierPage = ({
             </section>
 
             <main>
-                <div className="wrap">
+                <div className="container">
 
-                    <div className="crumb">
+                    <div className="breadcrumb">
                         <a
                             href="#"
                             onClick={(e) => {
@@ -39,9 +39,9 @@ export const StoryRainierPage = ({
                         {" / "}Mount Rainier
                     </div>
 
-                    <div className="contGrid">
+                    <div className="content-grid">
 
-                        <section className="contCard">
+                        <section className="content-card">
                             <span className="tag">
                                 North America
                             </span>
@@ -114,11 +114,11 @@ export const StoryRainierPage = ({
                                     maxWidth: "100%",
                                     objectFit: "cover"
                                 }}
-                                src="src/assets/images/alpine_high_camp_1790702869575.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}
                                 alt="Mount Rainier mountain landscape"
                             />
 
-                            <div className="contCard">
+                            <div className="content-card">
                                 <h2>More field stories</h2>
 
                                 <div className="pills">

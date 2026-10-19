@@ -12,8 +12,8 @@ export const TechniquesStaticPage = ({ setCurrentPage }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">Alpine Masterclass</div>
+                <div className="hero-inner">
+                    <div className="eyebrow">Alpine Masterclass</div>
                     <h1>Mountaineering Techniques</h1>
                     <p>
                         Movement, climbing strategy, ice-axe skills, and
@@ -22,10 +22,10 @@ export const TechniquesStaticPage = ({ setCurrentPage }) => {
                 </div>
             </section>
 
-            <section className="techSec">
-                <div className="wrap">
-                    <div className="secHead">
-                        <div className="small">Field skills</div>
+            <section className="techniques-section">
+                <div className="container">
+                    <div className="section-heading">
+                        <div className="eyebrow">Field skills</div>
                         <h2>Techniques and Masterclasses</h2>
                         <p>
                             Choose a topic to explore core concepts, practical
@@ -38,10 +38,10 @@ export const TechniquesStaticPage = ({ setCurrentPage }) => {
                     <div className="cards">
                         <article className="card">
                             <img
-                                src="src/assets/images/climbing_technique_1790702882353.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                                 alt="Alpine climbing techniques"
                             />
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">Strategy</span>
                                 <h3>Alpine vs Siege Styles</h3>
                                 <p>
@@ -60,10 +60,10 @@ export const TechniquesStaticPage = ({ setCurrentPage }) => {
 
                         <article className="card">
                             <img
-                                src="src/assets/images/climbingrope.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                                 alt="Crampon footwork on snow and ice"
                             />
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">Footwork</span>
                                 <h3>Crampon Mechanics</h3>
                                 <p>
@@ -82,10 +82,10 @@ export const TechniquesStaticPage = ({ setCurrentPage }) => {
 
                         <article className="card">
                             <img
-                                src="src/assets/images/mountain_hazards_1790702893898.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/mountain_hazards_1790702893898.jpg`}
                                 alt="Ice axe skills and mountain safety"
                             />
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">Safety</span>
                                 <h3>Self-Arrest &amp; Axe Drills</h3>
                                 <p>
@@ -104,10 +104,10 @@ export const TechniquesStaticPage = ({ setCurrentPage }) => {
 
                         <article className="card">
                             <img
-                                src="src/assets/images/alpine_high_camp_1790702869575.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}
                                 alt="High-altitude camp and rope rescue preparation"
                             />
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">Rope &amp; Rescue</span>
                                 <h3>Crevasse Rescue Systems</h3>
                                 <p>

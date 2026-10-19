@@ -23,14 +23,14 @@ body {
     font-family: var(--font-sans);
 }
 
-.pageHead {
+.page-header {
     max-width: 1000px;
     margin: auto;
     padding: 80px 25px 65px;
     text-align: center;
 }
 
-.catBadge {
+.category-badge {
     display: inline-block;
     padding: 7px 12px;
     color: var(--orange);
@@ -43,7 +43,7 @@ body {
     letter-spacing: .12em;
 }
 
-.pageHead h1 {
+.page-header h1 {
     margin-top: 18px;
     color: white;
     font-family: var(--font-display);
@@ -52,7 +52,7 @@ body {
     letter-spacing: -.05em;
 }
 
-.pageHead p {
+.page-header p {
     max-width: 760px;
     margin: 22px auto 0;
     color: var(--muted);
@@ -60,13 +60,13 @@ body {
     line-height: 1.7;
 }
 
-.contArea {
+.content-area {
     max-width: 1150px;
     margin: auto;
     padding: 0 25px 70px;
 }
 
-.fellowshipBox {
+.fellowship-box {
     padding: 35px;
     border-radius: 20px;
     background: var(--card);
@@ -74,8 +74,8 @@ body {
     box-shadow: 0 20px 45px rgba(0,0,0,.2);
 }
 
-.secLabel,
-.pillarNumber {
+.section-label,
+.pillar-number {
     color: var(--orange);
     font-family: var(--font-mono);
     font-size: 9px;
@@ -83,7 +83,7 @@ body {
     letter-spacing: .12em;
 }
 
-.fellowshipBox h2 {
+.fellowship-box h2 {
     margin-top: 12px;
     color: white;
     font-family: var(--font-display);
@@ -91,27 +91,27 @@ body {
     line-height: 1.05;
 }
 
-.fellowshipBox p {
+.fellowship-box p {
     margin-top: 18px;
     color: #cbd5e1;
     font-size: 14px;
     line-height: 1.8;
 }
 
-.pillarsTitle {
+.pillars-title {
     margin: 45px 0 20px;
     color: white;
     font-family: var(--font-display);
     font-size: 32px;
 }
 
-.pillarGrid {
+.pillar-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
 }
 
-.pillarCard {
+.pillar-card {
     padding: 25px;
     border-radius: 15px;
     background: var(--black);
@@ -119,32 +119,32 @@ body {
     transition: .3s;
 }
 
-.pillarCard:hover {
+.pillar-card:hover {
     transform: translateY(-3px);
     border-color: rgba(249,115,22,.5);
 }
 
-.pillarCard h3 {
+.pillar-card h3 {
     margin-top: 9px;
     color: white;
     font-size: 18px;
     line-height: 1.3;
 }
 
-.pillarCard p {
+.pillar-card p {
     margin-top: 10px;
     color: #94a3b8;
     font-size: 11px;
     line-height: 1.7;
 }
 
-.pageNav {
+.page-navigation {
     margin-top: 35px;
     padding-top: 25px;
     border-top: 1px solid var(--border);
 }
 
-.nextBtn {
+.next-button {
     display: inline-block;
     padding: 13px 20px;
     color: white;
@@ -155,54 +155,29 @@ body {
     font-weight: 700;
 }
 
-.nextBtn:hover {
+.next-button:hover {
     background: #ea580c;
 }
 
 @media screen and (max-width: 700px) {
-    .pillarGrid {
+    .pillar-grid {
         grid-template-columns: 1fr;
     }
 
-    .pageHead {
+    .page-header {
         padding: 55px 18px 45px;
     }
 
-    .contArea {
+    .content-area {
         padding: 0 15px 50px;
     }
 
-    .fellowshipBox,
-    .pillarCard {
+    .fellowship-box,
+    .pillar-card {
         padding: 22px;
     }
 
-    .pillarsTitle {
+    .pillars-title {
         font-size: 28px;
     }
-}
-
-/* Layout and page transition fixes */
-.pageTransition {
-    animation: alpinePageFade 1.25s ease both;
-    transform-origin: center top;
-}
-@keyframes alpinePageFade {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    .pageTransition { animation: none; }
-}
-
-/* Keep main titles and introductory text centered in their own content area */
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    margin-left: auto;
-    margin-right: auto;
 }

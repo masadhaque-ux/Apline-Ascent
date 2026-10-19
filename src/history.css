@@ -28,21 +28,21 @@
     padding: 0;
 }
 
-.histPage,
-.histSubpage {
+.history-page,
+.history-subpage {
   min-height: 100vh;
   background: #080c11;
   font-family: Arial, sans-serif;
 }
 
-.histHero {
+.history-hero {
   max-width: 1400px;
   margin: 0 auto;
   padding: 110px 40px 70px;
 }
 
 
-.histHero h1{
+.history-hero h1{
   font-family: var(--font-display);
   font-weight: 600;
   color: var(--orange-light);
@@ -51,7 +51,7 @@
   margin-bottom: 20px;
 }
 
-.histHero p:last-child {
+.history-hero p:last-child {
   max-width: 700px;
   color: #94a3b8;
   font-size: 20px;
@@ -59,7 +59,7 @@
   margin-left: 300px;
 }
 
-.milesSec {
+.milestones-section {
   max-width: 1400px;
   margin: 0 auto;
   padding: 30px 40px 100px;
@@ -69,12 +69,12 @@
   align-items: start;
 }
 
-.milesList {
+.milestones-list {
   display: grid;
   gap: 12px;
 }
 
-.mileBox {
+.milestone-box {
   width: 100%;
   border: 1px solid #26303c;
   border-radius: 10px;
@@ -89,31 +89,31 @@
   transition: background 0.2s, border-color 0.2s;
 }
 
-.mileBox:hover,
-.mileBox.active {
+.milestone-box:hover,
+.milestone-box.active {
   border-color: #f97316;
   background: #111820;
 }
 
-.mileYear {
+.milestone-year {
   grid-row: span 2;
   color: #f97316;
   font-size: 22px;
   font-weight: bold;
 }
 
-.mileTitle {
+.milestone-title {
   font-size: 18px;
   font-weight: bold;
   color: #f1f5f9;
 }
 
-.milePeak {
+.milestone-peak {
   color: #94a3b8;
   font-size: 14px;
 }
 
-.mileDetail {
+.milestone-detail {
   position: sticky;
   top: 100px;
   border: 1px solid #26303c;
@@ -123,26 +123,26 @@
   min-height: 440px;
 }
 
-.detailLabel {
+.detail-label {
   color: #f97316;
   font-size: 12px;
   letter-spacing: 2px;
   font-weight: bold;
 }
 
-.mileDetail h2 {
+.milestone-detail h2 {
   color: #ffffff;
   font-size: 32px;
   margin: 15px 0;
 }
 
-.detailYear {
+.detail-year {
   color: #475569;
   font-size: 60px;
   font-weight: bold;
 }
 
-.detailInfo {
+.detail-info {
   border-top: 1px solid #26303c;
   border-bottom: 1px solid #26303c;
   margin: 25px 0;
@@ -151,48 +151,48 @@
   gap: 18px;
 }
 
-.detailInfo div {
+.detail-info div {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.detailInfo span {
+.detail-info span {
   color: #94a3b8;
   font-size: 11px;
   letter-spacing: 1.5px;
 }
 
-.detailInfo strong {
+.detail-info strong {
   color: #e2e8f0;
   font-size: 15px;
   overflow-wrap: anywhere;
 }
 
-.detailText {
+.detail-text {
   color: #94a3b8;
   line-height: 1.8;
 }
 
-.histCont {
+.history-content {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px 40px 100px;
 }
 
-.histCont h2 {
+.history-content h2 {
   color: #ffffff;
   font-size: 36px;
   margin-bottom: 20px;
 }
 
-.histCont > p {
+.history-content > p {
   color: #94a3b8;
   line-height: 1.8;
   margin-bottom: 35px;
 }
 
-.histCard {
+.history-card {
   background: #0d131a;
   border: 1px solid #26303c;
   border-radius: 10px;
@@ -200,29 +200,29 @@
   margin-bottom: 18px;
 }
 
-.histCard span {
+.history-card span {
   color: #f97316;
   font-weight: bold;
   font-size: 14px;
 }
 
-.histCard h3 {
+.history-card h3 {
   color: #ffffff;
   font-size: 24px;
   margin: 12px 0;
 }
 
-.histCard p {
+.history-card p {
   color: #94a3b8;
   line-height: 1.8;
 }
 
-.orgTop,
-.histTopOrg {
+.orange-top,
+.history-top-orange {
   color: #f97316;
 }
 
-.mountSec {
+.mountaineering-section {
   background: #080c11;
   color: #e2e8f0;
   /* margin-top: 50px; */
@@ -230,35 +230,35 @@
   
   }
 
-.mountSec >.mountCont {
+.mountaineering-section >.mountaineering-content {
   background: #080c11;
   color: #e2e8f0;
   height: 600px;
-  background-image: url('src/assets/images/mountainnight.jpg');
+  background-image: url('/Apline-Ascent/src/assets/images/mountainnight.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 30px;
   
 }
-.mountSec >.mountCont >.orgTop{
+.mountaineering-section >.mountaineering-content >.orange-top{
   font-size: 50px;
 }
-.mountSec >.mountCont >.labelWhite{
+.mountaineering-section >.mountaineering-content >.label-white{
   font-size: 30px;
 }
-.mountLabel {
+.mountaineering-label {
   color: #ffffff;
 }
 
-.smallBoxes p {
+.small-boxes p {
   background: #0d131a;
   color: #e2e8f0;
   border: 1px solid #26303c;
   border-radius: 10px;
 }
 
-.smallBoxes p:hover {
+.small-boxes p:hover {
   border-color: #f97316;
 }
 
@@ -271,222 +271,222 @@
 
 /* Large Screens */
 @media (min-width: 1400px) {
-  .histHero {
+  .history-hero {
     padding: 130px 50px 80px;
   }
 
-  .histHero h1 {
+  .history-hero h1 {
     font-size: 72px;
   }
 
-  .milesSec {
+  .milestones-section {
     gap: 45px;
   }
 
-  .mileBox {
+  .milestone-box {
     padding: 26px;
   }
 
-  .mileDetail {
+  .milestone-detail {
     padding: 40px;
   }
 }
 
 /* Desktop and Laptop */
 @media (min-width: 901px) and (max-width: 1399px) {
-  .histHero {
+  .history-hero {
     padding: 100px 35px 60px;
   }
 
-  .histHero h1 {
+  .history-hero h1 {
     font-size: 56px;
   }
 
-  .milesSec {
+  .milestones-section {
     padding: 30px 35px 80px;
     gap: 25px;
   }
 
-  .mileBox {
+  .milestone-box {
     grid-template-columns: 70px 1fr;
     padding: 20px;
     gap: 5px 15px;
   }
 
-  .mileDetail {
+  .milestone-detail {
     padding: 28px;
   }
 
-  .mileDetail h2 {
+  .milestone-detail h2 {
     font-size: 28px;
   }
 }
 
 /* Tablets */
 @media (min-width: 601px) and (max-width: 900px) {
-  .histHero {
+  .history-hero {
     padding: 85px 30px 50px;
   }
 
-  .histHero h1 {
+  .history-hero h1 {
     font-size: 46px;
   }
 
-  .histHero p:last-child {
+  .history-hero p:last-child {
     font-size: 16px;
   }
 
-  .milesSec {
+  .milestones-section {
     grid-template-columns: 1fr;
     padding: 25px 30px 70px;
     gap: 25px;
   }
 
-  .milesList {
+  .milestones-list {
     gap: 12px;
   }
 
-  .mileBox {
+  .milestone-box {
     grid-template-columns: 75px 1fr;
     padding: 22px;
   }
 
-  .mileDetail {
+  .milestone-detail {
     position: static;
     min-height: auto;
     padding: 30px;
   }
 
-  .mileDetail h2 {
+  .milestone-detail h2 {
     font-size: 28px;
   }
 
-  .detailYear {
+  .detail-year {
     font-size: 50px;
   }
 
-  .histCont {
+  .history-content {
     padding: 20px 30px 70px;
   }
 
-  .histCard {
+  .history-card {
     padding: 25px;
   }
 }
 
 /* Mobile Screens */
 @media (max-width: 600px) {
-  .histHero {
+  .history-hero {
     padding: 70px 20px 40px;
   }
 
-  .histHero h1 {
+  .history-hero h1 {
     font-size: 34px;
     line-height: 1.2;
   }
 
-  .histHero p:last-child {
+  .history-hero p:last-child {
     font-size: 15px;
     line-height: 1.7;
   }
 
-  .milesSec {
+  .milestones-section {
     grid-template-columns: 1fr;
     padding: 20px 15px 50px;
     gap: 20px;
   }
 
-  .milesList {
+  .milestones-list {
     gap: 10px;
   }
 
-  .mileBox {
+  .milestone-box {
     grid-template-columns: 55px minmax(0, 1fr);
     gap: 6px 12px;
     padding: 16px 12px;
     border-radius: 10px;
   }
 
-  .mileYear {
+  .milestone-year {
     font-size: 18px;
   }
 
-  .mileTitle {
+  .milestone-title {
     font-size: 15px;
     line-height: 1.4;
     overflow-wrap: anywhere;
   }
 
-  .milePeak {
+  .milestone-peak {
     font-size: 12px;
     line-height: 1.5;
   }
 
-  .mileDetail {
+  .milestone-detail {
     position: static;
     min-height: auto;
     padding: 22px 18px;
     border-radius: 10px;
   }
 
-  .mileDetail h2 {
+  .milestone-detail h2 {
     font-size: 24px;
     line-height: 1.35;
   }
 
-  .detailYear {
+  .detail-year {
     font-size: 42px;
   }
 
-  .detailInfo {
+  .detail-info {
     margin: 20px 0;
     padding: 18px 0;
     gap: 16px;
   }
 
-  .detailInfo strong {
+  .detail-info strong {
     font-size: 14px;
   }
 
-  .detailText {
+  .detail-text {
     font-size: 14px;
     line-height: 1.8;
   }
 
-  .histCont {
+  .history-content {
     padding: 20px 15px 50px;
   }
 
-  .histCont h2 {
+  .history-content h2 {
     font-size: 28px;
   }
 
-  .histCard {
+  .history-card {
     padding: 20px 16px;
     border-radius: 10px;
   }
 
-  .histCard h3 {
+  .history-card h3 {
     font-size: 21px;
   }
 
-  .histCard p {
+  .history-card p {
     font-size: 14px;
   }
 
-  .mountCont {
+  .mountaineering-content {
     padding: 20px 15px 50px;
   }
 
-  .mountLabel {
+  .mountaineering-label {
     font-size: 26px;
   }
 
-  .smallBoxes {
+  .small-boxes {
     gap: 10px;
   }
 
-  .smallBoxes p {
+  .small-boxes p {
     padding: 12px;
     font-size: 13px;
   }
@@ -494,80 +494,46 @@
 
 /* Very Small Mobile Screens */
 @media (max-width: 380px) {
-  .histHero {
+  .history-hero {
     padding: 60px 15px 35px;
   }
 
-  .histHero h1 {
+  .history-hero h1 {
     font-size: 29px;
   }
 
-  .milesSec {
+  .milestones-section {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .mileBox {
+  .milestone-box {
     grid-template-columns: 48px minmax(0, 1fr);
     gap: 5px 8px;
     padding: 14px 10px;
   }
 
-  .mileYear {
+  .milestone-year {
     font-size: 16px;
   }
 
-  .mileTitle {
+  .milestone-title {
     font-size: 14px;
   }
 
-  .milePeak {
+  .milestone-peak {
     font-size: 11px;
   }
 
-  .mileDetail {
+  .milestone-detail {
     padding: 18px 14px;
   }
 
-  .mileDetail h2 {
+  .milestone-detail h2 {
     font-size: 21px;
   }
 
-  .detailYear {
+  .detail-year {
     font-size: 36px;
   }
-}
-
-/* Layout and page transition fixes */
-.pageTransition {
-    animation: alpinePageFade 1.25s ease both;
-    transform-origin: center top;
-}
-@keyframes alpinePageFade {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@media (prefers-reduced-motion: reduce) {
-    .pageTransition { animation: none; }
-}
-
-/* Keep main titles and introductory text centered in their own content area */
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
-.pageHero h1, .aboutIntro h1 {
-    text-align: center;
-}
-.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
-.secHead p {
-    text-align: center;
 }

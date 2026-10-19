@@ -6,8 +6,8 @@ export const StoriesMainPage = ({ onNavigate = () => {} }) => {
     return (
         <>
             <section className="hero">
-                <div className="heroInner">
-                    <div className="small">
+                <div className="hero-inner">
+                    <div className="eyebrow">
                         Field Chronicles & Triumphs
                     </div>
 
@@ -22,10 +22,10 @@ export const StoriesMainPage = ({ onNavigate = () => {} }) => {
             </section>
 
             <main>
-                <div className="wrap">
+                <div className="container">
 
-                    <div className="secHead">
-                        <div className="small">
+                    <div className="section-heading">
+                        <div className="eyebrow">
                             Field chronicles
                         </div>
 
@@ -44,11 +44,11 @@ export const StoriesMainPage = ({ onNavigate = () => {} }) => {
 
                         <article className="card">
                             <img
-                                src="src/assets/images/alpine_high_camp_1790702869575.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}
                                 alt="Mount Rainier"
                             />
 
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">
                                     North America
                                 </span>
@@ -77,11 +77,11 @@ export const StoriesMainPage = ({ onNavigate = () => {} }) => {
 
                         <article className="card">
                             <img
-                                src="src/assets/images/hero_alpine_ascent_1790702854836.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/hero_alpine_ascent_1790702854836.jpg`}
                                 alt="Denali"
                             />
 
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">Alaska</span>
 
                                 <h3>Denali</h3>
@@ -108,11 +108,11 @@ export const StoriesMainPage = ({ onNavigate = () => {} }) => {
 
                         <article className="card">
                             <img
-                                src="src/assets/images/historic_expedition_1790702905379.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/historic_expedition_1790702905379.jpg`}
                                 alt="Aconcagua"
                             />
 
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">
                                     South America
                                 </span>
@@ -139,11 +139,11 @@ export const StoriesMainPage = ({ onNavigate = () => {} }) => {
 
                         <article className="card">
                             <img
-                                src="src/assets/images/climbing_technique_1790702882353.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/climbing_technique_1790702882353.jpg`}
                                 alt="Mont Blanc"
                             />
 
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">
                                     European Alps
                                 </span>
@@ -168,14 +168,14 @@ export const StoriesMainPage = ({ onNavigate = () => {} }) => {
                                 </a>
                             </div>
                         </article>
-{/* 
+
                         <article className="card">
                             <img
-                                src="src/assets/images/alpine_high_camp_1790702869575.jpg"
+                                src={`${import.meta.env.BASE_URL}src/assets/images/alpine_high_camp_1790702869575.jpg`}
                                 alt="Kilimanjaro"
                             />
 
-                            <div className="cardBody">
+                            <div className="card-body">
                                 <span className="tag">
                                     East Africa
                                 </span>
@@ -200,35 +200,7 @@ export const StoriesMainPage = ({ onNavigate = () => {} }) => {
                                 </a>
                             </div>
                         </article>
-                        <article className="card">
-                            <img
-                                src="src/assets/images/K2-big.jpg"
-                                alt="Kilimanjaro"
-                            />
 
-                            <div className="cardBody">
-                                <span className="tag">
-                                    Pakistan
-                                </span>
-
-                                <h3>K2</h3>
-
-                                <p>
-                                    K2, also known as Mount Godwin-Austen,at 8,611 metres above sea level, is the second-highest mountain on Earth, after Mount Everest at 8,849 metres.
-                                </p>
-
-                                <a
-                                    className="link"
-                                    href="#"
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        onNavigate("story-kilimanjaro");
-                                    }}
-                                >
-                                    Explore topic →
-                                </a>
-                            </div>
-                        </article> */}
                     </div>
                 </div>
             </main>
