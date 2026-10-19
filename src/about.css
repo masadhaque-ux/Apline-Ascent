@@ -1,0 +1,392 @@
+.aboutPage {
+    width: 100%;
+    background: #080c11;
+    color: #e7edf4;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    overflow: hidden;
+}
+
+.aboutPage * {
+    box-sizing: border-box;
+}
+
+.aboutPage h1,
+.aboutPage h2,
+.aboutPage h3,
+.aboutPage p {
+    margin-top: 0;
+}
+
+.aboutWrap {
+    width: min(1200px, 100%);
+    /* height: 100%; */
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+     /* background-image: url(./assets/images/montblan.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+
+.aboutIntro {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #1b232d;
+    text-align: center;
+    background: radial-gradient(circle at 70% 30%, rgba(255, 91, 0, 0.08), transparent 35%), #080c11;
+}
+
+.aboutIntro .aboutWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.aboutLabel,
+.secLabel {
+    display: block;
+    margin-bottom: 22px;
+    color: #ff6b00;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+}
+
+.aboutPage .aboutIntro h1 {
+    margin: 0;
+    max-width: 900px;
+    color: #f5f7fa;
+    font-family: "Syne", sans-serif;
+    font-size: 80px;;
+    font-weight: 800;
+    line-height: 0.92;
+    letter-spacing: -0.055em;
+   
+}
+
+.aboutIntroText {
+    max-width: 760px;
+    margin: 32px auto 0;
+    color: #8ea0b4;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.aboutStory {
+    padding: 90px 0;
+    border-bottom: 1px solid #1b232d;
+}
+
+.aboutStoryGrid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    gap: 70px;
+    align-items: center;
+}
+
+.aboutImgWrap {
+    position: relative;
+    width: 100%;
+    min-height: 560px;
+    overflow: hidden;
+    border: 1px solid #1b232d;
+    background: #0c1219;
+    background-image: url(./assets/images/mounteverest1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.aboutImg {
+    display: block;
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+}
+
+.aboutImgCaption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
+    color: #d9e0e8;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+}
+
+.aboutStoryCont {
+    max-width: 560px;
+}
+
+.aboutPage .aboutStoryCont h2 {
+    margin: 0 0 30px;
+    color: #f5f7fa;
+    font-family: "Syne", sans-serif;
+    font-size: clamp(48px, 5vw, 76px);
+    font-weight: 800;
+    line-height: 0.95;
+    letter-spacing: -0.045em;
+}
+
+.aboutStoryCont p {
+    margin-bottom: 20px;
+    color: #91a0b0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.aboutHighlight {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid #1b232d;
+}
+
+.aboutHighlight strong {
+    color: #ff6b00;
+    font-family: "Syne", sans-serif;
+    font-size: 42px;
+    line-height: 1;
+}
+
+.aboutHighlight span {
+    color: #a6b3c1;
+    font-size: 13px;
+}
+
+.valuesSec {
+    padding: 110px 0;
+    border-bottom: 1px solid #1b232d;
+    background: #06090d;
+}
+
+.valuesHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.aboutPage .valuesHead h2 {
+    margin: 0;
+    max-width: 700px;
+    color: #f5f7fa;
+    font-family: "Syne", sans-serif;
+    font-size: clamp(48px, 6vw, 88px);
+    font-weight: 800;
+    line-height: 0.94;
+    letter-spacing: -0.055em;
+}
+
+.valuesHead > p {
+    max-width: 360px;
+    margin: 0;
+    color: #8191a3;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.valuesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.valueCard {
+    height: 150px;
+    padding: 28px;
+    border: 1px solid #1b232d;
+    background: #0b1118;
+}
+
+/* .valueNumber {
+    display: block;
+    margin-bottom: 1px;
+    color: #ff6b00;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+} */
+
+.valueCard h3 {
+    margin-bottom: 5px;
+    color: #ee6c09;
+    font-family: "Syne", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.valueCard p {
+    margin: 0;
+    color: #77889a;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.missionSec {
+    padding: 120px 0;
+    text-align: center;
+    background: #080c11;
+}
+
+.missionCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutPage .missionSec h2 {
+    margin: 0;
+    color: #f5f7fa;
+    font-family: "Syne", sans-serif;
+    font-size: clamp(48px, 6vw, 88px);
+    font-weight: 800;
+    line-height: 0.95;
+    letter-spacing: -0.05em;
+}
+
+.missionSec p {
+    max-width: 680px;
+    margin: 30px auto;
+    color: #0c0b0a;
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: bolder;
+}
+
+.aboutBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 22px;
+    color: #ffffff;
+    background: #ff6b00;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    transition: 0.25s ease;
+    border-radius: 5px;
+}
+
+.aboutBtn:hover {
+    background: #ff7d1f;
+    transform: translateY(-2px);
+}
+
+.aboutBtn span {
+    font-size: 14px;
+}
+
+@media (max-width: 900px) {
+
+    .aboutStoryGrid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .aboutStoryCont {
+        max-width: none;
+    }
+
+    .valuesHead {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .valuesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .aboutWrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .aboutIntro {
+        min-height: 380px;
+    }
+
+    .aboutPage .aboutIntro h1 {
+        font-size: 52px;
+    }
+
+    .aboutStory {
+        padding: 60px 0;
+    }
+
+    .aboutImgWrap,
+    .aboutImg {
+        height: 400px;
+        min-height: 400px;
+    }
+
+    .aboutPage .aboutStoryCont h2 {
+        font-size: 48px;
+    }
+
+    .valuesSec {
+        padding: 70px 0;
+    }
+
+    .valuesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .valueCard {
+        min-height: auto;
+    }
+
+    .missionSec {
+        padding: 80px 0;
+    }
+
+    .aboutPage .missionSec h2 {
+        font-size: 48px;
+    }
+
+}
+
+.pageTransition {
+    animation: alpinePageFade 1.25s ease both;
+    transform-origin: center top;
+}
+@keyframes alpinePageFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .pageTransition { animation: none; }
+}
+
+
+.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
+.pageHero h1, .aboutIntro h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
+.secHead p {
+    margin-left: auto;
+    margin-right: auto;
+}

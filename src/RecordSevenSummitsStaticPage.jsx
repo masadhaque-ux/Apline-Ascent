@@ -1,0 +1,108 @@
+import React from 'react';
+import './other.css';
+
+export const RecordSevenSummitsPage = ({ onNavigate = () => {} }) => {
+    return (
+        <>
+            <section className="hero">
+                <div className="heroInner">
+                    <div className="orgTop">
+                        World record archive
+                    </div>
+
+                    <h1>Seven Summits</h1>
+
+                    <p>
+                        The Seven Summits challenge involves reaching the
+                        highest peak on each continent; definitions can
+                        differ by continent model.
+                    </p>
+                </div>
+            </section>
+
+            <main>
+                <div className="wrap">
+                    <div className="crumb">
+                        <a
+                            href="#"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                onNavigate("records");
+                            }}
+                        >
+                            Records
+                        </a>
+                        {' / Seven Summits'}
+                    </div>
+
+                    <div className="contGrid">
+                        <section className="contCard">
+                            <span className="tag">
+                                Global challenge
+                            </span>
+
+                            <h2>Seven Summits</h2>
+
+                            <p>
+                                The Seven Summits challenge involves
+                                reaching the highest peak on each
+                                continent; definitions can differ by
+                                continent model.
+                            </p>
+
+                            <h3>How to evaluate a record</h3>
+
+                            <ul>
+                                <li>
+                                    Confirm the exact route, summit,
+                                    and definition being used.
+                                </li>
+
+                                <li>
+                                    Check the date and the original
+                                    reporting source.
+                                </li>
+
+                                <li>
+                                    Distinguish a supported expedition
+                                    from an unsupported ascent.
+                                </li>
+
+                                <li>
+                                    Look for independent verification
+                                    and consistent timing rules.
+                                </li>
+
+                                <li>
+                                    Note whether the record is disputed,
+                                    updated, or superseded.
+                                </li>
+                            </ul>
+
+                            <div className="callout">
+                                <img src="src/assets/images/about-mountain.jpg" alt="" />
+                            </div>
+                        </section>
+
+                        <aside>
+                            <img style={{
+                                    height: "300px",
+                                    borderRadius: "14px",
+                                    border: "1px solid var(--line)"
+                                }}
+                                src="src/assets/images/hero_alpine_ascent_1790702854836.jpg"
+                                alt="Seven Summits mountaineering"
+                            />
+
+                            <div className="contCard">
+                                <img src="src/assets/images/mtop2.jpg" alt="" />
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </main>
+        </>
+    );
+};
+
+export default RecordSevenSummitsPage;

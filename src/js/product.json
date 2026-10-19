@@ -1,0 +1,432 @@
+[
+  {
+    "id": 1,
+    "name": "TETON 65L Trekking Backpack",
+    "price": 12500,
+    "category": "Bags",
+    "image": "src/assets/images/backpack.jpg",
+    "description": "Large black expedition backpack with padded hip belt, adjustable straps and multiple compression points for multi-day treks.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 2,
+    "name": "KingsGuard 60L Hiking Backpack",
+    "price": 9800,
+    "category": "Bags",
+    "image": "src/assets/images/backpack2.jpg",
+    "description": "Teal and grey 60L pack with ventilated back panel, side mesh pockets and a built-in rain cover for long trail days.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 3,
+    "name": "Camelbak Hydration Daypack",
+    "price": 8200,
+    "category": "Bags",
+    "image": "src/assets/images/backpack3.jpg",
+    "description": "Red lightweight daypack with a hydration compartment and padded shoulder straps, ideal for short climbs and day hikes.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 4,
+    "name": "Scarpa Mountaineering Boots",
+    "price": 42000,
+    "category": "Footwear",
+    "image": "src/assets/images/boots.jpeg",
+    "description": "Insulated orange and black leather boots built for snow, ice and steep alpine terrain with a rigid sole for crampons.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 5,
+    "name": "Scarpa Santa Pro Trekking Boots",
+    "price": 28500,
+    "category": "Footwear",
+    "image": "src/assets/images/boots2.jpg",
+    "description": "Waterproof grey-blue trekking boots with ankle support, grippy Vibram-style sole and sturdy lacing for rocky trails.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 6,
+    "name": "Scarpa Ribelle Alpine Boots",
+    "price": 55000,
+    "category": "Footwear",
+    "image": "src/assets/images/boots3.webp",
+    "description": "High-performance orange alpine boots with quick-lace dial and gaiter-style cuff, lightweight and warm for technical ascents.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 7,
+    "name": "Screw-Gate Carabiner",
+    "price": 1800,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/carabiner.jpg",
+    "description": "Lightweight aluminium carabiner with a screw-lock gate for secure connection of ropes, slings and gear.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 8,
+    "name": "Locking Safety Carabiner",
+    "price": 2600,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/carabiner2.jpg",
+    "description": "Heavy-duty dark locking carabiner with a large opening and wide grip, suited for harness and anchor systems.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 9,
+    "name": "Black Diamond Carabiner Set (3 Pack)",
+    "price": 7500,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/carabiner3.jpg",
+    "description": "Set of three Black Diamond screw-lock carabiners with green locking sleeves for everyday climbing use.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 10,
+    "name": "Dynamic Climbing Rope 60m",
+    "price": 16000,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/climbingrope.jpg",
+    "description": "Durable braided dynamic rope with good shock absorption, used for rock climbing and mountaineering.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 11,
+    "name": "Orange Static Rope with Carabiner",
+    "price": 6500,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/climbingrope2.jpg",
+    "description": "Bright orange braided rope with a steel carabiner attached, great for hauling, rescue and camp setup.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 12,
+    "name": "Black Safety Rope 30m",
+    "price": 5200,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/climbingrope3.jpg",
+    "description": "Thick black rope with yellow protective sleeves and locking carabiners at both ends for general climbing safety.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 13,
+    "name": "Hiking Crampons with Straps",
+    "price": 9500,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/crampons.jpg",
+    "description": "Steel spiked crampons with strap bindings that fit hiking boots for secure grip on ice and packed snow.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 14,
+    "name": "12-Point Technical Crampons",
+    "price": 18500,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/crampons2.jpg",
+    "description": "Technical 12-point crampons with adjustable frame and sharp front points for steep ice and glacier travel.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 15,
+    "name": "Chain Spike Ice Traction Cleats",
+    "price": 3200,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/crampons3.jpg",
+    "description": "Red silicone traction cleats with stainless chain and spikes that slip over boots for icy trails and light snow.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 16,
+    "name": "Tactical Protective Gloves",
+    "price": 3800,
+    "category": "Accessories",
+    "image": "src/assets/images/gloves.jpg",
+    "description": "Black gloves with hard knuckle protection and touchscreen fingertips for grip and hand safety on rough rock.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 17,
+    "name": "Mountain Equipment Winter Gloves",
+    "price": 6800,
+    "category": "Accessories",
+    "image": "src/assets/images/gloves2.jpg",
+    "description": "Warm black insulated gloves with grippy grey palm panels and a wrist strap for cold-weather climbing.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 18,
+    "name": "Leather Mountaineering Gloves",
+    "price": 14500,
+    "category": "Accessories",
+    "image": "src/assets/images/gloves3.jpg",
+    "description": "Tan leather gloves with long waterproof cuffs and insulation for extreme cold and high-altitude conditions.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 19,
+    "name": "Sport Mountain Sunglasses",
+    "price": 4500,
+    "category": "Accessories",
+    "image": "src/assets/images/goggles.jpg",
+    "description": "Wraparound sunglasses with red mirrored lenses that cut glare and protect eyes from UV at altitude.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 20,
+    "name": "Anti-Fog Tactical Goggles",
+    "price": 3500,
+    "category": "Accessories",
+    "image": "src/assets/images/goggles2.jpg",
+    "description": "Black wide-view goggles with tinted lens and elastic strap, protecting eyes from wind, dust and snow.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 21,
+    "name": "Bucklos Blue Lens Sunglasses",
+    "price": 5200,
+    "category": "Accessories",
+    "image": "src/assets/images/goggles3.jpg",
+    "description": "Lightweight sports sunglasses with blue mirrored lenses and a secure fit for hiking and cycling.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 22,
+    "name": "Rope Harness with Shock Absorber",
+    "price": 11500,
+    "category": "Safety",
+    "image": "src/assets/images/harness3.jpg",
+    "description": "Orange and black safety rope with shock absorber and snap hooks for fall protection while climbing or working at height.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 23,
+    "name": "Full Body Safety Harness",
+    "price": 13500,
+    "category": "Safety",
+    "image": "src/assets/images/harnessbelt1.webp",
+    "description": "Blue full-body harness with waist belt, lanyard and two large hooks for secure fall arrest.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 24,
+    "name": "Adams Fire Tech Rescue Harness",
+    "price": 24000,
+    "category": "Safety",
+    "image": "src/assets/images/safetyharness2.jpg",
+    "description": "Heavy-duty 150 kg rated black and orange harness with padded leg loops and multiple attachment points for rescue work.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 25,
+    "name": "Rechargeable Zoom Headlamp",
+    "price": 2800,
+    "category": "Accessories",
+    "image": "src/assets/images/headlamp.jpg",
+    "description": "Bright adjustable-focus LED headlamp with a comfortable strap for night hikes, camping and early summit starts.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 26,
+    "name": "Boruit LED Headlamp",
+    "price": 2400,
+    "category": "Accessories",
+    "image": "src/assets/images/headlamp2.jpg",
+    "description": "Wide-beam dual COB LED headlamp with a reflective strap, lightweight and rechargeable for camp and trail use.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 27,
+    "name": "Grivel Stealth Climbing Helmet",
+    "price": 16500,
+    "category": "Safety",
+    "image": "src/assets/images/helmet1.webp",
+    "description": "Black lightweight climbing helmet with ventilation slots and adjustable chin straps for rockfall protection.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 28,
+    "name": "Climbing Technology Orange Helmet",
+    "price": 11000,
+    "category": "Safety",
+    "image": "src/assets/images/helmet2.jpg",
+    "description": "Bright orange ventilated helmet with reflective details and adjustable fit, easy to spot on the mountain.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 29,
+    "name": "Blue Ice Glacier Helmet",
+    "price": 14500,
+    "category": "Safety",
+    "image": "src/assets/images/helmet3.jpg",
+    "description": "White ultralight helmet with large vents, made for glacier travel and ski mountaineering.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 30,
+    "name": "Blue Ice Alpine Helmet",
+    "price": 14500,
+    "category": "Safety",
+    "image": "src/assets/images/helmet4.jpg",
+    "description": "Compact alpine helmet with soft tubular webbing for comfort, designed for glacier and mono-lens use.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 31,
+    "name": "Technical Ice Axe (Red)",
+    "price": 13500,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/iceaxe.jpg",
+    "description": "Curved red aluminium ice axe with a toothed pick and hammer end, built for steep ice climbing.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 32,
+    "name": "Petzl Ice Axe with Leash",
+    "price": 17500,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/iceaxe2.jpg",
+    "description": "Long grey and orange ice axe with a grip rest and wrist leash for safe self-arrest and general mountaineering.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 33,
+    "name": "Compact Ice Climbing Tool",
+    "price": 15500,
+    "category": "Climbing Gear",
+    "image": "src/assets/images/iceaxe3.jpg",
+    "description": "Short curved ice tool with an ergonomic orange grip for technical ice and mixed climbing routes.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 34,
+    "name": "The North Face Softshell Jacket",
+    "price": 18500,
+    "category": "Clothing",
+    "image": "src/assets/images/jacket1.jpg",
+    "description": "Purple-grey hooded softshell jacket with zip pockets, wind resistant and breathable for everyday trekking.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 35,
+    "name": "Women's Waterproof Ski Jacket",
+    "price": 14000,
+    "category": "Clothing",
+    "image": "src/assets/images/jacket2.jpg",
+    "description": "Blue and grey hooded winter jacket with fleece lining, waterproof shell and a detachable hood.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 36,
+    "name": "Insulated Down Jacket",
+    "price": 22000,
+    "category": "Clothing",
+    "image": "src/assets/images/jacket3.jpg",
+    "description": "Navy blue puffer jacket with warm down-style fill and a high collar for cold camps and summit days.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 37,
+    "name": "Olive Hiking Parka",
+    "price": 16500,
+    "category": "Clothing",
+    "image": "src/assets/images/jacket4.jpg",
+    "description": "Green parka with several large pockets and reinforced black panels, made for rugged outdoor use.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 38,
+    "name": "Thermal Base Layer (Blue)",
+    "price": 5800,
+    "category": "Clothing",
+    "image": "src/assets/images/thermal layers.jpg",
+    "description": "Long-sleeve blue base layer that traps body heat and wicks sweat, worn under jackets in cold weather.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 39,
+    "name": "Seamless Thermal Top (Grey)",
+    "price": 4200,
+    "category": "Clothing",
+    "image": "src/assets/images/thermal layers2.jpg",
+    "description": "Soft grey seamless long-sleeve thermal top with a close fit and light stretch for warmth without bulk.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 40,
+    "name": "Men's Thermal Set (Top and Pants)",
+    "price": 7500,
+    "category": "Clothing",
+    "image": "src/assets/images/thermal wears for men.jpg",
+    "description": "Black and grey compression thermal top and leggings that keep muscles warm in freezing temperatures.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 41,
+    "name": "Black Waterproof Shell Jacket",
+    "price": 19500,
+    "category": "Clothing",
+    "image": "src/assets/images/waterproof clothes.jpg",
+    "description": "Black hooded waterproof jacket with sealed zips and a chest pocket to block rain and wind.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 42,
+    "name": "Waterproof Jacket and Pants Set",
+    "price": 15500,
+    "category": "Clothing",
+    "image": "src/assets/images/waterproof clothes2.jpg",
+    "description": "Dark grey rain suit with hooded jacket and matching pants for full-body protection in wet weather.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  },
+  {
+    "id": 43,
+    "name": "Orange Hi-Vis Rain Jacket",
+    "price": 17000,
+    "category": "Clothing",
+    "image": "src/assets/images/waterproof clothes3.jpg",
+    "description": "Bright orange waterproof jacket with reflective trim and zip pockets for visibility in storms and low light.",
+    "stock": "In Stock",
+    "delivery": "3-5 working days"
+  }
+]

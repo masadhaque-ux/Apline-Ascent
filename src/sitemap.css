@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #080c11;
+    --panel: #101720;
+    --panel-light: #141d27;
+    --text: #e2e8f0;
+    --muted: #9aa8b8;
+    --orange: #f97316;
+    --line: #26303c;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Plus Jakarta Sans", Arial, sans-serif;
+    line-height: 1.7;
+}
+
+.site-map {
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px 7%;
+    background: #080c11;
+    color: #e2e8f0;
+    box-sizing: border-box;
+}
+
+.site-top {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.site-small {
+    color: #f97316;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.site-top h1 {
+    font-size: clamp(30px, 5vw, 52px);
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.site-top p {
+    line-height: 1.7;
+}
+
+.site-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.site-box {
+    background: #101720;
+    border: 1px solid #26313e;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.site-box h2 {
+    color: #f97316;
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+
+.site-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-box li {
+    margin-bottom: 13px;
+}
+
+.site-box a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.2s ease;
+}
+
+.site-box a:hover {
+    color: #f97316;
+}
+
+.site-box a:focus-visible {
+    outline: 2px solid #f97316;
+    outline-offset: 4px;
+}
+
+/* Tablet screen */
+@media (max-width: 768px) {
+    .site-map {
+        padding: 45px 5%;
+    }
+
+    .site-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+
+    .site-box {
+        padding: 20px;
+    }
+
+    .site-box h2 {
+        font-size: 18px;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 500px) {
+    .site-map {
+        padding: 35px 18px;
+    }
+
+    .site-top {
+        margin-bottom: 30px;
+    }
+
+    .site-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .site-box {
+        padding: 20px;
+    }
+
+    .site-box a {
+        font-size: 14px;
+    }
+}
+/* Layout and page transition fixes */
+.pageTransition {
+    animation: alpinePageFade 1.25s ease both;
+    transform-origin: center top;
+}
+@keyframes alpinePageFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .pageTransition { animation: none; }
+}
+
+/* Keep main titles and introductory text centered in their own content area */
+.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
+.pageHero h1, .aboutIntro h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
+.secHead p {
+    margin-left: auto;
+    margin-right: auto;
+}

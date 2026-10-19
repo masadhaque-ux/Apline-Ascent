@@ -1,0 +1,75 @@
+
+[
+  {
+    "year": "1786",
+    "title": "First Ascent of Mont Blanc",
+    "peak": "Mont Blanc — 4,809 m",
+    "location": "France / Italy",
+    "climbers": "Jacques Balmat & Michel-Gabriel Paccard",
+    "era": "The Beginning",
+    "details": "The first recorded ascent of Mont Blanc marked the beginning of modern mountaineering and showed that the highest peaks of the Alps could be climbed."
+  },
+  {
+    "year": "1854",
+    "title": "Pioneering the Alps",
+    "peak": "Wetterhorn — 3,692 m",
+    "location": "Switzerland",
+    "climbers": "Sir Alfred Wills and party",
+    "era": "Pioneering Era",
+    "details": "The successful ascent helped establish mountaineering as a serious pursuit and encouraged further exploration of the Alps."
+  },
+  {
+    "year": "1865",
+    "title": "Matterhorn Conquered",
+    "peak": "Matterhorn — 4,478 m",
+    "location": "Switzerland / Italy",
+    "climbers": "Edward Whymper and team",
+    "era": "Golden Age",
+    "details": "The first ascent of the Matterhorn became one of the most famous achievements of the Golden Age of Alpinism."
+  },
+  {
+    "year": "1907",
+    "title": "Kangchenjunga Exploration",
+    "peak": "Kangchenjunga — 8,586 m",
+    "location": "Nepal / India",
+    "climbers": "Early exploration teams",
+    "era": "Himalayan Exploration",
+    "details": "Early expeditions to Kangchenjunga helped expand knowledge of the great Himalayan peaks."
+  },
+  {
+    "year": "1950",
+    "title": "Annapurna First 8,000m Summit",
+    "peak": "Annapurna I — 8,091 m",
+    "location": "Nepal",
+    "climbers": "Maurice Herzog & Louis Lachenal",
+    "era": "8,000m Giants",
+    "details": "Annapurna became the first 8,000-metre peak successfully climbed, opening a new chapter in high-altitude mountaineering."
+  },
+  {
+    "year": "1953",
+    "title": "Everest Reached",
+    "peak": "Mount Everest — 8,849 m",
+    "location": "Nepal / Tibet",
+    "climbers": "Edmund Hillary & Tenzing Norgay",
+    "era": "8,000m Giants",
+    "details": "The successful Everest expedition became one of the defining achievements in mountaineering history."
+  },
+  {
+    "year": "1978",
+    "title": "Everest Without Oxygen",
+    "peak": "Mount Everest — 8,849 m",
+    "location": "Nepal / Tibet",
+    "climbers": "Reinhold Messner & Peter Habeler",
+    "era": "Modern Alpinism",
+    "details": "Messner and Habeler demonstrated that Everest could be climbed without supplemental oxygen."
+  },
+  {
+    "year": "2021",
+    "title": "Winter K2 Summit",
+    "peak": "K2 — 8,611 m",
+    "location": "Pakistan",
+    "climbers": "Nepalese winter expedition team",
+    "era": "Modern Alpinism",
+    "details": "K2 was finally climbed in winter by a Nepalese team, completing one of the last great challenges in high-altitude mountaineering."
+  }
+]

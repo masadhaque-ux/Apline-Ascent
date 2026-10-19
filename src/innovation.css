@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #080c11;
+    --panel: #101720;
+    --panel-light: #141d27;
+    --text: #e2e8f0;
+    --muted: #9aa8b8;
+    --orange: #f97316;
+    --orange-dark: #aa4a05;
+    --line: #26303c;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Plus Jakarta Sans", Arial, sans-serif;
+    line-height: 1.7;
+}
+
+a {
+    color: inherit;
+}
+
+.siteHead {
+    min-height: 76px;
+    padding: 18px clamp(20px, 6vw, 90px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+    background: rgba(5, 8, 12, 0.98);
+    border-bottom: 1px solid var(--line);
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text);
+    text-decoration: none;
+    font-family: "Syne", Georgia, serif;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.brand strong {
+    color: var(--orange);
+}
+
+.brandMark {
+    color: var(--orange);
+    font-size: 22px;
+}
+
+.mainNav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 22px;
+}
+
+.mainNav a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    transition: color 0.2s ease;
+}
+
+.mainNav a:hover,
+.mainNav a.active {
+    color: var(--orange);
+}
+
+.pageHero4 {
+    min-height: 340px;
+    padding: 70px clamp(20px, 8vw, 120px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    background:
+        radial-gradient(ellipse at 85% 20%, rgba(249, 115, 22, 0.13), transparent 35%),
+        linear-gradient(135deg, #0c121a, #080c11 65%);
+    border-bottom: 1px solid var(--line);
+    background-image: url('src/assets/images/innovationgears.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heroCont {
+    max-width: 760px;
+}
+
+.small {
+    color: var(--orange-dark);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pageHero h1 {
+    margin: 12px 0 16px;
+    font-family: "Syne", Georgia, serif;
+    font-size: clamp(38px, 6vw, 68px);
+    line-height: 1.1;
+    letter-spacing: -2px;
+}
+
+.pageHero h1 span {
+    color: var(--orange-dark);
+}
+
+.heroCopy {
+    max-width: 650px;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.heroStamp {
+    min-width: 155px;
+    min-height: 155px;
+    padding: 20px;
+    border: 1px solid rgba(249, 115, 22, 0.55);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(7deg);
+    color: var(--orange);
+    text-align: center;
+}
+
+.heroStamp span,
+.heroStamp small {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.heroStamp strong {
+    font-family: "Syne", Georgia, serif;
+    font-size: 19px;
+}
+
+.sec {
+    padding: 68px clamp(20px, 8vw, 120px);
+}
+
+.secHead {
+    max-width: 760px;
+    margin-bottom: 30px;
+}
+
+.secHead h2,
+.splitCopy h2 {
+    margin: 8px 0 14px;
+    font-family: "Syne", Georgia, serif;
+    font-size: clamp(27px, 4vw, 42px);
+    line-height: 1.2;
+}
+
+.secHead > p:last-child,
+.splitCopy > p:last-child {
+    color: var(--muted);
+}
+
+.infoGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.infoCard {
+    min-width: 0;
+    padding: 25px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.infoCard:hover {
+    border-color: rgba(249, 115, 22, 0.7);
+    transform: translateY(-3px);
+}
+
+.tag {
+    color: var(--orange);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.infoCard h3 {
+    margin: 14px 0 10px;
+    font-family: "Syne", Georgia, serif;
+    font-size: 21px;
+    line-height: 1.35;
+}
+
+.infoCard p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.cardLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.textLink {
+    color: var(--orange);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.textLink:hover {
+    color: #fdba74;
+}
+
+.splitSec {
+    padding: 65px clamp(20px, 8vw, 120px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    background: #0b1118;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+.checkPanel {
+    padding: 28px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+
+.checkPanel h3 {
+    margin-bottom: 16px;
+    font-family: "Syne", Georgia, serif;
+    font-size: 21px;
+}
+
+.checkPanel ul {
+    padding-left: 20px;
+}
+
+.checkPanel li {
+    margin: 10px 0;
+    padding-left: 4px;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.checkPanel li::marker {
+    color: var(--orange);
+}
+
+.pageBottom {
+    padding: 35px clamp(20px, 8vw, 120px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    border: 1px solid var(--orange);
+    border-radius: 7px;
+    background: var(--orange);
+    color: #080c11;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 800;
+    transition: background 0.2s ease;
+}
+
+.btn:hover {
+    background: #fdba74;
+}
+
+.siteFoot {
+    padding: 28px clamp(20px, 6vw, 90px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    background: #05080c;
+    border-top: 1px solid var(--line);
+}
+
+.siteFoot p,
+.siteFoot > span {
+    color: var(--muted);
+    font-size: 11px;
+}
+
+.mntGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.mntCard .mntHeight {
+    color: var(--orange);
+    font-family: "Syne", Georgia, serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.mntCard .locationText {
+    color: var(--orange);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.mapPanel {
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--panel);
+}
+
+.mapPanel iframe {
+    display: block;
+    width: 100%;
+    height: 430px;
+    border: 0;
+}
+
+@media (max-width: 900px) {
+    .siteHead {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .infoGrid,
+    .mntGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .splitSec {
+        grid-template-columns: 1fr;
+    }
+
+    .heroStamp {
+        min-width: 125px;
+        min-height: 125px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mainNav {
+        gap: 12px 16px;
+    }
+
+    .mainNav a {
+        font-size: 12px;
+    }
+
+    .pageHero {
+        min-height: auto;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .heroStamp {
+        min-width: 105px;
+        min-height: 105px;
+    }
+
+    .heroStamp strong {
+        font-size: 15px;
+    }
+
+    .sec {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .infoGrid,
+    .mntGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .infoCard {
+        padding: 21px;
+    }
+
+    .splitSec {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        gap: 25px;
+    }
+
+    .pageBottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .siteFoot {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .mapPanel iframe {
+        height: 320px;
+    }
+}
+
+/* Layout and page transition fixes */
+.pageTransition {
+    animation: alpinePageFade 1.25s ease both;
+    transform-origin: center top;
+}
+@keyframes alpinePageFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .pageTransition { animation: none; }
+}
+
+/* Keep main titles and introductory text centered in their own content area */
+.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
+.pageHero h1, .aboutIntro h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
+.secHead p {
+    margin-left: auto;
+    margin-right: auto;
+}

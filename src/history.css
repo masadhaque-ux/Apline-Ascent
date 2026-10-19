@@ -1,0 +1,573 @@
+#root {
+    width: 100%;
+    max-width: none;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-display: "Syne", Georgia, serif;
+    --font-mono: "JetBrains Mono", monospace;
+
+    --dark: #080c11;
+    --dark-2: #0b1018;
+    --card: #101827;
+    --card-border: #1d2a3d;
+
+    --orange: #f97316;
+    --orange-light: #fb923c;
+    --gold: #fbbf24;
+    --green: #34d399;
+
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0;
+}
+
+.histPage,
+.histSubpage {
+  min-height: 100vh;
+  background: #080c11;
+  font-family: Arial, sans-serif;
+}
+
+.histHero {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 110px 40px 70px;
+}
+
+
+.histHero h1{
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--orange-light);
+  font-size:clamp(64px,3vw,90px);
+  margin-left: 220px;
+  margin-bottom: 20px;
+}
+
+.histHero p:last-child {
+  max-width: 700px;
+  color: #94a3b8;
+  font-size: 20px;
+  line-height: 1.8;
+  margin-left: 300px;
+}
+
+.milesSec {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 40px 100px;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 35px;
+  align-items: start;
+}
+
+.milesList {
+  display: grid;
+  gap: 12px;
+}
+
+.mileBox {
+  width: 100%;
+  border: 1px solid #26303c;
+  border-radius: 10px;
+  background: #0d131a;
+  color: #e2e8f0;
+  padding: 22px;
+  text-align: left;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 5px 20px;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.mileBox:hover,
+.mileBox.active {
+  border-color: #f97316;
+  background: #111820;
+}
+
+.mileYear {
+  grid-row: span 2;
+  color: #f97316;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.mileTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f1f5f9;
+}
+
+.milePeak {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.mileDetail {
+  position: sticky;
+  top: 100px;
+  border: 1px solid #26303c;
+  border-radius: 10px;
+  background: #0d131a;
+  padding: 35px;
+  min-height: 440px;
+}
+
+.detailLabel {
+  color: #f97316;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.mileDetail h2 {
+  color: #ffffff;
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.detailYear {
+  color: #475569;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.detailInfo {
+  border-top: 1px solid #26303c;
+  border-bottom: 1px solid #26303c;
+  margin: 25px 0;
+  padding: 20px 0;
+  display: grid;
+  gap: 18px;
+}
+
+.detailInfo div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.detailInfo span {
+  color: #94a3b8;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+
+.detailInfo strong {
+  color: #e2e8f0;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+
+.detailText {
+  color: #94a3b8;
+  line-height: 1.8;
+}
+
+.histCont {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 40px 100px;
+}
+
+.histCont h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.histCont > p {
+  color: #94a3b8;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+.histCard {
+  background: #0d131a;
+  border: 1px solid #26303c;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 18px;
+}
+
+.histCard span {
+  color: #f97316;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.histCard h3 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 12px 0;
+}
+
+.histCard p {
+  color: #94a3b8;
+  line-height: 1.8;
+}
+
+.orgTop,
+.histTopOrg {
+  color: #f97316;
+}
+
+.mountSec {
+  background: #080c11;
+  color: #e2e8f0;
+  /* margin-top: 50px; */
+  height: 400px;
+  
+  }
+
+.mountSec >.mountCont {
+  background: #080c11;
+  color: #e2e8f0;
+  height: 600px;
+  background-image: url('src/assets/images/mountainnight.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  
+}
+.mountSec >.mountCont >.orgTop{
+  font-size: 50px;
+}
+.mountSec >.mountCont >.labelWhite{
+  font-size: 30px;
+}
+.mountLabel {
+  color: #ffffff;
+}
+
+.smallBoxes p {
+  background: #0d131a;
+  color: #e2e8f0;
+  border: 1px solid #26303c;
+  border-radius: 10px;
+}
+
+.smallBoxes p:hover {
+  border-color: #f97316;
+}
+
+#p1,
+#p2,
+#p3,
+#p4 {
+  border-radius: 10px;
+}
+
+/* Large Screens */
+@media (min-width: 1400px) {
+  .histHero {
+    padding: 130px 50px 80px;
+  }
+
+  .histHero h1 {
+    font-size: 72px;
+  }
+
+  .milesSec {
+    gap: 45px;
+  }
+
+  .mileBox {
+    padding: 26px;
+  }
+
+  .mileDetail {
+    padding: 40px;
+  }
+}
+
+/* Desktop and Laptop */
+@media (min-width: 901px) and (max-width: 1399px) {
+  .histHero {
+    padding: 100px 35px 60px;
+  }
+
+  .histHero h1 {
+    font-size: 56px;
+  }
+
+  .milesSec {
+    padding: 30px 35px 80px;
+    gap: 25px;
+  }
+
+  .mileBox {
+    grid-template-columns: 70px 1fr;
+    padding: 20px;
+    gap: 5px 15px;
+  }
+
+  .mileDetail {
+    padding: 28px;
+  }
+
+  .mileDetail h2 {
+    font-size: 28px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+  .histHero {
+    padding: 85px 30px 50px;
+  }
+
+  .histHero h1 {
+    font-size: 46px;
+  }
+
+  .histHero p:last-child {
+    font-size: 16px;
+  }
+
+  .milesSec {
+    grid-template-columns: 1fr;
+    padding: 25px 30px 70px;
+    gap: 25px;
+  }
+
+  .milesList {
+    gap: 12px;
+  }
+
+  .mileBox {
+    grid-template-columns: 75px 1fr;
+    padding: 22px;
+  }
+
+  .mileDetail {
+    position: static;
+    min-height: auto;
+    padding: 30px;
+  }
+
+  .mileDetail h2 {
+    font-size: 28px;
+  }
+
+  .detailYear {
+    font-size: 50px;
+  }
+
+  .histCont {
+    padding: 20px 30px 70px;
+  }
+
+  .histCard {
+    padding: 25px;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 600px) {
+  .histHero {
+    padding: 70px 20px 40px;
+  }
+
+  .histHero h1 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  .histHero p:last-child {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .milesSec {
+    grid-template-columns: 1fr;
+    padding: 20px 15px 50px;
+    gap: 20px;
+  }
+
+  .milesList {
+    gap: 10px;
+  }
+
+  .mileBox {
+    grid-template-columns: 55px minmax(0, 1fr);
+    gap: 6px 12px;
+    padding: 16px 12px;
+    border-radius: 10px;
+  }
+
+  .mileYear {
+    font-size: 18px;
+  }
+
+  .mileTitle {
+    font-size: 15px;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  .milePeak {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .mileDetail {
+    position: static;
+    min-height: auto;
+    padding: 22px 18px;
+    border-radius: 10px;
+  }
+
+  .mileDetail h2 {
+    font-size: 24px;
+    line-height: 1.35;
+  }
+
+  .detailYear {
+    font-size: 42px;
+  }
+
+  .detailInfo {
+    margin: 20px 0;
+    padding: 18px 0;
+    gap: 16px;
+  }
+
+  .detailInfo strong {
+    font-size: 14px;
+  }
+
+  .detailText {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .histCont {
+    padding: 20px 15px 50px;
+  }
+
+  .histCont h2 {
+    font-size: 28px;
+  }
+
+  .histCard {
+    padding: 20px 16px;
+    border-radius: 10px;
+  }
+
+  .histCard h3 {
+    font-size: 21px;
+  }
+
+  .histCard p {
+    font-size: 14px;
+  }
+
+  .mountCont {
+    padding: 20px 15px 50px;
+  }
+
+  .mountLabel {
+    font-size: 26px;
+  }
+
+  .smallBoxes {
+    gap: 10px;
+  }
+
+  .smallBoxes p {
+    padding: 12px;
+    font-size: 13px;
+  }
+}
+
+/* Very Small Mobile Screens */
+@media (max-width: 380px) {
+  .histHero {
+    padding: 60px 15px 35px;
+  }
+
+  .histHero h1 {
+    font-size: 29px;
+  }
+
+  .milesSec {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .mileBox {
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 5px 8px;
+    padding: 14px 10px;
+  }
+
+  .mileYear {
+    font-size: 16px;
+  }
+
+  .mileTitle {
+    font-size: 14px;
+  }
+
+  .milePeak {
+    font-size: 11px;
+  }
+
+  .mileDetail {
+    padding: 18px 14px;
+  }
+
+  .mileDetail h2 {
+    font-size: 21px;
+  }
+
+  .detailYear {
+    font-size: 36px;
+  }
+}
+
+/* Layout and page transition fixes */
+.pageTransition {
+    animation: alpinePageFade 1.25s ease both;
+    transform-origin: center top;
+}
+@keyframes alpinePageFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .pageTransition { animation: none; }
+}
+
+/* Keep main titles and introductory text centered in their own content area */
+.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
+.pageHero h1, .aboutIntro h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
+.secHead p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
+.pageHero h1, .aboutIntro h1 {
+    text-align: center;
+}
+.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
+.secHead p {
+    text-align: center;
+}

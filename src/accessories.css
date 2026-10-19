@@ -1,0 +1,373 @@
+#root {
+    width: 100%;
+    max-width: none;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    --font-display: "Syne", Georgia, serif;
+    --font-mono: "JetBrains Mono", monospace;
+
+    --dark: #080c11;
+    --dark-2: #0b1018;
+    --card: #101827;
+    --card-border: #1d2a3d;
+
+    --orange: #f97316;
+    --orange-light: #fb923c;
+    --gold: #fbbf24;
+    --green: #34d399;
+
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+}
+
+.accPage * { 
+    box-sizing: border-box;
+ }
+.accPage button { 
+    cursor: pointer; 
+    font: inherit; 
+}
+.accHead { 
+    text-align: center;
+     padding: 25px 20px 10px;
+    margin-top: 100px;
+    }
+.accTopline { 
+    margin: 0; 
+    color: var(--orange); 
+    letter-spacing: 3px; 
+    font-size: 12px; 
+    font-weight: 800; 
+}
+.accHead h1 { 
+    margin: 12px 230px; 
+    font-size: clamp(30px, 4vw, 46px); 
+    font-weight: 800; 
+    font-family: var(--font-display);
+    color: var(--text);
+}
+.accHead h1 span { 
+    color: var(--orange); 
+}
+.accSlogan { 
+    margin: 0; color: var(--muted); 
+}
+
+.accBtns { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
+    padding: 25px 20px; 
+}
+.accBtns button { 
+    padding: 10px 20px; 
+    border: 1px solid var(--card-border); 
+    border-radius: 25px;
+    background: var(--card);
+    color: var(--muted); 
+}
+.accBtns button:hover, 
+.accBtns button.active { 
+    background: var(--orange); 
+    border-color: var(--orange); 
+    color: #fff; 
+}
+
+.accGrid { 
+    display: grid; 
+    grid-template-columns: repeat(4, minmax(0, 1fr)); 
+    gap: 22px;
+    width: 92%; 
+    max-width: 1300px; 
+    margin: 0 auto; 
+}
+.accCard { 
+    display: flex; 
+    flex-direction: column; 
+    min-width: 0; 
+    overflow: hidden; 
+    border: 1px solid var(--card-border); 
+    border-radius: 14px; 
+    background: var(--card); 
+    transition: transform .2s, border-color .2s; 
+}
+.accCard:hover { 
+    transform: translateY(-4px); 
+    border-color: var(--orange); 
+}
+.accCardImg { 
+    position: relative; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 230px; 
+    padding: 14px; 
+    background: #fff; 
+}
+.accCardImg img { 
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain;
+}
+.accBadge { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    z-index: 1; 
+    padding: 5px 10px; 
+    border-radius: 20px; 
+    background: var(--orange-light); 
+    color: #fff; 
+    font-size: 11px; 
+}
+.accCardCont { 
+    display: flex; 
+    flex: 1; 
+    flex-direction: column; 
+    padding: 14px; 
+}
+.accCardCont h3 { 
+    min-height: 2.8em; 
+    margin: 0 0 8px; 
+    font-size: 16px; 
+    line-height: 1.4; 
+}
+.accPrice { 
+    margin: 0 0 12px; 
+    color: var(--gold); 
+    font-weight: 700; 
+}
+.accViewbtn { 
+    width: 100%; 
+    margin-top: auto; 
+    padding: 10px; 
+    border: 1px solid var(--orange); 
+    border-radius: 8px; 
+    background: transparent; 
+    color: var(--text); 
+}
+.accViewbtn:hover { 
+    background: var(--orange); 
+}
+
+.accBackBtn {
+      background: transparent; 
+      color: var(--orange-light); 
+      margin-right: 900px;
+      padding: 60px 0px;
+      border: 0;
+    }
+.accProdBox { 
+    display: flex;
+    gap: 35px; 
+    width: 92%;
+    max-width: 1100px;
+    margin: 0 auto; 
+    padding: 25px; 
+    border: 1px solid var(--card-border); 
+    border-radius: 16px;
+    background: var(--card);
+    }
+.accProdImg { 
+    display: flex; 
+    flex: 1; 
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    padding: 12px;
+    border-radius: 10px; 
+    background: #fff;
+    }
+.accProdImg img { 
+    display: block;
+    max-width: 100%; 
+    max-height: 500px; 
+    object-fit: contain; 
+   }
+.accProdInfo { 
+    flex: 1; 
+    min-width: 0; 
+   }
+.accDetailBadge { 
+    display: inline-block; 
+    padding: 5px 14px; 
+    border-radius: 20px; 
+    background: #30251f; 
+    color: var(--orange-light); 
+    font-size: 18px; 
+    margin-right: 430px;
+   }
+.accProdInfo h1 { 
+    margin: 14px 0 8px; 
+    font-size: 29px;
+    text-align: start; 
+    font-family: var(--font-sans);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+   }
+.accProdInfo h2 { 
+    margin: 0 0 8px; 
+    color: var(--gold); 
+    font-family: var(--font-mono);
+    font-weight: 800;
+    text-align: start;
+    font-size: 30px;
+  }
+.accStock span{ 
+    font-weight: 800; 
+    font-family: var(--font-sans);
+    margin-right: 350px;
+    color: var(--green);
+    font-size: 25px;
+  }
+  h4{
+    color: var(--orange);
+    font-size: 28px;
+    text-align: start;
+  }
+.accProdInfo > p { 
+    line-height: 1.7; 
+    color: var(--text); 
+    text-align: start;
+  }
+.accSpecs { 
+    margin: 20px 0; 
+    padding: 0; 
+    list-style: none; 
+    border-top: 1px solid var(--card-border); 
+  }
+.accSpecs li { 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 15px; 
+    padding: 10px 0; 
+    border-bottom: 1px solid var(--card-border); 
+    color: var(--muted);
+  }
+.accSpecs li span { 
+    color: var(--muted); 
+  }
+.accProdInfo label { 
+    margin-right: 400px; 
+    font-weight: 700; 
+    font-family: var(--font-sans);
+    font-size: 22px;
+  }
+.accProdInfo input { 
+    width: 100px; 
+    padding: 8px; 
+    border: 1px solid var(--card-border); 
+    border-radius: 6px; 
+    background: #080c11; 
+    color:var(--orange); 
+    margin-right: 400px;
+    font-family: var(--font-mono);
+    font-size: 16px;
+
+}
+.accCartBtn { 
+    display: block; 
+    margin-top: 20px; 
+    padding: 12px 25px; 
+    border: 0; 
+    border-radius: 25px; 
+    background: var(--orange); 
+    color: #fff; 
+    font-weight: 700; 
+    margin-right:4;
+}
+
+@media (max-width: 1050px) { 
+    .accGrid { 
+        grid-template-columns: repeat(3, minmax(0, 1fr)); 
+    } 
+}
+@media (max-width: 760px) { 
+    .accGrid { 
+        grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    } 
+    .accProdBox { 
+        flex-direction: column; 
+        gap: 22px; 
+    } 
+    .accProdImg img { 
+        max-height: 350px; 
+    } 
+}
+@media (max-width: 480px) { 
+    .accPage { 
+        padding-top: 10px; 
+    } 
+    .accHead { 
+        padding-top: 20px; 
+    } 
+    .accGrid { 
+        width: 94%; 
+        gap: 12px; 
+    } 
+    .accCardImg { 
+        height: 160px; 
+        padding: 8px; 
+    } .accCardCont { 
+        padding: 10px; 
+    } 
+    .accCardCont h3 { 
+        font-size: 13px; 
+    } 
+    .accBtns { 
+        gap: 7px; 
+        padding: 20px 10px; 
+    } 
+    .accBtns button { 
+        padding: 8px 12px; 
+        font-size: 12px; 
+    } 
+    .accProdBox { 
+        width: 94%; 
+        padding: 14px; 
+    } 
+    .accProdInfo h1 { 
+        font-size: 24px; 
+    } 
+}
+
+.accAddbtn {
+    width: 100%;
+    margin-top: 9px;
+    padding: 10px;
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+    background: var(--orange);
+    color: #fff;
+    font-weight: 700;
+}
+.accAddbtn:hover { background: #b83d00; border-color: #b83d00; }
+
+/* Layout and page transition fixes */
+.pageTransition {
+    animation: alpinePageFade 1.25s ease both;
+    transform-origin: center top;
+}
+@keyframes alpinePageFade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .pageTransition { animation: none; }
+}
+
+/* Keep main titles and introductory text centered in their own content area */
+.hero h1, .heroInner h1, .hero-inner h1, .histHero h1,
+.pageHero h1, .aboutIntro h1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero p, .heroInner p, .hero-inner p, .histHero p:last-child,
+.secHead p {
+    margin-left: auto;
+    margin-right: auto;
+}
